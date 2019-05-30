@@ -1,0 +1,962 @@
+{
+  "language": {
+    "name": "English"
+  },
+  "contacts": {
+    "address": "MNFST ADVERTISING SOLUTIONS LLP, 10 Longworth Avenue, Chesterton, Cambridge CB4 1GU, UK, Company number OC416765.",
+    "UKAddress": "MNFST LTD, 32 Kritis Street, Papachristoforou Building, 4th Floor, 3087 Limassol, Cyprus. Company Reg Number: HE 382568."
+  },
+  "externalLinks": {
+    "business": "Brands & Agencies",
+    "careers": "Careers",
+    "cookiePolicy": "Cookie Policy",
+    "faq": "FAQ",
+    "influencers": "Users",
+    "license": "Terms & Conditions",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "formFields": {
+    "ui": {
+      "optionalField": "optional"
+    }
+  },
+  "pages": {
+    "businessLanding": {
+      "header": {
+        "caseStudies": "Case studies",
+        "howItWorks": "How it works",
+        "signIn": "Sign in"
+      },
+      "answers": {
+        "answers": {
+          "answer1": {
+            "description": "MNFST brings engaging and personalised ads that incorporate segmentation and AR technology",
+            "title": "Traditional advertising is outdated and too expensive"
+          },
+          "answer2": {
+            "title": "A personal recommendation is the best marketing channel for all businesses"
+          },
+          "answer3": {
+            "title": "We streamline the ad process to bring in more loyal and more valuable customers"
+          },
+          "answer4": {
+            "title": "There are more than 9 billion social media accounts. Each one could be your brand ambassador"
+          }
+        },
+        "title": "Tap into crowd promotion"
+      },
+      "caseStudies": {
+        "items": {
+          "item1": {
+            "description": "Gett is setting the standard for quality by becoming the first major taxi app to provide carbon neutral rides in the UK",
+            "title": "Gett Green"
+          },
+          "item2": {
+            "description": "The film festival in London invited fans and tourists through targeted two week campaign with social influencers",
+            "title": "Russian Film Week"
+          },
+          "item3": {
+            "description": "Ideal Flatmate, UK’s first flat-matching website used MNFST’s unique advertising format to market their service in London",
+            "title": "Ideal Flatmate"
+          },
+          "item4": {
+            "description": "Aspire is running their biggest charity event The Aspire Channel Swim to raise donations for people paralyzed by spinal cord injury and invite participants and supporters to promote the cause via MNFST",
+            "title": "Aspire"
+          },
+          "item5": {
+            "description": "...",
+            "title": "Prince's Trust"
+          },
+          "item6": {
+            "description": "Online international luxury and streetwear store. The Box Boutique reported a 25% increase in their website traffic after a 6 six week MNFST campaign",
+            "title": "Box Boutique"
+          }
+        },
+        "engagement": "Engagement rate",
+        "impressions": "Impressions generated",
+        "lowerCPPI": "Lower CPPI than FB CPM",
+        "manifests": "Manifests posted",
+        "nonProfit": "Non-profit",
+        "title": "Case studies"
+      },
+      "testimonials": {
+        "items": {
+          "item1": {
+            "author": {
+              "name": "Dave Waiser",
+              "position": "founder & CEO of Gett"
+            },
+            "testimony": "MNFST has a truly innovative approach to digital marketing; one which Gett, as a fellow disruptor and tech innovator, highly appreciates. We were very impressed by how quickly the MNFST team was able to ramp up and scale, and in a way that was not only seamless to operate, but also very much on brand – and consumer-friendly. We are eager to see what the MNFST team does next – and look forward to playing a part in their successful path forward."
+          },
+          "item2": {
+            "author": {
+              "name": "Filip Perkon",
+              "position": "founder, Russian Film Week"
+            },
+            "testimony": "MNFST is a good brand awareness tool, where friends, influencers and partners come together to support a particular brand or initiative by endorsing it with their pictures on social media. We used it for our festival and got significant boost in brand recognition."
+          },
+          "item3": {
+            "author": {
+              "name": "Tom Gatzen",
+              "position": "co-founder, Ideal Flatmate"
+            },
+            "testimony": "We have found MNFST to be a great addition to our digital marketing mix. The process was easy to set up and thanks to the service we soon had hundreds of Londoners talk about our flat sharing service over social media. Its a great way for us to tap into communities through word of mouth and MNFST allowed us to do this at scale."
+          },
+          "item4": {
+            "author": {
+              "name": "Rebecca Buchanan",
+              "position": "digital Marketing Manager, The Prince’s Trust"
+            },
+            "testimony": "At The Prince’s Trust, we’re keen to try new innovations that could help us reach new supporters or young people. MNFST has provided us that opportunity to do just that. Working with MNFST has been a great experience, the team are very professional and supported us every step of the way, including with creative design and getting us involved with all the latest features on the platform."
+          },
+          "item5": {
+            "author": {
+              "name": "Yulia Pashevkina",
+              "position": "co-founder, Box Boutique"
+            },
+            "testimony": "We were one of the first online boutiques to try MNFST. We found the whole process very easy – from selecting the right imagery to liaising with the MNFST team. As a result, we had a 25% increase in website traffic during the time when the campaign was running which are very happy with. It’s a great new way to promote your brand through a large audience."
+          }
+        },
+        "title": "What our clients say"
+      },
+      "getOnBoard": {
+        "samples": {
+          "sample1": {
+            "description": "Download our full presentation with more in-depth case studies and further insights",
+            "title": "Get our presentation"
+          },
+          "sample2": {
+            "description": "We will help you win the market. Add MNFST into you marketing plan now! Lets talk!",
+            "title": "Schedule a demo"
+          },
+          "sample3": {
+            "description": "Q&A",
+            "title": "Answers to any and all questions about the app, campaigns, and pricing"
+          },
+          "sample4": {
+            "description": "Creative guidelines",
+            "title": "Everything you need to create stunning campaign visuals: static, video, segmentation"
+          },
+          "sample5": {
+            "description": "Try out your creative",
+            "title": "A simple tool to visualise how your campaign looks on each available social network"
+          },
+          "sample6": {
+            "description": "Check out MNFST in practice! We have prepared a demo version of the platform",
+            "title": "Demo account"
+          },
+          "title": "Still not convinced?"
+        },
+        "title": "Get on board!"
+      },
+      "howItWorks": {
+        "advantages": {
+          "advantage1": {
+            "description": "MNFST’s platform will only engage participants that meet your targeting criteria",
+            "title": "How precise is it?"
+          },
+          "advantage2": {
+            "description": "The content is moderated by machine learning algorithms that ensure your brand always stays safe",
+            "title": "How it works?"
+          },
+          "advantage3": {
+            "description": "The financial side operates seamlessly – there is no reward negotiation, and all payouts are automated",
+            "title": "Learn more"
+          }
+        },
+        "chartSample": {
+          "description": "Know the number of impressions and user engagements for your campaign",
+          "title": "And most importantly,<br />the results are measurable<br />and success quantifiable."
+        },
+        "popupChatDemo": {
+          "answer": "Now it is. MNFST just showed you how.",
+          "question": "Is it possible to control a social media campaign with a billion users? 👥👥"
+        },
+        "steps": {
+          "step1": {
+            "description": "Select reward type: cash, points, discounts, etc.",
+            "subtitle": "Set up and launch your campaign"
+          },
+          "step2": {
+            "description": "Only users who match your targeting criteria will see it",
+            "subtitle": "Users find campaign in MNFST app"
+          },
+          "step3": {
+            "description": "A user’s selfie incorporated with brand images and link",
+            "subtitle": "User creates Manifest"
+          },
+          "step4": {
+            "description": "We track post existance and make sure your brand is safe",
+            "subtitle": "User posts Manifest in social networks"
+          },
+          "step5": {
+            "description": "Earning is based on user’s Social Capital Score",
+            "subtitle": "User receives payment in 24 hours"
+          },
+          "step6": {
+            "subtitle": "Millions of users see <b>your</b> viral campaign in their Feed",
+            "title": "Millions of users see <b>your</b> viral campaign in their Feed",
+            "voila": "Voila!"
+          }
+        },
+        "title": "How it works"
+      },
+      "press": {
+        "title": "Press about us"
+      },
+      "selfieCampaigns": {
+        "creativesTypes": {
+          "ar": {
+            "description": "Description, tips & guidelines",
+            "title": "AR & Camera FX"
+          },
+          "overlay": {
+            "description": "Guidelines for using static and video overlays",
+            "title": "Overlay"
+          },
+          "segmentation": {
+            "description": "Best practices & guidelines",
+            "title": "Segmentation"
+          }
+        },
+        "description": "MNFST creates evocative and personalised ads that incorporate the latest in digital ad tech",
+        "discount": "Sign up today to get <b>up to $500</b> towards your trial campaign",
+        "title": "Create stunning<br />campaigns",
+        "signUp": "Sign up"
+      },
+      "teaser": {
+        "demoAccount": "Try our demo account",
+        "description1": "9 billion profiles on <b>Instagram</b>, <b>Twitter</b> and <b>Facebook</b> just became ad platforms.",
+        "description2": "Manifest your brand to a bigger, more engaged audience",
+        "discountInfo": "Get <b>up to $500</b> towards your trial campaign",
+        "scrollDown": "Scroll down to learn more",
+        "signUp": "Sign up now",
+        "title": "The world's first<br />crowd promotion platform"
+      },
+      "ui": {
+        "expandTextBlock": "More"
+      }
+    },
+    "campaigns": {
+      "create": {
+        "budget": {
+          "title": "Budget",
+          "profit": "Profit",
+          "nonProfit": "Non-profit",
+          "labels": {
+            "campaignBudget": "Campaign Budget"
+          }
+        },
+        "design": {
+          "description": "Upload campaign assets",
+          "title": "Campaign design",
+          "creativeTypes": {
+            "staticOverlay": "Overlay image",
+            "staticOverlay&staticBackdrop": "Overlay image & backdrop image",
+            "videoOverlay": "Overlay video"
+          },
+          "errors": {
+            "invalidAspectRatio": "Inavlid aspect ratio",
+            "invalidAssetSize": "Max size of the asset is ${maxFileSize}"
+          },
+          "examples": {
+            "title": "Design examples",
+            "items": {
+              "faceLences&masks&filters": "Face Lenses, Masks & Filters",
+              "panoramicBackdrop": "Panoramic Backdrop",
+              "staticBackdrop&staticOverlay": "Static Backdrop + Static Overlay for MNFST",
+              "staticBackdrop&videoOverlay": "Static Backdrop + Video Overlay and vice verca",
+              "staticOverlay": "Static overlay for Aspire",
+              "videoBackdrop&staticOverlay": "Video Backdrop + Static Overlay",
+              "videoBackdrop&videoOverlay": "Video Backdrop + Video Overlay",
+              "videoOverlay": "Video overlay for Aspire"
+            }
+          },
+          "specifications": {
+            "title": "Design Specifications",
+            "backdrop": {
+              "description": "Use solid image (*.png) for Backdrop",
+              "title": "Backdrop"
+            },
+            "overlay": {
+              "description": "Use transparent image (*.png) or video (*.mov) for Overlay",
+              "title": "Overlay"
+            },
+            "ui": {
+              "deleteBackdropButton": "Delete Backdrop",
+              "deleteOverlayButton": "Delete Overlay",
+              "uploadBackdropButton": "Upload Backdrop",
+              "uploadOverlayButton": "Upload Overlay",
+              "uploadingBackdropButton": "Loading Backdrop",
+              "uploadingOverlayButton": "Loading Overlay"
+            }
+          },
+          "feed": {
+            "description": "Available on Facebook, Instagram, VK & Twitter",
+            "formatSpecification": "Upload 1080 x 1080 px image or videos for Feed format",
+            "title": "Feed"
+          },
+          "story": {
+            "description": "Available on Facebook, Instagram & VK",
+            "formatSpecification": "Upload 1080 x 1920 px image or videos for Story format",
+            "title": "Story"
+          },
+          "videoPreviewNotice": "Video previews are available in 7 minutes after campaign submission"
+        },
+        "information": {
+          "title": "Campaign information",
+          "description": "Specify name and timing of your campaign",
+          "disclaimer": "Campaign may finish earlier if its budget runs out",
+          "labels": {
+            "campaignName": "Campaign name",
+            "startDateTime": "Start Date & Time",
+            "endDateTime": "End Date & Time"
+          }
+        },
+        "placement": {
+          "description": "Select placement & price for your campaign",
+          "title": "Placement"
+        },
+        "targeting": {
+          "description": "Target influencers that will see your campaign",
+          "title": "Targeting",
+          "locationQuery": "Type in specific countries or cities",
+          "ageFrom": "Age from",
+          "ageTo": "to",
+          "microInfluencerCampaign": {
+            "description": "Excludes supporters with a high Social Capital Score",
+            "label": "Micro-influencer campaign"
+          },
+          "paidParticipations": {
+            "description": "Number of paid posts for one user",
+            "label": "Paid participations"
+          },
+          "dropPin": "Drop Pin",
+          "countryWide": "Countrywide",
+          "placeOnLandOnly": "Please locate pins only on land"
+        },
+        "texts": {
+          "description": "Add different texts for each social network of your choice",
+          "title": "Campaign texts",
+          "textLengthLimitReach": "You exceed characters limit!",
+          "startTyping": "Start typing...",
+          "facebook": {
+            "feedDescription": "Users optionally posts this text with Manifest Post. Fit your message to the audience in 200 symbols. Only first 60 symbols are visible on mobile devices. You can add hashtags and links to posts in Facebook",
+            "feedTitle": "Facebook Feed Text",
+            "storyDescription": "Users optionally pins this text alongside Manifest Story. Keep it short, most users tend to post a very short message in Stories. Campaign Slogan is good option, when not used on creative itself.",
+            "storyTitle": "Facebook Story Text"
+          },
+          "instagram": {
+            "feedDescription": "Users optionally posts this text with Manifest Post. Fit your message to the audience in 200 symbols. Only first 60 symbols are visible on mobile devices. Mention your instagram account and add hashtags",
+            "feedTitle": "Instagram Feed Text",
+            "storyDescription": "Users optionally pins this text alongside Manifest Story. Keep it short, most users tend to post a very short message in Stories. Campaign Slogan is good option, when not used on creative itself.",
+            "storyTitle": "Instagram Story Text"
+          },
+          "postText": {
+            "description": "Campaign description is the best place to describe what services or products you are willing to promote with MNFST users. If your creatives imply any certain behavior for users put it here. Don’t use hashtags or links.",
+            "title": "Campaign Description"
+          },
+          "twitter": {
+            "description": "Users optionally posts this text with Manifest. Send your mewssage to the audience in 260 symbols. Don’t hesitate to mention your twitter profile, add links & hasgtags.",
+            "title": "Tweet Text"
+          }
+        },
+        "ui": {
+          "createButton": "Create",
+          "createSubmitButton": "Create & submit",
+          "saveButton": "Save",
+          "saveSubmitButton": "Save & submit",
+          "updateButton": "Update"
+        }
+      },
+      "details": {
+        "title": "Campaign info",
+        "aside": {
+          "targeting": {
+            "title": "Targeting",
+            "age": "Age",
+            "country": "Country",
+            "faceDetection": "Face detection",
+            "gender": "Gender"
+          },
+          "editCampaign": "Edit campaign"
+        },
+        "header": {
+          "budgetSpent": "Budget spent",
+          "campaignBudget": "Campaign budget",
+          "totalSupporters": "Total supporters"
+        },
+        "quickEdit": {
+          "title": "Quick edit",
+          "budget": "Budget",
+          "facebookCPM": "Facebook CPM",
+          "instagramCPM": "Instagram CPM",
+          "twitterCPM": "Twitter CPM",
+          "feedTitle": "Feed",
+          "storyTitle": "Story",
+          "microInfluencerCampaign": "Micro-influencer campaign",
+          "paidParticipations": "Paid participations",
+          "submitButton": "Save changes"
+        },
+        "statistic": {
+          "impressionsFeed": {
+            "title": "Impressions Feed"
+          },
+          "impressionsStory": {
+            "title": "Impressions Story"
+          },
+          "supportersFeed": {
+            "title": "Supporters Feed"
+          },
+          "supportersStory": {
+            "title": "Supporters Story"
+          },
+          "engagements": {
+            "title": "Engagements"
+          }
+        }
+      },
+      "list": {
+        "title": "Campaigns",
+        "emptyListTitle": "You don't have any campaigns",
+        "emptyListDescription": "Create new campaign right now!",
+        "titles": {
+          "campaignName": "Campaign name",
+          "startDate": "Start date",
+          "endDate": "End date",
+          "platforms": "Platforms",
+          "formats": "Formats",
+          "budget": "Budget" ,
+          "supporters": "Supporters",
+          "status": "Status",
+          "actions": "Actions"
+        },
+        "ui": {
+          "createCampaignButton": "Create New Campaign"
+        }
+      },
+      "errors": {
+        "brandColorRequired": "You need to pick color",
+        "brandIdRequired": "You need to select your brand or create new",
+        "brandImageRequired": "You need to select logo image",
+        "brandNameRequired": "You need to specify name",
+        "campaignBudgetRequired": "You need to specify campaign budget amount",
+        "campaignCreativeTemplateFeedRequired": "You need to upload feed design for your feed placements",
+        "campaignCreativeTemplateFeedOverlayRequired": "Overlay for feed required",
+        "campaignCreativeTemplateStoryRequired": "You need to upload story design for your story placements",
+        "campaignCreativeTemplateStoryOverlayRequired": "Overlay for story required",
+        "campaignCreativeTemplatesRequired": "You need to upload assets",
+        "campaignEndAtRequired": "Field is required",
+        "campaignCPMRequired": "You need to specify CPM amount",
+        "campaignPlacementPostTextMaxLength": "You exceed characters limit",
+        "campaignNameRequired": "Campaign name is required",
+        "campaignPartParticipationsCountRequired": "Field is required",
+        "campaignPlacementsRequired": "You need to select at least one placement",
+        "campaignPostTextMaxLength": "Your exceeded character limit!",
+        "campaignPostTextRequired": "Please describe your Campaign",
+        "campaignStartAtRequired": "Field is required"
+      },
+      "socialNetworks": {
+        "feed": "Feed",
+        "notSupported": "Not supported",
+        "story": "Story",
+        "tweet": "Tweet"
+      },
+      "ui": {
+        "back": "Back to Campaigns"
+      }
+    },
+    "join": {
+      "description": "You don’t have to be an Instagram celebrity or top-ranking influencer anymore – every voice counts, and everyone can monetise their social media profiles with MNFST. <strong>Get MNFST app and join the revolution!</strong>",
+      "form": {
+        "getAppButton": "Get app",
+        "phoneNumber": "Phone number"
+      },
+      "title": "Support ${targetUser} & get paid",
+      "titleDefaultUserName": "what you love"
+    },
+    "faq": {
+      "articles": {
+        "instagramPublic": {
+          "title": "How to make account public on Instagram?",
+          "iOS": {
+            "section1": "Go to your Profile and tap <b>menu icon</b> on the right",
+            "section2": "Tap <b>Settings</b> section below the screen",
+            "section3": "Scroll a bit and tap on the <b>Account Privacy</b> section",
+            "section4": "Make sure <b>Private account</b> option is turned off",
+            "section5": "<b>Voila!</b> Use <b>Rescore</b> button in MNFST app or you will be rescored automartically within a day"
+          },
+          "android": {
+            "section1": "Go to your <b>Profile</b> and tap <b>menu icon</b> on the right",
+            "section2": "Tap <b>Settings</b> section below the screen",
+            "section3": "Make sure <b>Private account</b> option is turned off",
+            "section4": "<b>Voila!</b> Use <b>Rescore</b> button in MNFST app or you will be rescored automartically within a day"
+          },
+          "mobile": {
+            "section1": "Go to your <b>Profile</b> and tap <b>menu icon</b> on the left",
+            "section2": "Tap on the <b>Privacy & Security</b> section",
+            "section3": "Make sure <b>Private account</b> option is unchecked",
+            "section4": "<b>Voila!</b> Use <b>Rescore</b> button in MNFST app or you will be rescored automartically within a day"
+          }
+        },
+        "facebookPublic": {
+          "title": "How to make friend list public on Facebook?",
+          "iOS": {
+            "section1": "Tap <b>menu icon</b> in the tab bar below the screen",
+            "section2": "Scroll down the list and tap <b>Settings &amp; Privacy</b> section",
+            "section3": "Tap on the <b>Privacy Shortcuts</b> section",
+            "section4": "Tap <b>See more privacy settings</b> section on Privacy card",
+            "section5": "Scroll down a bit and tap on <b>Who can see your friend list</b> section",
+            "section6": "Choose <b>Public</b> option form the list",
+            "section7": "Voila! Use <b>Rescore</b> button in MNFST app or you will be rescored automartically within a day"
+          },
+          "android": {
+            "section1": "Tap <b>menu icon</b> in the tab bar on the top of the screen",
+            "section2": "Scroll down and tap on the <b>Privacy Shortcuts</b> section",
+            "section3": "Tap on the <b>Privacy Shortcuts</b> section",
+            "section4": "Tap <b>See more privacy settings</b> section on Privacy card",
+            "section5": "Scroll down a bit and tap on <b>Who can see your friend list</b> section",
+            "section6": "Check <b>Public</b> option from the list",
+            "section7": "<b>Voila!</b> Use <b>Rescore</b> button in MNFST app or you will be rescored automartically within a day"
+          },
+          "mobile": {
+            "section1": "Tap <b>menu icon</b> in the tab bar on the top of the screen",
+            "section2": "Scroll down and tap on the <b>Privacy Shortcuts</b> section",
+            "section3": "Tap <b>See more privacy settings</b> section on Privacy card",
+            "section4": "Scroll down a bit and tap on <b>Who can see your friend list</b> section",
+            "section5": "Choose <b>Public</b> option form the list",
+            "section6": "<b>Voila!</b> Use <b>Rescore</b> button in MNFST app or you will be rescored automartically within a day"
+          }
+        },
+        "twitterPublic": {
+          "title": "How to make Tweets public on Twitter?",
+          "iOS": {
+            "section1": "Tap on your <b>profile picture</b> on Home screen",
+            "section2": "Tap on the <b>Settings and Privacy</b> section",
+            "section3": "Tap <b>Privacy and safety</b> section",
+            "section4": "Make sure <b>Protect your Tweets</b> option is turned off",
+            "section5": "<b>Voila!</b> Use <b>Rescore</b> button in MNFST app or you will be rescored automartically within a day"
+          },
+          "android": {
+            "section1": "Tap on your <b>profile picture</b> on Home screen",
+            "section2": "Tap on the <b>Settings and Privacy</b> section",
+            "section3": "Tap <b>Privacy and safety</b> section",
+            "section4": "Make sure <b>Protect your Tweets</b> option is unchecked",
+            "section5": "<b>Voila!</b> Use <b>Rescore</b> button in MNFST app or you will be rescored automartically within a day"
+          },
+          "mobile": {
+            "section1": "Tap on your <b>profile picture</b> on Home screen",
+            "section2": "Tap on the <b>Settings and Privacy</b> section",
+            "section3": "Tap <b>Privacy and safety</b> section",
+            "section4": "Make sure <b>Protect your Tweets</b> option is unchecked",
+            "section5": "<b>Voila!</b> Use <b>Rescore</b> button in MNFST app or you will be rescored automartically within a day"
+          }
+        },
+        "disabledFacebook": {
+          "title": "I don't see any Manifests for Facebook",
+          "default": {
+            "p1": "Unfortunately, for technical reasons, the MNFST app is no longer able to support campaigns on Facebook. We are currently trying to fix the situation, but we do not know when or if a solution will be reached. We sincerely apologise for any inconvenience.",
+            "p2": "But, there are still plenty of chances to earn and show your support for the causes and events you care about by participating in any of our campaigns via Twitter and Instagram. We will be also adding more social networks soon!",
+            "p3": "We appreciate your support and understanding. If you have any further questions, please write to"
+          }
+        },
+        "brandReferral": {
+          "title": "Brand Referral Program",
+          "default": {
+            "st1": "How should I approach a brand?",
+            "st2": "When do I receive my money?",
+            "p1": "If you love a brand and know a relevant person there, please connect us",
+            "p2": "Send them an introductory E-mail about MNFST: tell them who we are and why they should work with us. Direct them to business.mnfst.com to book a demo. And don’t forget to mention that they’ll get up to a 50% discount for their first campaign",
+            "p3": "Keep <a href=\"mailto:${businessEmail}\">${businessEmail}</a> cc’d while communicating with anyone who works for a Brand you are introducing us to",
+            "p4": "You receive $200 when the Brand spends over $1,000 on campaigns with MNFST",
+            "p5": "You can earn $200 multiple times if you refer more than one brand"
+          }
+        },
+        "referralProgram": {
+          "title": "Referral Program",
+          "default": {
+            "st1": "Program Rules",
+            "st2": "Eligibility",
+            "st3": "Referral Link",
+            "st4": "Earnings",
+            "st5": "Feedback",
+            "t1": "How does the Referral Program “Boost” work?",
+            "t2": "How much can I earn?",
+            "t3": "Who can I refer?",
+            "t4": "How many friends can I invite?",
+            "t5": "What do my friends need to do?",
+            "t6": "Who is eligible to participate in the Referral Program?",
+            "t7": "How do I track my referrals?",
+            "t8": "Where can I find my referral link?",
+            "t9": "My friend forgot to use my referral link. Is there a way to get paid for that referral?",
+            "t10": "Can I get paid for previous users I referred before the Referral Program launched?",
+            "t11": "Can I refer friends in any country?",
+            "t12": "Why do I not see the offer to invite friends and earn more money?",
+            "t13": "The amount I earn for my referrals changes from user to user, and for some, I don’t receive any money. Why is that?",
+            "t14": "I can see that many of the friends I invited have downloaded the MNFST app via my referral link, but I haven’t received money for a single one of my referrals. Why?",
+            "t15": "How can I earn the promised $50 for inviting friends, if the reward for a single user is several times less?",
+            "t16": "I want to bring many new users to MNFST, but I don’t like some of the conditions of the referral program.",
+            "p1": "Invite friends by sending your personal referral link.",
+            "p2": "After your friend installs the MNFST app and joins any paid campaign, you will earn the equivalent of your friend’s earnings for that campaign (max – $20).",
+            "p3": "Referral links only work for invited friends who have not previously registered with MNFST and who possesses a Social Capital Score above 55 points.",          
+            "p4": "You can earn up to $50. If you believe that $50 is not enough and that you have more friends you could invite, please <a href=\"mailto:${contactLink}\">contact us</a>.",          
+            "p5": "You can invite any of your friends who are on Instagram and Twitter who have not previously registered with MNFST. They must also have a social capital score above 55 points.",
+            "p6": "You can refer an unlimited number of friends, and we encourage you to share with as many friends as you would like. However, the maximum you can earn ($50) does not change, regardless of the number of friends you invite, unless you contact MNFST directly.",
+            "p7": "Download the MNFST app.",
+            "p8": "Create a user account in the App",
+            "p9": "Successfully participate in a paid campaign (Your friend has to leave the promotional post/tweet up on a social media account for at least 24 hours)",
+            "p10": "Those over the age of 16.",
+            "p11": "Friends who have not previously registered with MNFST and possess a Social Capital Score above 55.",
+            "p12": "You can track the status of your invites in the mobile app on the “Boost” screen section.",
+            "p13": "Your referral link can be found in the mobile app under the section labeled Boost. If you can’t find your personal referral link, please <a href=\"${contactLink}\">contact us</a>.",
+            "p14": "Unfortunately, we are unable to track your referral if your friend  did not use your referral link at the time they signed up and participated in one of MNFST's campaigns.",
+            "p15": "Unfortunately, we are unable to track any of your referrals before the official Referral Program launch date.",
+            "p16": "Yes, you may, but please keep in mind that your earnings may vary by country. Also, please be aware that the referral program may not be available in certain countries.",
+            "p17": "Unfortunately, the referral program does not work in all countries, meaning not all users will see this offer in the app.",
+            "p18": "You only receive money from your referral after the invited user successfully participates in a paid campaign. It is possible that not everyone you invite chose to post a Manifest on their social networks.",
+            "p19": "The social accounts belonging to those you invite must not have been previously registered on the MNFST platform. If they have, you will not receive additional earnings for that user’s paid campaign.",
+            "p20": "The total payment depends on the influence of the user you invited. Those who are more influential on social media (i.e. higher Social Capital Score) earn more per campaign, which, in turn, means that you earn more for that user. However, the maximum you can earn for one referral is $20.",
+            "p21": "If the user you invited has very few friends and posts on social media networks, then you will not receive any additional earnings for that user’s first paid campaign.",
+            "p22": "You or user you invited violates other <a href=\"${referralRulesLink}\" target=\"_blank\">Referral Rules</a>.",
+            "p23": "In order to receive money from the referral program, those you invite must download and successfully participate in a paid campaign. If your friend only installed the application, then suggest that they participate in a paid campaign on MNFST. You can send a personalized “push” via the app.",
+            "p24": "Share your personalized link with a wider circle of people and recommend our service to your friends. If you invite people who know you, they are more likely to respond and try to use MNFST.",
+            "p25": "The maximum you can earn via the referral program is $50. If you have already earned $50, but have more friends you could invite, write to us at <a href=\"mailto:${contactLink}\">${contactLink}</a> We will consider increasing your personal limit for your earnings via the referral program.",
+            "p26": "We are always working to make MNFST better and our users happier. Tell us your suggestions by writing to <a href=\"mailto:${contactLink}\">${contactLink}</a>. We’ll take a look and get back to you as soon as possible."
+          }
+        }
+      },
+      "ui": {
+        "articleFor": "Article for",
+        "articleLanguages": "The article is also available in",
+        "supportEmail": "This didn’t help? Drop us a line about your experience on"
+      }
+    },
+    "stream": {
+      "title": "Manifests stream",
+      "ui": {
+        "buttons": {
+          "cancel": "Cancel",
+          "submit": "Submit"
+        },
+        "textLengthLimitReach": "You exceeded limit",
+        "filters": {
+          "caption": "Some Manifests may be unavailable because users can delete posts after 24 hours",
+          "campaignName": {
+            "label": "Type in a campaign name"
+          },
+          "price": {
+            "labelFrom": "Price from",
+            "labelTo": "to"
+          }
+        },
+        "createCampaignButton": "Create campaign"
+      },
+      "creatives": {
+        "info": {
+          "paidAmountCaption": "paid"
+        },
+        "emptyListTitle": "You have no active campaigns yet",
+        "emptyListCaptionStart": "Create new campaign or submit existing one on ",
+        "emptyListCaptionLink": "Campaigns",
+        "emptyListCaptionEnd": " page",
+        "feedbackPlaceholder": "Type in a reason for your report... We'll take care about the rest",
+        "feedbackCommentCaption": "Your reason to report"
+      }
+    },
+    "payments": {
+      "ui": {
+        "buttons": {
+          "acivatePromoCode": "Activate promo-code",
+          "addPaymentsMethod": "Add payment method",
+          "cancel": "Cancel",
+          "confirm": "Confirm",
+          "continue": "Add",
+          "delete": "Delete",
+          "learnMore": "Learn more",
+          "manage": "Manage",
+          "makePrimary": "Make primary",
+          "pay": "Pay now",
+          "verifying": "Verifying",
+          "verify": "Verify",
+          "connectPaymentMethod": "Connect via"
+        },
+        "contactSupport": "Please <a href=\"${businessEmail}\">contact support</a>",
+        "verificationFailed": {
+          "title": "Verification failed.",
+          "description": "Try again or <a href=\"${businessEmail}\">contact support</a>"
+        }
+      },
+      "billing": {
+        "billingSummary": {
+          "thresholdDescription": "You will be automatically charged at a balance of ${threshold}.",
+          "totalBalance": "Total balance due",
+          "howToPayWithBankTransfer": {
+            "title": "How to pay with a bank transfer",
+            "description": "You may also pay by bank transfer, but it may take up to 5 working days to process it. We will update your transactions and balance once we receive the transfer.",
+            "paymentDetails": {
+              "accountNumber": "Account number",
+              "beneficiary": "Beneficiary",
+              "beneficiaryAddress": "Beneficiary address",
+              "bic": "BIC",
+              "companyRegNumber": "Company Reg Number",
+              "iban": "IBAN",
+              "paymentInstitution": "Bank / Payment institution",
+              "title": "Payment details",
+              "reference": "Reference",
+              "referenceDisclaimer": "Please make sure to provide your reference number when making the bank transfer",
+              "sortCode": "Sort code"
+            },
+            "support": "If you suspect your payment is lost, please notify us at <a href=\"mailto:${billingSupportEmail}\">${billingSupportEmail}</a> with your Ref number"
+          },
+          "title": "Billing summary"
+        },
+        "paymentMethods": {
+          "title": "Payment methods",
+          "methodStubCaption": "We accept cards",
+          "methodStubTitle": "Add payment method"
+        },
+        "card": {
+          "cardNumber": "Card number",
+          "cvc": "CVC",
+          "expire": "Expire",
+          "errors": {
+            "card_declined": "Your card is declined"
+          }
+        },
+        "billingAddress": {
+          "title": "Billing address",
+          "useCompanyAddress": "Use Company address as Billing address",
+          "addressLine1": "Address line 1",
+          "addressLine2": "Address line 2",
+          "city": "City",
+          "country": "Country",
+          "postCode": "Post code",
+          "state": "State"
+        }
+      },
+      "history": {
+        "invoices": {
+          "title": "Invoices"
+        },
+        "spendingDetails": {
+          "title": "Spending details",
+          "date": "Date",
+          "description": "Description",
+          "personalImpressions": "Personal Impressions",
+          "spent": "Spent",
+          "spentDescription": "Amounts for today and yesterday may change due to new ad campaign participants and cancelled participants"
+        },
+        "transactions": {
+          "amountBilled": "Amount billed",
+          "date": "Date",
+          "paymentMethod": "Payment method",
+          "status": "Status",
+          "transactionId": "Transaction ID",
+          "title": "Transactions",
+          "total": {
+            "title": "Total",
+            "one": "1 successful transaction",
+            "count": "${count} successful transactions"
+          }
+        }
+      },
+      "paymentMethods": {
+        "errors": {
+          "invalidProcessingCountry": "We can't process cards from your country."
+        }
+      }
+    },
+    "userLanding": {
+      "join" : {
+        "before": "Post as usual",
+        "now": "Post & getT paid"
+      },
+      "influencers": {
+        "title": "Because everyone is an influencer",
+        "influencers": {
+          "david": {
+            "description": "David tells his friends about the MNFST app with his profile and earns <b>~$5 per post</b>",
+            "subtitle": "282 Instagram followers",
+            "title": "David"
+          },
+          "harry": {
+            "description": "Harry, a passionate swimmer, shows his support <b>for free</b> by posting Aspire Manifest",
+            "subtitle": "32 367 Twitter followers",
+            "title": "Harry"
+          },
+          "megan": {
+            "description": "Megan promotes Gett with her Manifest and earns<br><b>~$20 per post</b>",
+            "subtitle": "5 632 Instagram followers",
+            "title": "Megan"
+          }
+        }
+      },
+      "offerBanner": "Get up to 50% discount towards your first campaign",
+      "teaser": {
+        "nextSectionLink": "Why me?",
+        "subtitle": "Get paid. Join the revolution.",
+        "title": "Manifest yourself"
+      },
+      "tutorial": {
+        "title": "How it works",
+        "steps": {
+          "step1": {
+            "description": "Choose one of many relevant <b>brands, events</b> and <b>worthy causes</b> you want to recommend to your friends.",
+            "title": "Support what you love"
+          },
+          "step2": {
+            "description": "Create a <b>striking video selfie</b> or <b>static picture</b> and post it to your Facebook, Instagram or Twitter to spread the word.",
+            "title": "Be creative. It's easy!"
+          },
+          "step3": {
+            "description": "Receive <b>daily payments</b> in USD, which you can easily withdraw directly to your PayPal or Revolut account.",
+            "title": "Withdraw instantly"
+          }
+        }
+      }
+    },
+    "users": {
+      "profile": {
+        "main": {
+          "title": "Main information",
+          "companyName": "Company name",
+          "country": "Country",
+          "email": "E-mail",
+          "fullName": "Full name"
+        },
+        "password": {
+          "title": "Change password",
+          "password": "Password",
+          "passwordConfirm": "Confirm password"
+        },
+        "info": {
+          "title": "Company Info",
+          "companyNumber": "Company Number",
+          "vat": "VAT Number",
+          "vatDescription": "We will have to add a 20% VAT on top of your bill if you do not have a valid VAT number or do not provide one."
+        },
+        "address": {
+          "title": "Address",
+          "addressLine1": "Address line 1",
+          "addressLine2": "Address line 2",
+          "city": "City",
+          "state": "State",
+          "zipCode": "Post code"
+        },
+        "contacts": {
+          "title": "Contacts",
+          "contactName": "Contact name",
+          "phoneNumber": "Telephone number"
+        },
+        "ui": {
+          "saveChanges": "Save changes",
+          "saved": "Saved!"
+        }
+      },
+      "login": {
+        "title": "Sign in to MNFST",
+        "merchantUser": {
+          "email": "E-mail",
+          "password": "Password"
+        },
+        "demo": {
+          "title": "Demo version",
+          "description": "For everyone who would like to check out MNFST in practice, we have prepared a demo version of the platform.",
+          "link": "Log in to demo version"
+        },
+        "ui": {
+          "submitButton": "Sign in",
+          "passwordRecoverButton": "Forgot password?",
+          "registrationButton": "Don't have an account? Create Account"
+        }
+      },
+      "registration": {
+        "title": "Create your MNFST account",
+        "termsAgreements": "I agree with the MNFST ${[0]}, ${[1]} and ${[2]}",
+        "signInLink": "Already have an account? Sign In",
+        "confirmation": {
+          "title": "Confirm your email",
+          "description": "To use your account, you need to confirm the email address on your MNFST account.<br />Check your email for confirmation."
+        },
+        "ui": {
+          "buttons": {
+            "submit": "Create Account"
+          }
+        },
+        "merchant": {
+          "companyName": "Company name",
+          "phoneNumber": "Phone"
+        },
+        "merchantUser": {
+          "country": "Country",
+          "currency": "Currency",
+          "fullName": "Full name",
+          "password": "Password",
+          "workingEmail": "Working e-mail"
+        },
+        "errors": {
+          "emailRequired": "You need to fill the Email",
+          "companyNameRequired" : "You need to fill the Company name",
+          "nameRequired": "You need to fill Full name",
+          "passwordRequired": "You need to fill the Password",
+          "phoneNumberInvalid": "Phone number is invalid",
+          "countryRequired": "You need to select your country"
+        }
+      }
+    }
+  },
+  "socialNetworks": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "linkedIn": "Linked In",
+    "medium": "Medium",
+    "twitter": "Twitter"
+  },
+  "ui": {
+    "alerts": {
+      "billing": {
+        "actionCaption": "Go to Billing"
+      },
+      "nestedTargeting": {
+        "title": "Warning!",
+        "removeCountrywide": "Adding pins in <strong>${countryName}</strong> will delete countrywide targeting in this country",
+        "removePins": "Setting a countrywide <strong>${countryName}</strong> targetting will delete all previously added pins in this country",
+        "cancelButton": "Cancel",
+        "applyButton": "Set anyway"
+      }
+    },
+    "errors": {
+      "internalServerError": "Something went wrong. Please try later",
+      "invalidFileSize": "Attached file is too large",
+      "pageNotFound": "Page not found"
+    },
+    "genders": {
+      "any": "Any",
+      "female": "Female",
+      "male": "Male"
+    },
+    "header": {
+      "account": "Account",
+      "billing": "Billing",
+      "campaigns": "Campaigns",
+      "stream": "Stream"
+    },
+    "footer": {
+      "supportEmail": {
+        "label": "Any questions? Drop us a line on"
+      }
+    },
+    "labels": {
+      "soon": "Soon"
+    },
+    "mobileApps": {
+      "label": "Get MNFST on"
+    }
+  },
+  "units": {
+    "money": {
+      "cpm": "CPM",
+      "usd": "USD"
+    }
+  }
+}

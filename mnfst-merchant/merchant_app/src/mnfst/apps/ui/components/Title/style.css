@@ -1,0 +1,23 @@
+.title.centerAlignment {
+  text-align: center;
+}
+
+.titleStub {
+  background: var(--color-interface-lighter);
+}
+.titleStub.level1 {
+  width: 50%;
+  height: 4rem;
+}
+.titleStub.level2 {
+  width: 35%;
+  height: 2.5rem;
+}
+.titleStub.level3 {
+  width: 40%;
+  height: 2.5rem;
+}
+.titleStub.level4 {
+  width: 25%;
+  height: 1.75rem;
+}

@@ -1,0 +1,5 @@
+@import "style/settings.css";
+
+.logo {
+  fill: var(--color-passive-light);
+}

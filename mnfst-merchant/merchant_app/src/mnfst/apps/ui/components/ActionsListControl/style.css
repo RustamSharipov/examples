@@ -1,0 +1,19 @@
+.actionsListControl {
+  position: relative;
+}
+
+.control {
+  cursor: pointer;
+}
+
+.controlIcon {
+  fill: var(--color-mnfst-text-grey);
+  transition: fill var(--transition-duration-short);
+}
+.control:hover .controlIcon {
+  fill: var(--color-mnfst-main-black)
+}
+
+.item {
+  white-space: nowrap;
+}

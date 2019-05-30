@@ -1,0 +1,22 @@
+.button {
+  height: 7.5rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  background-color: var(--color-mnfst-main-black);
+  border-color: var(--color-mnfst-main-black);
+  border-radius: 4rem;
+  box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.1);
+  color: var(--color-mnfst-white);
+  font-size: 2rem;
+}
+.button:hover {
+  background-color: var(--color-mnfst-white);
+  color: var(--color-mnfst-main-black);
+}
+
+.button.smallSize {
+  height: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 2rem;
+}

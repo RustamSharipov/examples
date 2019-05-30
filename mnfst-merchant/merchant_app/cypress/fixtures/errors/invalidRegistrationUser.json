@@ -1,0 +1,16 @@
+{
+  "errors": [
+    {
+      "source": "merchant_user.email",
+      "detail": ["has already been taken"]
+    },
+    {
+      "source": "merchant_user.password",
+      "detail": ["is too short (minimum is 8 characters)"]
+    },
+    {
+      "source": "merchant.name",
+      "detail": ["has already been taken"]
+    }
+  ]
+}

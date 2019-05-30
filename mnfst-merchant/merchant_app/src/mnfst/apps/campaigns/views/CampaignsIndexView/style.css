@@ -1,0 +1,40 @@
+.thumbnailColumn {
+  width: 10rem;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.emptyListToolbar {
+  padding: 2rem 3rem;
+  border-bottom: 2px solid var(--color-mnfst-lightgrey);
+}
+
+.createCampaignCaption {
+  margin-top: 1.5rem;
+}
+
+.createCampaignButton {
+  display: flex;
+  align-items: center;
+}
+
+.createCampaignButtonIcon {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.lighthouseIcon {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 3rem;
+}
+
+.createCampaignButtonCaption {
+  position: relative;
+  top: 0.125rem;
+}

@@ -1,0 +1,117 @@
+.sliderCarousel {
+  position: relative;
+  user-select: none;
+}
+
+.sliderCarousel :global(.slick-list),
+.sliderCarousel :global(.slick-slider),
+.sliderCarousel :global(.slick-track) {
+  position: relative;
+  display: block;
+}
+
+.sliderCarousel :global(.slick-loading) :global(.slick-slide),
+.sliderCarousel :global(.slick-loading) :global(.slick-track) {
+  visibility: hidden;
+}
+
+.sliderCarousel :global(.slick-slider) {
+  box-sizing: border-box;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sliderCarousel :global(.slick-list) {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.sliderCarousel :global(.slick-list):focus {
+  outline: 0;
+}
+
+.sliderCarousel :global(.slick-list.dragging) {
+  cursor: pointer;
+}
+
+.sliderCarousel :global(.slick-slider) :global(.slick-list),
+.sliderCarousel :global(.slick-slider) :global(.slick-track) {
+  transform: translateZ(0);
+}
+
+.sliderCarousel :global(.slick-track) {
+  display: flex;
+  top: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sliderCarousel :global(.slick-slide) {
+  display: none;
+  justify-content: center;
+  height: 100%;
+  min-height: 1px;
+}
+
+.sliderCarousel :global(.slick-slide.slick-loading) img {
+  display: none;
+}
+
+.sliderCarousel :global(.slick-slide.dragging) img {
+  pointer-events: none;
+}
+
+.sliderCarousel :global(.slick-initialized) :global(.slick-slide) {
+  display: flex;
+}
+
+.sliderCarousel :global(.slick-vertical) :global(.slick-slide) {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.sliderCarousel :global(.slick-arrow) {
+  display: none !important;
+}
+
+.sliderCarousel :global(.slick-arrow.slick-hidden) {
+  display: none;
+}
+
+.sliderCarousel :global(.slick-dots) {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.sliderCarousel :global(.slick-dots) li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sliderCarousel :global(.slick-dots) li button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  color: var(--color-mnfst-line-grey);
+  cursor: pointer;
+  font-size: 0;
+}
+.sliderCarousel :global(.slick-dots) li:global(.slick-active) button {
+  color: var(--color-mnfst-violet);
+  cursor: default;
+}
+.sliderCarousel :global(.slick-dots) li button::before {
+  content: "";
+  width: 0.75rem;
+  height: 0.75rem;
+  background: currentColor;
+  border-radius: 1rem;
+}

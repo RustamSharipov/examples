@@ -1,0 +1,663 @@
+{
+  "data": {
+    "campaign": {
+      "id": 154,
+      "brand_id": 16,
+      "preview": "http://res.cloudinary.com/mnfst/image/upload/v1542205172/gsa5j5fn2f0d5zlqj0pb.jpg",
+      "name": "Make my day",
+      "start_at": "2018-11-14T14:17:53Z",
+      "end_at": "2018-11-28T21:45:53Z",
+      "time_zone": "(GMT+04:00) Dubai",
+      "sex": [
+        "female",
+        "male"
+      ],
+      "non_profit": false,
+      "post_text": "All work and no play makes Jack a dull boy, \nAll play and no work makes Jack a mere toy.\t\nAll work and no play makes Jack a dull boy, \nAll play and no work makes Jack a mere toy.\t\nAll work and no play makes Jack a dull boy, \nAll play and no work makes Jack a mere toy.\t",
+      "social_networks": {
+        "facebook": {
+          "price": 1200,
+          "post_text": "All work and no play makes Jack a dull boy, \nAll play and no work makes Jack a mere toy.\t"
+        },
+        "instagram": {
+          "price": 900,
+          "post_text": "All work and no play makes Jack a dull boy, \nAll play and no work makes Jack a mere toy.\t"
+        }
+      },
+      "min_age": 0,
+      "max_age": 0,
+      "exclude_big_influences": false,
+      "countries": [
+        "AL",
+        "BB",
+        "CG",
+        "EC",
+        "MS"
+      ],
+      "paid_participations_count": 2,
+      "face_required": true,
+      "budget": {
+        "currency_code": "USD",
+        "value": 1200
+      },
+      "spent": {
+        "currency_code": "USD",
+        "value": 0
+      },
+      "participants_count": 0,
+      "status": "created",
+      "creative_template": {
+        "creative_type": "image",
+        "assets": []
+      },
+      "actions": [
+        "copy",
+        "edit",
+        "send_to_review",
+        "remove"
+      ],
+      "statistic": {
+        "impressions": [
+          {
+            "label": "03.06.2018",
+            "facebook": 10,
+            "twitter": 6,
+            "instagram": 6,
+            "overall": 22
+          },
+          {
+            "label": "10.06.2018",
+            "facebook": 0,
+            "twitter": 20,
+            "instagram": 8,
+            "overall": 28
+          },
+          {
+            "label": "17.06.2018",
+            "facebook": 22,
+            "twitter": 24,
+            "instagram": 3,
+            "overall": 49
+          },
+          {
+            "label": "24.06.2018",
+            "facebook": 6,
+            "twitter": 26,
+            "instagram": 8,
+            "overall": 40
+          },
+          {
+            "label": "01.07.2018",
+            "facebook": 15,
+            "twitter": 7,
+            "instagram": 16,
+            "overall": 38
+          },
+          {
+            "label": "08.07.2018",
+            "facebook": 0,
+            "twitter": 19,
+            "instagram": 28,
+            "overall": 47
+          },
+          {
+            "label": "15.07.2018",
+            "facebook": 12,
+            "twitter": 11,
+            "instagram": 9,
+            "overall": 32
+          },
+          {
+            "label": "22.07.2018",
+            "facebook": 12,
+            "twitter": 9,
+            "instagram": 15,
+            "overall": 36
+          },
+          {
+            "label": "29.07.2018",
+            "facebook": 9,
+            "twitter": 1,
+            "instagram": 20,
+            "overall": 30
+          },
+          {
+            "label": "05.08.2018",
+            "facebook": 0,
+            "twitter": 8,
+            "instagram": 25,
+            "overall": 33
+          },
+          {
+            "label": "12.08.2018",
+            "facebook": 10,
+            "twitter": 19,
+            "instagram": 14,
+            "overall": 43
+          },
+          {
+            "label": "19.08.2018",
+            "facebook": 2,
+            "twitter": 15,
+            "instagram": 10,
+            "overall": 27
+          },
+          {
+            "label": "26.08.2018",
+            "facebook": 13,
+            "twitter": 10,
+            "instagram": 20,
+            "overall": 43
+          },
+          {
+            "label": "02.09.2018",
+            "facebook": 1,
+            "twitter": 16,
+            "instagram": 7,
+            "overall": 24
+          },
+          {
+            "label": "09.09.2018",
+            "facebook": 6,
+            "twitter": 8,
+            "instagram": 16,
+            "overall": 30
+          },
+          {
+            "label": "16.09.2018",
+            "facebook": 14,
+            "twitter": 5,
+            "instagram": 1,
+            "overall": 20
+          },
+          {
+            "label": "23.09.2018",
+            "facebook": 16,
+            "twitter": 18,
+            "instagram": 8,
+            "overall": 42
+          },
+          {
+            "label": "30.09.2018",
+            "facebook": 8,
+            "twitter": 15,
+            "instagram": 20,
+            "overall": 43
+          },
+          {
+            "label": "07.10.2018",
+            "facebook": 13,
+            "twitter": 28,
+            "instagram": 9,
+            "overall": 50
+          },
+          {
+            "label": "14.10.2018",
+            "facebook": 17,
+            "twitter": 3,
+            "instagram": 16,
+            "overall": 36
+          },
+          {
+            "label": "21.10.2018",
+            "facebook": 16,
+            "twitter": 9,
+            "instagram": 12,
+            "overall": 37
+          },
+          {
+            "label": "28.10.2018",
+            "facebook": 7,
+            "twitter": 13,
+            "instagram": 11,
+            "overall": 31
+          },
+          {
+            "label": "04.11.2018",
+            "facebook": 18,
+            "twitter": 10,
+            "instagram": 7,
+            "overall": 35
+          },
+          {
+            "label": "11.11.2018",
+            "facebook": 21,
+            "twitter": 7,
+            "instagram": 15,
+            "overall": 43
+          },
+          {
+            "label": "18.11.2018",
+            "facebook": 10,
+            "twitter": 23,
+            "instagram": 9,
+            "overall": 42
+          },
+          {
+            "label": "25.11.2018",
+            "facebook": 22,
+            "twitter": 7,
+            "instagram": 4,
+            "overall": 33
+          },
+          {
+            "label": "02.12.2018",
+            "facebook": 0,
+            "twitter": 8,
+            "instagram": 18,
+            "overall": 26
+          },
+          {
+            "label": "09.12.2018",
+            "facebook": 0,
+            "twitter": 0,
+            "instagram": 0,
+            "overall": 0
+          }
+        ],
+        "engagements": [
+          {
+            "label": "03.06.2018",
+            "facebook": 8,
+            "twitter": 13,
+            "instagram": 7,
+            "overall": 28
+          },
+          {
+            "label": "10.06.2018",
+            "facebook": 4,
+            "twitter": 9,
+            "instagram": 2,
+            "overall": 15
+          },
+          {
+            "label": "17.06.2018",
+            "facebook": 10,
+            "twitter": 4,
+            "instagram": 8,
+            "overall": 22
+          },
+          {
+            "label": "24.06.2018",
+            "facebook": 5,
+            "twitter": 13,
+            "instagram": 20,
+            "overall": 38
+          },
+          {
+            "label": "01.07.2018",
+            "facebook": 12,
+            "twitter": 1,
+            "instagram": 8,
+            "overall": 21
+          },
+          {
+            "label": "08.07.2018",
+            "facebook": 0,
+            "twitter": 11,
+            "instagram": 32,
+            "overall": 43
+          },
+          {
+            "label": "15.07.2018",
+            "facebook": 17,
+            "twitter": 6,
+            "instagram": 6,
+            "overall": 29
+          },
+          {
+            "label": "22.07.2018",
+            "facebook": 11,
+            "twitter": 18,
+            "instagram": 7,
+            "overall": 36
+          },
+          {
+            "label": "29.07.2018",
+            "facebook": 14,
+            "twitter": 3,
+            "instagram": 5,
+            "overall": 22
+          },
+          {
+            "label": "05.08.2018",
+            "facebook": 5,
+            "twitter": 12,
+            "instagram": 24,
+            "overall": 41
+          },
+          {
+            "label": "12.08.2018",
+            "facebook": 7,
+            "twitter": 25,
+            "instagram": 8,
+            "overall": 40
+          },
+          {
+            "label": "19.08.2018",
+            "facebook": 10,
+            "twitter": 11,
+            "instagram": 14,
+            "overall": 35
+          },
+          {
+            "label": "26.08.2018",
+            "facebook": 13,
+            "twitter": 8,
+            "instagram": 10,
+            "overall": 31
+          },
+          {
+            "label": "02.09.2018",
+            "facebook": 9,
+            "twitter": 14,
+            "instagram": 2,
+            "overall": 25
+          },
+          {
+            "label": "09.09.2018",
+            "facebook": 7,
+            "twitter": 7,
+            "instagram": 10,
+            "overall": 24
+          },
+          {
+            "label": "16.09.2018",
+            "facebook": 15,
+            "twitter": 10,
+            "instagram": 5,
+            "overall": 30
+          },
+          {
+            "label": "23.09.2018",
+            "facebook": 15,
+            "twitter": 12,
+            "instagram": 5,
+            "overall": 32
+          },
+          {
+            "label": "30.09.2018",
+            "facebook": 14,
+            "twitter": 3,
+            "instagram": 20,
+            "overall": 37
+          },
+          {
+            "label": "07.10.2018",
+            "facebook": 13,
+            "twitter": 20,
+            "instagram": 4,
+            "overall": 37
+          },
+          {
+            "label": "14.10.2018",
+            "facebook": 11,
+            "twitter": 16,
+            "instagram": 10,
+            "overall": 37
+          },
+          {
+            "label": "21.10.2018",
+            "facebook": 28,
+            "twitter": 6,
+            "instagram": 15,
+            "overall": 49
+          },
+          {
+            "label": "28.10.2018",
+            "facebook": 8,
+            "twitter": 17,
+            "instagram": 17,
+            "overall": 42
+          },
+          {
+            "label": "04.11.2018",
+            "facebook": 14,
+            "twitter": 9,
+            "instagram": 6,
+            "overall": 29
+          },
+          {
+            "label": "11.11.2018",
+            "facebook": 12,
+            "twitter": 7,
+            "instagram": 9,
+            "overall": 28
+          },
+          {
+            "label": "18.11.2018",
+            "facebook": 8,
+            "twitter": 13,
+            "instagram": 15,
+            "overall": 36
+          },
+          {
+            "label": "25.11.2018",
+            "facebook": 8,
+            "twitter": 7,
+            "instagram": 17,
+            "overall": 32
+          },
+          {
+            "label": "02.12.2018",
+            "facebook": 7,
+            "twitter": 1,
+            "instagram": 11,
+            "overall": 19
+          },
+          {
+            "label": "09.12.2018",
+            "facebook": 0,
+            "twitter": 0,
+            "instagram": 0,
+            "overall": 0
+          }
+        ],
+        "supporters": [
+          {
+            "label": "03.06.2018",
+            "facebook": 10,
+            "twitter": 9,
+            "instagram": 6,
+            "overall": 25
+          },
+          {
+            "label": "10.06.2018",
+            "facebook": 6,
+            "twitter": 21,
+            "instagram": 12,
+            "overall": 39
+          },
+          {
+            "label": "17.06.2018",
+            "facebook": 21,
+            "twitter": 21,
+            "instagram": 7,
+            "overall": 49
+          },
+          {
+            "label": "24.06.2018",
+            "facebook": 8,
+            "twitter": 25,
+            "instagram": 10,
+            "overall": 43
+          },
+          {
+            "label": "01.07.2018",
+            "facebook": 23,
+            "twitter": 5,
+            "instagram": 20,
+            "overall": 48
+          },
+          {
+            "label": "08.07.2018",
+            "facebook": 0,
+            "twitter": 4,
+            "instagram": 31,
+            "overall": 35
+          },
+          {
+            "label": "15.07.2018",
+            "facebook": 28,
+            "twitter": 16,
+            "instagram": 7,
+            "overall": 51
+          },
+          {
+            "label": "22.07.2018",
+            "facebook": 13,
+            "twitter": 7,
+            "instagram": 14,
+            "overall": 34
+          },
+          {
+            "label": "29.07.2018",
+            "facebook": 7,
+            "twitter": 10,
+            "instagram": 12,
+            "overall": 29
+          },
+          {
+            "label": "05.08.2018",
+            "facebook": 9,
+            "twitter": 9,
+            "instagram": 20,
+            "overall": 38
+          },
+          {
+            "label": "12.08.2018",
+            "facebook": 10,
+            "twitter": 16,
+            "instagram": 9,
+            "overall": 35
+          },
+          {
+            "label": "19.08.2018",
+            "facebook": 2,
+            "twitter": 3,
+            "instagram": 29,
+            "overall": 34
+          },
+          {
+            "label": "26.08.2018",
+            "facebook": 16,
+            "twitter": 4,
+            "instagram": 8,
+            "overall": 28
+          },
+          {
+            "label": "02.09.2018",
+            "facebook": 4,
+            "twitter": 26,
+            "instagram": 10,
+            "overall": 40
+          },
+          {
+            "label": "09.09.2018",
+            "facebook": 9,
+            "twitter": 11,
+            "instagram": 12,
+            "overall": 32
+          },
+          {
+            "label": "16.09.2018",
+            "facebook": 22,
+            "twitter": 27,
+            "instagram": 1,
+            "overall": 50
+          },
+          {
+            "label": "23.09.2018",
+            "facebook": 1,
+            "twitter": 31,
+            "instagram": 0,
+            "overall": 32
+          },
+          {
+            "label": "30.09.2018",
+            "facebook": 14,
+            "twitter": 13,
+            "instagram": 12,
+            "overall": 39
+          },
+          {
+            "label": "07.10.2018",
+            "facebook": 17,
+            "twitter": 8,
+            "instagram": 0,
+            "overall": 25
+          },
+          {
+            "label": "14.10.2018",
+            "facebook": 11,
+            "twitter": 19,
+            "instagram": 19,
+            "overall": 49
+          },
+          {
+            "label": "21.10.2018",
+            "facebook": 26,
+            "twitter": 4,
+            "instagram": 2,
+            "overall": 32
+          },
+          {
+            "label": "28.10.2018",
+            "facebook": 8,
+            "twitter": 20,
+            "instagram": 10,
+            "overall": 38
+          },
+          {
+            "label": "04.11.2018",
+            "facebook": 22,
+            "twitter": 4,
+            "instagram": 11,
+            "overall": 37
+          },
+          {
+            "label": "11.11.2018",
+            "facebook": 22,
+            "twitter": 16,
+            "instagram": 12,
+            "overall": 50
+          },
+          {
+            "label": "18.11.2018",
+            "facebook": 16,
+            "twitter": 19,
+            "instagram": 10,
+            "overall": 45
+          },
+          {
+            "label": "25.11.2018",
+            "facebook": 15,
+            "twitter": 7,
+            "instagram": 10,
+            "overall": 32
+          },
+          {
+            "label": "02.12.2018",
+            "facebook": 5,
+            "twitter": 10,
+            "instagram": 9,
+            "overall": 24
+          },
+          {
+            "label": "09.12.2018",
+            "facebook": 0,
+            "twitter": 0,
+            "instagram": 0,
+            "overall": 0
+          }
+        ]
+      }
+    },
+    "brand": {
+      "id": 16,
+      "name": "Aspire",
+      "image": "http://res.cloudinary.com/mnfst/image/upload/v1536695705/o94rm0vuhng3fpbkaabn.jpg",
+      "color": "#ffffff"
+    }
+  }
+}

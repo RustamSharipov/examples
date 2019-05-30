@@ -1,0 +1,48 @@
+.paymentMethod {
+  display: flex;
+  align-items: center;
+}
+
+.iconsSet {
+  margin-right: 1rem;
+}
+
+.icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.caption {
+  color: var(--color-mnfst-text-grey);
+  font-size: 1.45rem;
+  line-height: 2rem;
+}
+
+.paymentMethodSquareIcon {
+  display: inline-flex;
+  min-width: 1rem;
+  min-height: 1rem;
+  background: center center no-repeat;
+  background-size: cover;
+}
+
+.amex {
+  background-image: url("./images/amex.svg");
+}
+
+.masterCard {
+  background-image: url("./images/masterCard.svg");
+}
+
+.visa {
+  background-image: url("./images/visa.svg");
+}
+
+.payPal {
+  background-image: url("./images/payPal.svg");
+}
+
+.paymentMethodStub {
+  background-color: var(--color-interface-lighter);
+  border-color: var(--color-interface-lighter);
+}

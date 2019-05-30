@@ -1,0 +1,67 @@
+.historyEntries {
+  --side-padding-size: 5rem;
+}
+
+.historyEntriesHeadCell {
+  height: 7rem;
+  padding-left: var(--side-padding-size);
+  padding-right: var(--side-padding-size);
+  background-color: var(--color-passive-light);
+  border-bottom: 1px solid var(--color-mnfst-line-grey);
+  font-weight: 700;
+}
+
+.historyEntriesBodyCell {
+  padding-left: var(--side-padding-size);
+  padding-right: var(--side-padding-size);
+  background-color: var(--color-passive-light);
+  transition: background-color var(--transition-duration-short);
+  vertical-align: top;
+}
+
+.historyEntriesRowCell {
+  position: relative;
+}
+
+.expandableHistoryEntriesRow {
+  cursor: pointer;
+}
+.expandableHistoryEntriesRow:not(.isExpanded):hover .historyEntriesBodyCell {
+  background-color: var(--color-mnfst-lightgrey);
+}
+.expandableHistoryEntriesRow.isExpanded .historyEntriesBodyCell,
+.expandableHistoryEntriesRow.isExpanded .historyEntriesBodyCellDetails {
+  background-color: var(--color-interface-lightest);
+  cursor: default;
+}
+.expandableHistoryEntriesRow.isExpanded .historyEntriesBodyCell:first-child,
+.expandableHistoryEntriesRow.isExpanded .historyEntriesBodyCellDetails:first-child {
+  border-left: 2px solid var(--color-mnfst-violet);
+}
+
+.historyEntryDetails {
+  position: relative;
+  margin: 3rem 0 0;
+  padding: 2rem 0 0;
+}
+.historyEntryDetails::before {
+  content: "";
+  position: absolute;
+  width: calc(100% + var(--side-padding-size));
+  left: 0;
+  top: 0;
+  height: 1px;
+  background: var(--color-mnfst-line-grey-light);
+}
+.historyEntriesBodyCell:last-child .historyEntryDetails::before {
+  width: 100%;
+}
+
+.historyEntryDetailsItem {
+  padding: 1rem 0;
+  color: var(--color-mnfst-text-grey);
+  line-height: 2rem;
+}
+.historyEntryDetailsItem:last-child {
+  padding-bottom: 0;
+}

@@ -1,0 +1,45 @@
+.table {
+  display: table;
+  width: 100%;
+}
+
+.head {
+  display: table-header-group;
+}
+
+.headCell {
+  display: table-cell;
+  min-width: 3rem;
+  padding: 2rem 1rem 3rem;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.body {
+  display: table-row-group;
+}
+
+.row {
+  display: table-row;
+}
+
+.bodyCell {
+  display: table-cell;
+  padding: 3rem 1rem;
+  vertical-align: middle;
+}
+.row:not(:first-child) .bodyCell {
+  border-top: 1px solid var(--color-mnfst-line-grey-light);
+}
+.row:last-child .bodyCell {
+  border-bottom: 1px solid var(--color-mnfst-line-grey-light);
+}
+
+.groupCaption {
+  display: table-cell;
+  height: 8rem;
+  padding: 2rem 1rem;
+  background: #fafafa;
+  vertical-align: middle;
+}

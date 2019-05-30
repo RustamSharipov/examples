@@ -1,0 +1,71 @@
+.campaignSocialNetworkPostText {
+  display: flex;
+  flex-direction: column;
+  transition: opacity var(--transition-duration-short);
+}
+.campaignSocialNetworkPostText.isDisabled {
+  opacity: 0.5;
+}
+@media (min-width: 768px) {
+  .campaignSocialNetworkPostText {
+    width: calc(50% - 1rem);
+    margin-bottom: 2rem;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 5rem;
+}
+
+.iconImage {
+  width: 3rem;
+  height: 3rem;
+  fill: var(--color-mnfst-violet);
+}
+.iconImage.facebook {
+  fill: var(--color-facebook);
+}
+.iconImage.instagram {
+  fill: var(--color-instagram);
+}
+.iconImage.twitter {
+  fill: var(--color-twitter);
+}
+
+.text {
+  flex-grow: 1;
+  padding-right: 2rem;
+}
+
+.title {
+  height: 7rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.description {
+  flex-grow: 1;
+}
+
+.sample {
+  display: flex;
+  width: 17.5rem;
+  height: 31rem;
+  background: var(--color-interface-lighter);
+  border-radius: 0.5rem;
+}
+
+.sampleImage {
+  border-radius: 0.5rem;
+}
+
+.campaignSocialNetworkPostTexts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

@@ -1,0 +1,3 @@
+body:global(.pdfDocuments) {
+  display: none;
+}

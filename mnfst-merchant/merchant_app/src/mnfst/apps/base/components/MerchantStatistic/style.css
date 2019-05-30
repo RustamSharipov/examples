@@ -1,0 +1,5 @@
+.merchantStatistic {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 2rem;
+}

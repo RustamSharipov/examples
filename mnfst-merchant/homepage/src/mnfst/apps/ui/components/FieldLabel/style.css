@@ -1,0 +1,22 @@
+.label {
+  pointer-events: none;
+  order: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 2rem;
+  color: var(--color-mnfst-text-grey);
+  font-size: 1.75rem;
+  line-height: 6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition:
+    font-size var(--transition-duration-short),
+    line-height var(--transition-duration-short);
+  white-space: nowrap;
+}
+.label.notEmptyValue {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}

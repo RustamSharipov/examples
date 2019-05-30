@@ -1,0 +1,45 @@
+.campaignActionsList {
+  display: flex;
+  align-items: center;
+  position: relative;
+  user-select: none;
+}
+
+.currentAction {
+  width: 8rem;
+  margin-right: 1rem;
+  font-size: 1.75rem;
+}
+
+.actionItem {
+  cursor: pointer;
+}
+
+.control {
+  cursor: pointer;
+  pointer-events: all;
+  opacity: 0;
+  transition: opacity var(--transition-duration-short);
+}
+.control.isHover {
+  opacity: 1;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--color-mnfst-line-grey);
+}
+.control:hover .icon {
+  fill: var(--color-passive-dark);
+}
+
+.input {
+  position: absolute;
+  top: 0;
+  right: 4.5rem;
+  width: 3rem;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}

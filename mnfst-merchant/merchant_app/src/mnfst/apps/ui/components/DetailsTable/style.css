@@ -1,0 +1,31 @@
+.detailsTable {
+  display: flex;
+  flex-direction: column;
+}
+.detailsTable:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.detailsTableRow {
+  display: flex;
+  justify-content: space-between;
+}
+.detailsTableRow:not(:first-child) {
+  margin-top: 1.5rem;
+}
+.detailsTableRow:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.detailsTableLabel {
+  min-width: 48%;
+  padding-right: 1rem;
+  color: var(--color-mnfst-text-grey);
+  line-height: 2rem;
+}
+
+.detailsTableValue {
+  padding-left: 1rem;
+  line-height: 2rem;
+  text-align: right;
+}

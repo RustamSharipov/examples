@@ -1,0 +1,356 @@
+{  
+  "data": {  
+    "campaign": {  
+      "id": 284,
+      "brand_id": 124,
+      "preview": null,
+      "name": "Pepsi Generations at the US",
+      "start_at": "2019-01-10T01:00:00+04:00",
+      "end_at": "2019-03-20T23:00:26+04:00",
+      "time_zone": "(GMT+01:00) Berlin",
+      "sex": [  
+        "male"
+      ],
+      "non_profit": false,
+      "post_text": "All work and no play makes Jack a dull boy",
+      "social_networks": {  
+        "instagram": {  
+          "price": 820,
+          "post_text": "Over hill, over dale"
+        },
+        "twitter": {  
+          "price": 260,
+          "post_text": null
+        }
+      },
+      "min_age": 49,
+      "max_age": 61,
+      "exclude_big_influences": true,
+      "countries": [  
+        "GB",
+        "MC",
+        "MK"
+      ],
+      "paid_participations_count": 5,
+      "face_required": true,
+      "budget": {  
+        "currency_code": "USD",
+        "value": 10010
+      },
+      "spent": {  
+        "currency_code": "USD",
+        "value": 0
+      },
+      "participants_count": 0,
+      "status": "created",
+      "creative_type": "segmentation",
+      "creative_template": {  
+        "assets": [  
+          {  
+            "id": 766,
+            "type": "segmentation_back",
+            "url": "https://mnfst-video-creatives-staging.s3-eu-central-1.amazonaws.com/uploads/merchant_user_asset/file/766/5_preview.png?X-Amz-Expires=600&X-Amz-Date=20190107T182449Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJT6N5HA3TXWODNOQ/20190107/eu-central-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=64825494ba9fc34ce810d930391ecd581f242677f57f03ead7d2d42d825e42dc"
+          },
+          {  
+            "id": 761,
+            "type": "segmentation_front",
+            "url": "https://mnfst-video-creatives-staging.s3-eu-central-1.amazonaws.com/uploads/merchant_user_asset/file/761/frame-creative.png?X-Amz-Expires=600&X-Amz-Date=20190107T170411Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJT6N5HA3TXWODNOQ/20190107/eu-central-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=8c45c3a870503c280c42a19aac599bbc817a15b443e59df135575346f7476075"
+          }
+        ]
+      },
+      "actions": [  
+        "copy",
+        "edit",
+        "send_to_review",
+        "remove"
+      ],
+      "editable_fields": [  
+        "campaign.name",
+        "campaign.start_at",
+        "campaign.end_at",
+        "campaign.sex",
+        "campaign.non_profit",
+        "campaign.post_text",
+        "campaign.min_age",
+        "campaign.max_age",
+        "campaign.face_required",
+        "campaign.time_zone",
+        "campaign.creative_type",
+        "campaign.paid_participations_count",
+        "campaign.budget",
+        "campaign.social_networks.price",
+        "campaign.social_networks.post_text",
+        "campaign.exclude_big_influences",
+        "campaign.creative_template",
+        "campaign.countries",
+        "campaign.brand_id"
+      ],
+      "statistic": {  
+        "impressions": [  
+          {  
+            "label": "08.07.2018"
+          },
+          {  
+            "label": "15.07.2018"
+          },
+          {  
+            "label": "22.07.2018"
+          },
+          {  
+            "label": "29.07.2018"
+          },
+          {  
+            "label": "05.08.2018"
+          },
+          {  
+            "label": "12.08.2018"
+          },
+          {  
+            "label": "19.08.2018"
+          },
+          {  
+            "label": "26.08.2018"
+          },
+          {  
+            "label": "02.09.2018"
+          },
+          {  
+            "label": "09.09.2018"
+          },
+          {  
+            "label": "16.09.2018"
+          },
+          {  
+            "label": "23.09.2018"
+          },
+          {  
+            "label": "30.09.2018"
+          },
+          {  
+            "label": "07.10.2018"
+          },
+          {  
+            "label": "14.10.2018"
+          },
+          {  
+            "label": "21.10.2018"
+          },
+          {  
+            "label": "28.10.2018"
+          },
+          {  
+            "label": "04.11.2018"
+          },
+          {  
+            "label": "11.11.2018"
+          },
+          {  
+            "label": "18.11.2018"
+          },
+          {  
+            "label": "25.11.2018"
+          },
+          {  
+            "label": "02.12.2018"
+          },
+          {  
+            "label": "09.12.2018"
+          },
+          {  
+            "label": "16.12.2018"
+          },
+          {  
+            "label": "23.12.2018"
+          },
+          {  
+            "label": "30.12.2018"
+          },
+          {  
+            "label": "06.01.2019"
+          },
+          {  
+            "label": "13.01.2019"
+          }
+        ],
+        "engagements": [  
+          {  
+            "label": "08.07.2018"
+          },
+          {  
+            "label": "15.07.2018"
+          },
+          {  
+            "label": "22.07.2018"
+          },
+          {  
+            "label": "29.07.2018"
+          },
+          {  
+            "label": "05.08.2018"
+          },
+          {  
+            "label": "12.08.2018"
+          },
+          {  
+            "label": "19.08.2018"
+          },
+          {  
+            "label": "26.08.2018"
+          },
+          {  
+            "label": "02.09.2018"
+          },
+          {  
+            "label": "09.09.2018"
+          },
+          {  
+            "label": "16.09.2018"
+          },
+          {  
+            "label": "23.09.2018"
+          },
+          {  
+            "label": "30.09.2018"
+          },
+          {  
+            "label": "07.10.2018"
+          },
+          {  
+            "label": "14.10.2018"
+          },
+          {  
+            "label": "21.10.2018"
+          },
+          {  
+            "label": "28.10.2018"
+          },
+          {  
+            "label": "04.11.2018"
+          },
+          {  
+            "label": "11.11.2018"
+          },
+          {  
+            "label": "18.11.2018"
+          },
+          {  
+            "label": "25.11.2018"
+          },
+          {  
+            "label": "02.12.2018"
+          },
+          {  
+            "label": "09.12.2018"
+          },
+          {  
+            "label": "16.12.2018"
+          },
+          {  
+            "label": "23.12.2018"
+          },
+          {  
+            "label": "30.12.2018"
+          },
+          {  
+            "label": "06.01.2019"
+          },
+          {  
+            "label": "13.01.2019"
+          }
+        ],
+        "supporters": [  
+          {  
+            "label": "08.07.2018"
+          },
+          {  
+            "label": "15.07.2018"
+          },
+          {  
+            "label": "22.07.2018"
+          },
+          {  
+            "label": "29.07.2018"
+          },
+          {  
+            "label": "05.08.2018"
+          },
+          {  
+            "label": "12.08.2018"
+          },
+          {  
+            "label": "19.08.2018"
+          },
+          {  
+            "label": "26.08.2018"
+          },
+          {  
+            "label": "02.09.2018"
+          },
+          {  
+            "label": "09.09.2018"
+          },
+          {  
+            "label": "16.09.2018"
+          },
+          {  
+            "label": "23.09.2018"
+          },
+          {  
+            "label": "30.09.2018"
+          },
+          {  
+            "label": "07.10.2018"
+          },
+          {  
+            "label": "14.10.2018"
+          },
+          {  
+            "label": "21.10.2018"
+          },
+          {  
+            "label": "28.10.2018"
+          },
+          {  
+            "label": "04.11.2018"
+          },
+          {  
+            "label": "11.11.2018"
+          },
+          {  
+            "label": "18.11.2018"
+          },
+          {  
+            "label": "25.11.2018"
+          },
+          {  
+            "label": "02.12.2018"
+          },
+          {  
+            "label": "09.12.2018"
+          },
+          {  
+            "label": "16.12.2018"
+          },
+          {  
+            "label": "23.12.2018"
+          },
+          {  
+            "label": "30.12.2018"
+          },
+          {  
+            "label": "06.01.2019"
+          },
+          {  
+            "label": "13.01.2019"
+          }
+        ]
+      }
+    },
+    "brand": {  
+      "id": 124,
+      "name": "Pepsi",
+      "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/124/image.png",
+      "color": "#caffee"
+    }
+  }
+}

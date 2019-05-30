@@ -1,0 +1,119 @@
+.qnaList {
+  margin: 2rem 0;
+}
+
+.qnaItem {
+  background: var(--color-mnfst-white);
+  border-radius: 1rem;
+  box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.1);
+}
+.qnaItem:not(:first-child) {
+  margin-top: 2.5rem;
+}
+.qnaItem:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.qnaItemTitle {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 0 1rem;
+  padding: 2rem;
+  transition: padding-bottom 0.5s;
+}
+.qnaItemTitle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0.125rem;
+  background: var(--color-mnfst-main-black);
+  opacity: 0.1;
+  transform: translate(-50%);
+  transition: width var(--transition-duration-short);
+}
+.qnaItemTitle.isExpanded {
+  padding-bottom: 2.5rem;
+}
+.qnaItemTitle.isExpanded::after {
+  width: calc(100% - 3rem);
+}
+@media (min-width: 768px) {
+  .qnaItemTitle {
+    padding: 3rem;
+  }
+  .qnaItemTitle.isExpanded::after {
+    width: calc(100% - 7rem);
+  }
+}
+
+.qnaItemTitleIcon {
+  width: 3rem;
+  height: 3rem;
+  fill: var(--color-mnfst-text-grey);
+  opacity: 0.3;
+}
+@media (min-width: 768px) {
+  .qnaItemTitleIcon {
+    opacity: 1;
+  }
+}
+
+.qnaItemTitleText {
+  flex-grow: 1;
+  margin: 0 1.5rem;
+  line-height: 2.25rem;
+}
+@media (min-width: 768px) {
+  .qnaItemTitleText {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+}
+
+.qnaItemTitleChevron {
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 0.2;
+}
+@media (min-width: 768px) {
+  .qnaItemTitleChevron {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.qnaItemContent {
+  transition: height 0.5s;
+}
+
+.qnaItemContentInner {
+  padding: 2rem 2.5rem 1rem;
+  font-size: 1.625rem;
+  font-weight: 300;
+  line-height: 2.75rem;
+}
+@media (min-width: 768px) {
+  .qnaItemContentInner {
+    padding: 5rem 5rem 3rem;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+}
+
+/* Temporary hack until margin problems being solved */
+.p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.p:not(:first-child) {
+  margin-top: 0;
+}
+.p:not(:last-child) {
+  margin-bottom: 0;
+}

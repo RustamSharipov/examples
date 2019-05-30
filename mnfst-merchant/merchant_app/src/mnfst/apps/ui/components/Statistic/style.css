@@ -1,0 +1,39 @@
+.statisticItem {
+  min-width: 14rem;
+}
+
+.statisticItem:not(:first-child) {
+  margin-left: 4%;
+}
+
+.statisticItem:not(:last-child) {
+  margin-right: 4%;
+}
+
+.statisticItemTitle {
+  margin: 0.5rem 0;
+  color: var(--color-mnfst-text-grey);
+  font-size: 1.75rem;
+  line-height: 2rem;
+  white-space: nowrap;
+}
+
+.statisticItemAddition {
+  margin-left: 0.5rem;
+  color: var(--color-mnfst-text-grey);
+  font-size: 1.25rem;
+  vertical-align: top;
+}
+
+.statisticItemValue {
+  display: flex;
+  margin: 0.75rem 0;
+  color: var(--color-mnfst-main-black);
+  font-size: 2.5rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+.statisticItemValue.isTotal {
+  font-size: 4rem;
+  line-height: 5rem;
+}

@@ -1,0 +1,79 @@
+.checkBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+  user-select: none;
+}
+
+.container {
+  cursor: default;
+}
+
+.input {
+  position: absolute;
+  left: -999px;
+}
+
+.input:focus ~ .inner .control {
+  border-color: var(--color-mnfst-violet);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: var(--color-interface-lighter);
+  border: 1px solid var(--color-mnfst-line-grey);
+  color: var(--color-passive-light);
+}
+.control.isChecked {
+  background-color: var(--color-mnfst-violet);
+  border-color: var(--color-mnfst-violet);
+}
+.control.isDisabled {
+  background-color: var(--color-interface-medium);
+  border-color: var(--color-interface-medium);
+}
+
+.controlImage {
+  fill: currentColor;
+  opacity: 0;
+  transform: scale(0);
+}
+.controlImage.isChecked {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.label {
+  margin: 0 0 0 1rem;
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.description {
+  margin-left: 3rem;
+  color: var(--color-mnfst-text-grey);
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.control.whiteTheme {
+  background-color: var(--color-mnfst-white);
+  border-color: var(--color-mnfst-white);
+  color: var(--color-mnfst-violet);
+}
+.control.whiteTheme.isChecked {
+  background-color: var(--color-mnfst-white);
+  border-color: var(--color-mnfst-white);
+}

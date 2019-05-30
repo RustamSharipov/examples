@@ -1,0 +1,11 @@
+.leftDirection {
+  transform: rotate(270deg);
+}
+
+.rightDirection {
+  transform: rotate(90deg);
+}
+
+.topDirection {
+  transform: rotate(180deg);
+}

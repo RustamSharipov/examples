@@ -1,0 +1,31 @@
+.buttonsSet {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.buttonsSet.centerAlign {
+  justify-content: center;
+}
+.buttonsSet.endAlign {
+  justify-content: flex-end;
+}
+.buttonsSet > * {
+  margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .buttonsSet {
+    flex-wrap: initial;
+  }
+
+  .buttonsSet > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .buttonsSet > *:not(:first-child) {
+    margin-left: 1rem;
+  }
+  .buttonsSet > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}

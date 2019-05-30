@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/mnfst",
+    "paths": {
+      "*": [
+        "*",
+        "generated/*"
+      ]
+    },
+    "outDir": "build/dist",
+    "module": "esnext",
+    "target": "es2017",
+    "lib": ["es2017", "dom"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"],
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts"
+  ],
+  "lib": [
+    "es2017",
+    "dom"
+  ]
+}

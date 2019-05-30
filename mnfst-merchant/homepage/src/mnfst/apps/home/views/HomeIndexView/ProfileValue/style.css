@@ -1,0 +1,327 @@
+.profileValue {
+  position: relative;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: var(--color-mnfst-main-black);
+  overflow: hidden;
+}
+
+.profileValueOuter {
+  background: var(--color-users-grass-green);
+  margin-bottom: 0.75rem;
+}
+
+.profileValueInner {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  max-width: var(--size-max-page-width);
+  margin: 0 auto;
+  padding-bottom: 44rem;
+}
+.profileValueInner::before {
+  content: "";
+  position: absolute;
+  bottom: -0.75rem;
+  left: 50%;
+  width: 35rem;
+  height: 50rem;
+  background: url("./images/profileValue.svg") center bottom no-repeat;
+  background-size: 100% auto;
+  transform: translateX(-50%);
+}
+@media (min-width: 768px) {
+  .profileValueInner {
+    align-items: center;
+    height: 66rem;
+    padding-bottom: 0;
+  }
+  .profileValueInner::before {
+    left: auto;
+    right: 9rem;
+    width: 36%;
+    height: 66rem;
+    transform: none;
+  }
+}
+@media (min-width: 840px) {
+  .profileValueInner {
+    height: 72rem;
+  }
+}
+@media (min-width: 960px) {
+  .profileValueInner {
+    height: 76rem;
+  }
+  .profileValueInner::before {
+    width: 46rem;
+  }
+}
+
+.profileValueInnerBackground {
+  position: absolute;
+  bottom: -0.75rem;
+  left: 50%;
+  width: 35rem;
+  height: 50rem;
+  background: url("./images/profileValue.svg") center bottom no-repeat;
+  background-size: 100% auto;
+  transform: translateX(-50%);
+}
+@media (min-width: 768px) {
+  .profileValueInnerBackground {
+    left: auto;
+    right: 9rem;
+    width: 36%;
+    height: 66rem;
+    transform: none;
+  }
+}
+@media (min-width: 960px) {
+  .profileValueInnerBackground {
+    width: 46rem;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  padding: 6rem 2rem;
+}
+@media (min-width: 768px) {
+  .content {
+    width: 60%;
+  }
+}
+
+.title {
+  margin: 2rem 0;
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 7rem;
+    text-align: left;
+  }
+}
+
+.descritpion {
+  max-width: 48rem;
+  margin: 1rem auto;
+  font-size: 2rem;
+  line-height: 3rem;
+  opacity: 0.5;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .descritpion {
+    margin: 2rem 0;
+    opacity: 1;
+    font-size: 2.25rem;
+    text-align: left;
+  }
+}
+
+.apps {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: 2rem auto;
+}
+@media (min-width: 768px) {
+  .apps {
+    display: none;
+  }
+}
+
+.app {
+  min-width: 24rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: var(--color-mnfst-main-black);
+  box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.2);
+  color: var(--color-users-grass-green);
+}
+@media (max-width: 767px) {
+  .app {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .app {
+    min-width: 25rem;
+  }
+}
+
+.appCaption {
+  flex-grow: 1;
+  padding: 0 1rem 0 0;
+  text-align: center;
+}
+
+.userJoinForm {
+  max-width: 40rem;
+  margin: 1rem auto;
+}
+@media (min-width: 768px) {
+  .userJoinForm {
+    max-width: 56rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.userJoinFormButton {
+  box-shadow: 0 40px 50px 0 rgba(43, 180, 84, 0.3);
+}
+
+.userJoinFormTextInputContainer {
+  box-shadow: 0 40px 50px 0 rgba(43, 180, 84, 0.3);
+}
+
+.money0, .money1, .money2 {
+  position: absolute;
+  color: var(--color-mnfst-main-black);
+  opacity: 0;
+}
+
+.money0 {
+  animation: moneyMove1 2.5s infinite ease-out;
+  right: 80%;
+  bottom: 90%;
+  font-size: 3rem;
+}
+
+.money1 {
+  animation: moneyMove2 2.5s infinite 1.8s ease-out;
+  right: 65%;
+  bottom: 85%;
+  font-size: 2rem;
+}
+
+.money2 {
+  animation: moneyMove3 2.5s infinite 2.2s ease-out;
+  right: 90%;
+  bottom: 80%;
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .money0 {
+    bottom: 68%;
+  }
+
+  .money1 {
+    bottom: 65%;
+  }
+
+  .money2 {
+    bottom: 60%;
+  }
+}
+
+@media (min-width: 850px) {
+  .money0 {
+    bottom: 85%;
+  }
+
+  .money1 {
+    bottom: 80%;
+  }
+
+  .money2 {
+    bottom: 78%;
+  }
+}
+
+.morphBlur1, .morphBlur2 {
+  position: absolute;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .morphBlur1 {
+    display: block;
+    bottom: 16%;
+    right: 0;
+    transform: scale(1);
+  }
+
+  .morphBlur2 {
+    display: block;
+    top: 100px;
+    left: -350px;
+    transform: scale(0.8);
+  }
+}
+
+@media (min-width: 930px) {
+  .morphBlur1 {
+    display: block;
+    transform: scale(1.5);
+  }
+
+  .morphBlur2 {
+    display: block;
+    top: 100px;
+    left: -300px;
+    transform: scale(1);
+  }
+}
+
+@keyframes moneyMove1 {
+  from {
+    opacity: 0;
+    padding: 0;
+  }
+
+  70% {
+    opacity: 0.8;
+  }
+
+  to {
+    opacity: 0;
+    padding-bottom: 25px;
+  }
+}
+
+@keyframes moneyMove2 {
+  from {
+    opacity: 0;
+    padding: 0;
+  }
+
+  70% {
+    opacity: 0.3;
+  }
+
+  to {
+    opacity: 0;
+    padding-bottom: 25px;
+  }
+}
+
+@keyframes moneyMove3 {
+  from {
+    opacity: 0;
+    padding: 0;
+  }
+
+  70% {
+    opacity: 0.3;
+  }
+
+  to {
+    opacity: 0;
+    padding-bottom: 25px;
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "language": {
+    "name": "Polską"
+  },
+  "contacts": {
+    "address": "MNFST ADVERTISING SOLUTIONS LLP, 10 Longworth Avenue, Chesterton, Cambridge CB4 1GU, UK, Company number OC416765.",
+    "UKAddress": "MNFST LTD, 32 Kritis Street, Papachristoforou Building, 4th Floor, 3087 Limassol, Cyprus. Company Reg Number: HE 382568."
+  },
+  "externalLinks": {
+    "business": "Marki i agencje",
+    "careers": "Kariera",
+    "cookiePolicy": "Cookie polityka",
+    "faq": "Frequently Asked Questions",
+    "influencers": "Użytkownicy",
+    "license": "Regulamin",
+    "privacyPolicy": "Polityka prywatności"
+  },
+  "formFields": {
+    "merchant": {
+      "companyName": "Company name",
+      "phoneNumber": "Phone"
+    },
+    "merchantUser": {
+      "fullName": "Full name",
+      "password": "Password",
+      "workingEmail": "Working e-mail"
+    },
+    "userJoin": {
+      "phoneNumber": "Numer telefonu",
+      "submitButton": "Pobierz",
+      "successStatus": "Wiadomość wysłana!"
+    },
+    "ui": {
+      "optionalField": "optional"
+    }
+  },
+  "pages": {
+    "businessLanding": {
+      "header": {
+        "caseStudies": "Case studies",
+        "howItWorks": "How it works",
+        "signIn": "Sign in"
+      },
+      "answers": {
+        "answers": {
+          "answer1": {
+            "description": "MNFST brings engaging and personalised ads that incorporate segmentation and AR technology",
+            "title": "Traditional advertising is outdated and too expensive"
+          },
+          "answer2": {
+            "title": "A personal recommendation is the best marketing channel for all businesses"
+          },
+          "answer3": {
+            "title": "We streamline the ad process to bring in more loyal and more valuable customers"
+          },
+          "answer4": {
+            "title": "There are more than 9 billion social media accounts. Each one could be your brand ambassador"
+          }
+        },
+        "title": "Tap into crowd promotion"
+      },
+      "caseStudies": {
+        "cases": {
+          "case1": {
+            "description": "Gett is setting the standard for quality by becoming the first major taxi app to provide carbon neutral rides in the UK",
+            "title": "Gett Green"
+          },
+          "case2": {
+            "description": "The film festival in London invited fans and tourists through targeted two week campaign with social influencers",
+            "title": "Russian Film Week"
+          },
+          "case3": {
+            "description": "Ideal Flatmate, UK’s first flat-matching website used MNFST’s unique advertising format to market their service in London",
+            "title": "Ideal Flat Mate"
+          },
+          "case4": {
+            "description": "Aspire is running their biggest charity event The Aspire Channel Swim to raise donations for people paralyzed by spinal cord injury and invite participants and supporters to promote the cause via MNFST",
+            "title": "Aspire"
+          }
+        },
+        "engagement": "Engagement rate",
+        "impressions": "Impressions generated",
+        "lowerCPPI": "Lower CPPI than FB CPM",
+        "manifests": "Manifests posted",
+        "nonProfit": "Non-profit",
+        "title": "Case studies"
+      },
+      "getOnBoard": {
+        "samples": {
+          "sample1": {
+            "description": "Download our full presentation with more in-depth case studies and further insights",
+            "title": "Get our presentation"
+          },
+          "sample2": {
+            "description": "We’re always happy to tell you more about how to create affordable but impressive ads",
+            "title": "Schedule a Demo"
+          },
+          "sample3": {
+            "description": "Q&A",
+            "title": "Answers to any and all questions about the app, campaigns, and pricing"
+          },
+          "sample4": {
+            "description": "Creative guidelines",
+            "title": "Everything you need to create stunning campaign visuals: static, video, segmentation"
+          },
+          "sample5": {
+            "description": "Try out your creative",
+            "title": "A simple tool to visualise how your campaign looks on each available social network"
+          },
+          "title": "Still not<br />convinced?"
+        },
+        "title": "Get on board!"
+      },
+      "howItWorks": {
+        "advantages": {
+          "advantage1": {
+            "description": "MNFST’s platform will only engage participants that meet your targeting criteria",
+            "title": "How precise is it?"
+          },
+          "advantage2": {
+            "description": "The content is moderated by machine learning algorithms that ensure your brand always stays safe",
+            "title": "How it works?"
+          },
+          "advantage3": {
+            "description": "The financial side operates seamlessly – there is no reward negotiation, and all payouts are automated",
+            "title": "Learn more"
+          }
+        },
+        "chartSample": {
+          "description": "Know the number of impressions and user engagements for your campaign",
+          "title": "And most importantly,<br />the results are measurable<br />and success quantifiable."
+        },
+        "popupChatDemo": {
+          "answer": "Now it is. MNFST just showed you how.",
+          "question": "Is it possible to control a social media campaign with a billion users? 👥👥"
+        },
+        "steps": {
+          "step1": {
+            "description": "Select reward type: cash, points, discounts, etc.",
+            "subtitle": "Set up and launch your campaign"
+          },
+          "step2": {
+            "description": "Only users who match your targeting criteria will see it",
+            "subtitle": "Users find campaign in MNFST app"
+          },
+          "step3": {
+            "description": "A user’s selfie incorporated with brand images and link",
+            "subtitle": "User creates Manifest"
+          },
+          "step4": {
+            "description": "We track post existance and make sure your brand is safe",
+            "subtitle": "User posts Manifest in social networks"
+          },
+          "step5": {
+            "description": "Earning is based on user’s Social Capital Score",
+            "subtitle": "User receives payment in 24 hours"
+          },
+          "step6": {
+            "subtitle": "Millions of users see <b>your</b> viral campaign in their Feed",
+            "title": "Millions of users see <b>your</b> viral campaign in their Feed"
+          }
+        },
+        "title": "How it works"
+      },
+      "selfieCampaigns": {
+        "creativesTypes": {
+          "ar": {
+            "description": "Description, tips & guidelines",
+            "title": "AR & Camera FX"
+          },
+          "overlay": {
+            "description": "Guidelines for using static and video overlays",
+            "title": "Overlay"
+          },
+          "segmentation": {
+            "description": "Best practices & guidelines",
+            "title": "Segmentation"
+          }
+        },
+        "description": "MNFST creates evocative and personalised ads that incorporate the latest in digital ad tech",
+        "discount": "Sign up today to receive up to a <b>50% discount</b> on your first campaign",
+        "title": "Create stunning<br />selfie campaigns",
+        "signUp": "Sign up"
+      },
+      "teaser": {
+        "description1": "9 billion profiles on <b>Instagram</b>, <b>Twitter</b> and <b>Facebook</b> just became ad platforms.",
+        "description2": "Manifest your brand to a bigger, more engaged audience",
+        "discountInfo": "up to <b>50% discount</b> towards your first campaign",
+        "scrollDown": "Scroll down to learn more",
+        "signUp": "Sign up now",
+        "title": "The world's first<br />crowd marketing tool"
+      }
+    },
+    "join": {
+      "description": "You don’t have to be an Instagram celebrity or top-ranking influencer anymore – every voice counts, and everyone can monetise their social media profiles with MNFST. <strong>Get MNFST app and join the revolution!</strong>",
+      "form": {
+        "getAppButton": "Pobierz",
+        "phoneNumber": "Numer telefonu"
+      },
+      "title": "Support ${targetUser} & get paid",
+      "titleDefaultUserName": "what you love"
+    },
+    "faq": {
+      "articles": {
+        "instagramPublic": {
+          "title": "Jak upublicznić konto na Instagramie?",
+          "iOS": {
+            "section1": "Wejdź na swój Profil i kliknij <b>w menu ikonę </b> po prawej",
+            "section2": "Kliknij <b>Ustawienia </b> w dole ekranu",
+            "section3": "Przesuń trochę pasek przewijania i kliknij <b>w zakładkę Konto Prywatne</b>",
+            "section4": "Upewnij się<b>, że opcja Konto Prywatne </b> jest wyłączona",
+            "section5": "<b>Voila! </b> użyj przycisku <b> Przelicz </b> w aplikacji MNFST lub twoje punkty zostaną ponownie podliczone automatycznie w ciągu dnia"
+          },
+          "android": {
+            "section1": "Wejdź na swój <b>Profil </b> i kliknij <b>w menu ikonę </b> po prawej",
+            "section2": "Kliknij w zakładkę <b>Ustawienia </b> w dolnej części ekranu",
+            "section3": "Upewnij się<b>, że opcja Konto Prywatne </b> jest wyłączona",
+            "section4": "<b>Voila! </b> użyj przycisku <b> Rescore </b> w aplikacji MNFST lub twoje punkty zostaną ponownie podliczone automatycznie w ciągu dnia"
+          },
+          "mobile": {
+            "section1": "Wejdź na swój <b>Profil </b> i kliknij <b>w menu ikonę </b> po lewej",
+            "section2": "Kliknij na zakładkę <b>& Prywatność i Bezpieczeństwo</b>",
+            "section3": "Upewnij się, że opcja <b>Konto Prywatne </b> jest niesprawdzona",
+            "section4": "<b>Voila! </b> użyj przycisku <b> Rescore </b> w aplikacji MNFST lub twoje punkty zostaną ponownie podliczone automatycznie w ciągu dnia"
+          }
+        },
+        "facebookPublic": {
+          "title": "Jak upublicznić moją listę znajomych na Facebooku?",
+          "iOS": {
+            "section1": "Kliknij na ikonę <b>menu </b> na pasku w dolnej części ekranu",
+            "section2": "Przewiń listę w dół i kliknij na <b>ustawienia &amp; zakładka </b> Prywatność",
+            "section3": "Kliknij na zakładkę <b>Skróty Prywatności</b>",
+            "section4": "Kliknij na zakładkę <b>zobacz więcej ustawień dotyczących prywatności</b> na karcie Prywatności",
+            "section5": "Przesuń pasek zadan i kliknij na zakładkę <b>Kto może zobaczyć twoją listę znajomych</b>",
+            "section6": "Wybierz opcję<b>Publiczny</b> z listy",
+            "section7": "Voila! użyj przycisku <b> Przelicz </b> w aplikacji MNFST lub twoje punkty zostaną ponownie podliczone automatycznie w ciągu dnia"
+          },
+          "android": {
+            "section1": "Kliknij na ikonę <b>menu </b> na pasku w dolnej części ekranu",
+            "section2": "Kliknij na zakładkę <b>Skróty Prywatności</b>",
+            "section3": "Kliknij na zakładkę <b>Skróty Prywatności</b>",
+            "section4": "Kliknij na zakładkę <b>zobacz więcej ustawień dotyczących prywatności</b> na karcie Prywatności",
+            "section5": "Przesuń pasek zadan i kliknij na zakładkę <b>Kto może zobaczyć twoją listę znajomych</b>",
+            "section6": "Wybierz opcję<b>Publiczny</b> z listy",
+            "section7": "<b>Voila! </b> użyj przycisku <b> Przelicz </b> w aplikacji MNFST lub twoje punkty zostaną ponownie podliczone automatycznie w ciągu dnia"
+          },
+          "mobile": {
+            "section1": "Kliknij na ikonę <b>menu </b> na pasku w górnej części ekranu",
+            "section2": "Kliknij na zakładkę <b>Skróty Prywatności</b>",
+            "section3": "Kliknij na zakładkę <b>zobacz więcej ustawień dotyczących prywatności</b> na karcie Prywatności",
+            "section4": "Przesuń pasek zadan i kliknij na zakładkę <b>Kto może zobaczyć twoją listę znajomych</b>",
+            "section5": "Wybierz opcję<b>Publiczny</b> z listy",
+            "section6": "<b>Voila! </b> użyj przycisku <b> Przelicz </b> w aplikacji MNFST lub twoje punkty zostaną ponownie podliczone automatycznie w ciągu dnia"
+          }
+        },
+        "twitterPublic": {
+          "title": "Jak upublicznić Tweety na Twitterze?",
+          "iOS": {
+            "section1": "Kliknij na swoje <b>zdjęcie profilowe</b> na zakładce O nas",
+            "section2": "Kliknij na zakładkę <b>Ustawienia i Prywatność</b>",
+            "section3": "Kliknij na zakładkę <b>Prywatność i bezpieczeństwo</b>",
+            "section4": "Upewnij się<b>, że opcja Chroń swoje Tweety </b> jest wyłączona",
+            "section5": "<b>Voila! </b> użyj przycisku <b> Przelicz </b> w aplikacji MNFST lub twoje punkty zostaną ponownie podliczone automatycznie w ciągu dnia"
+          },
+          "android": {
+            "section1": "Kliknij na swoje <b>zdjęcie profilowe</b> na zakładce O nas",
+            "section2": "Kliknij na zakładkę <b>Ustawienia i Prywatność</b>",
+            "section3": "Kliknij na zakładkę <b>Prywatność i bezpieczeństwo</b>",
+            "section4": "Upewnij się<b>, że opcja Chroń swoje Tweety </b> jest niesprawdzona",
+            "section5": "<b>Voila! </b> użyj przycisku <b> Przelicz </b> w aplikacji MNFST lub twoje punkty zostaną ponownie podliczone automatycznie w ciągu dnia"
+          },
+          "mobile": {
+            "section1": "Kliknij na swoje <b>zdjęcie profilowe</b> na zakładce O nas",
+            "section2": "Kliknij na zakładkę <b>Ustawienia i Prywatność</b>",
+            "section3": "Kliknij na zakładkę <b>Prywatność i bezpieczeństwo</b>",
+            "section4": "Upewnij się<b>, że opcja Chroń swoje Tweety </b> jest niesprawdzona",
+            "section5": "<b>Voila! </b> użyj przycisku <b> Przelicz</b> w aplikacji MNFST lub twoje punkty zostaną ponownie podliczone automatycznie w ciągu dnia"
+          }
+        },
+        "disabledFacebook": {
+          "title": "I don't see any Manifests for Facebook",
+          "default": {
+            "p1": "Unfortunately, for technical reasons, the MNFST app is no longer able to support campaigns on Facebook. We are currently trying to fix the situation, but we do not know when or if a solution will be reached. We sincerely apologise for any inconvenience.",
+            "p2": "But, there are still plenty of chances to earn and show your support for the causes and events you care about by participating in any of our campaigns via Twitter and Instagram. We will be also adding more social networks soon!",
+            "p3": "We appreciate your support and understanding. If you have any further questions, please write to"
+          }
+        },
+        "brandReferral": {
+          "title": "Brand Referral Program",
+          "default": {
+            "st1": "How should I approach a brand?",
+            "st2": "When do I receive my money?",
+            "p1": "If you love a brand and know a relevant person there, please connect us",
+            "p2": "Send them an introductory E-mail about MNFST: tell them who we are and why they should work with us. Direct them to business.mnfst.com to book a demo. And don’t forget to mention that they’ll get up to a 50% discount for their first campaign",
+            "p3": "Keep <a href=\"mailto:${businessEmail}\">${businessEmail}</a> cc’d while communicating with anyone who works for a Brand you are introducing us to",
+            "p4": "You receive $200 when the Brand spends over $1,000 on campaigns with MNFST",
+            "p5": "You can earn $200 multiple times if you refer more than one brand"
+          }
+        },
+        "referralProgram": {
+          "title": "Referral Program",
+          "default": {
+            "st1": "Program Rules",
+            "st2": "Eligibility",
+            "st3": "Referral Link",
+            "st4": "Earnings",
+            "st5": "Feedback",
+            "t1": "How does the Referral Program “Boost” work?",
+            "t2": "How much can I earn?",
+            "t3": "Who can I refer?",
+            "t4": "How many friends can I invite?",
+            "t5": "What do my friends need to do?",
+            "t6": "Who is eligible to participate in the Referral Program?",
+            "t7": "How do I track my referrals?",
+            "t8": "Where can I find my referral link?",
+            "t9": "My friend forgot to use my referral link. Is there a way to get paid for that referral?",
+            "t10": "Can I get paid for previous users I referred before the Referral Program launched?",
+            "t11": "Can I refer friends in any country?",
+            "t12": "Why do I not see the offer to invite friends and earn more money?",
+            "t13": "The amount I earn for my referrals changes from user to user, and for some, I don’t receive any money. Why is that?",
+            "t14": "I can see that many of the friends I invited have downloaded the MNFST app via my referral link, but I haven’t received money for a single one of my referrals. Why?",
+            "t15": "How can I earn the promised $50 for inviting friends, if the reward for a single user is several times less?",
+            "t16": "I want to bring many new users to MNFST, but I don’t like some of the conditions of the referral program.",
+            "p1": "Invite friends by sending your personal referral link.",
+            "p2": "After your friend installs the MNFST app and joins any paid campaign, you will earn the equivalent of your friend’s earnings for that campaign (max – $20).",
+            "p3": "Referral links only work for invited friends who have not previously registered with MNFST and who possesses a Social Capital Score above 55 points.",          
+            "p4": "You can earn up to $50. If you believe that $50 is not enough and that you have more friends you could invite, please <a href=\"mailto:${contactLink}\">contact us</a>.",          
+            "p5": "You can invite any of your friends who are on Instagram and Twitter who have not previously registered with MNFST. They must also have a social capital score above 55 points.",
+            "p6": "You can refer an unlimited number of friends, and we encourage you to share with as many friends as you would like. However, the maximum you can earn ($50) does not change, regardless of the number of friends you invite, unless you contact MNFST directly.",
+            "p7": "Download the MNFST app.",
+            "p8": "Create a user account in the App",
+            "p9": "Successfully participate in a paid campaign (Your friend has to leave the promotional post/tweet up on a social media account for at least 24 hours)",
+            "p10": "Those over the age of 16.",
+            "p11": "Friends who have not previously registered with MNFST and possess a Social Capital Score above 55.",
+            "p12": "You can track the status of your invites in the mobile app on the “Boost” screen section.",
+            "p13": "Your referral link can be found in the mobile app under the section labeled Boost. If you can’t find your personal referral link, please <a href=\"${contactLink}\">contact us</a>.",
+            "p14": "Unfortunately, we are unable to track your referral if your friend  did not use your referral link at the time they signed up and participated in one of MNFST's campaigns.",
+            "p15": "Unfortunately, we are unable to track any of your referrals before the official Referral Program launch date.",
+            "p16": "Yes, you may, but please keep in mind that your earnings may vary by country. Also, please be aware that the referral program may not be available in certain countries.",
+            "p17": "Unfortunately, the referral program does not work in all countries, meaning not all users will see this offer in the app.",
+            "p18": "You only receive money from your referral after the invited user successfully participates in a paid campaign. It is possible that not everyone you invite chose to post a Manifest on their social networks.",
+            "p19": "The social accounts belonging to those you invite must not have been previously registered on the MNFST platform. If they have, you will not receive additional earnings for that user’s paid campaign.",
+            "p20": "The total payment depends on the influence of the user you invited. Those who are more influential on social media (i.e. higher Social Capital Score) earn more per campaign, which, in turn, means that you earn more for that user. However, the maximum you can earn for one referral is $20.",
+            "p21": "If the user you invited has very few friends and posts on social media networks, then you will not receive any additional earnings for that user’s first paid campaign.",
+            "p22": "You or user you invited violates other <a href=\"${referralRulesLink}\" target=\"_blank\">Referral Rules</a>.",
+            "p23": "In order to receive money from the referral program, those you invite must download and successfully participate in a paid campaign. If your friend only installed the application, then suggest that they participate in a paid campaign on MNFST. You can send a personalized “push” via the app.",
+            "p24": "Share your personalized link with a wider circle of people and recommend our service to your friends. If you invite people who know you, they are more likely to respond and try to use MNFST.",
+            "p25": "The maximum you can earn via the referral program is $50. If you have already earned $50, but have more friends you could invite, write to us at <a href=\"mailto:${contactLink}\">${contactLink}</a> We will consider increasing your personal limit for your earnings via the referral program.",
+            "p26": "We are always working to make MNFST better and our users happier. Tell us your suggestions by writing to <a href=\"mailto:${contactLink}\">${contactLink}</a>. We’ll take a look and get back to you as soon as possible."
+          }
+        }
+      },
+      "ui": {
+        "articleFor": "Artykuł dla",
+        "articleLanguages": "Artykuł jest dostępny na",
+        "supportEmail": "To nie pomogło? Daj nam znać o swoim doświadczeniu związanym z"
+      }
+    },
+    "userLanding": {
+      "header": {
+        "howItWorks": "Jak to działa",
+        "qna": "Pytania i odpowiedzi"
+      },
+      "brands": {
+        "title": "Wpieraj to, co ważne",
+        "description": "Zarabiaj pieniądze od światowych marek i rozpowszechniaj wiedzę o inicjatywach i organizacjach, w które wierzysz"
+      },
+      "creatives": {
+        "title": "Nasi użytkownicy zarobili <nobr>${amount}</nobr>",
+        "description": "No matter the size of your following, you get paid",
+        "creativeInfluencerDetails": "${influencer} zamieszcza manifest dla ${brand} i zarabia",
+        "creativeNonProfitInfluencerDetails": "${influencer} zamieszcza manifest dla ${brand}",
+        "creativePriceDetails": "~${price} za wpis",
+        "influencers": {
+          "ahmed": "Ahmed",
+          "beyonce": "Beyonce",
+          "jessica": "Jessica",
+          "raj": "Raj",
+          "tomek": "Tomek",
+          "mia": "Mia"
+        },
+        "titles": {
+          "palaceToPalace": "MNFST powstał, aby uczynić Internet bardziej fair",
+          "gett1": "Twój profil społecznościowy ma wartość",
+          "giftOfLife": "Masz prawo zarabiać na swoim profilu społecznościowym",
+          "idealFlatmate": "Wspieraj inicjatywy i organizacje w które wierzysz",
+          "gett2": "Każdy z nas jest opiniotwórcą",
+          "meToo": "Każdy głos się liczy",
+          "mnfst": "Każdy może zostać opiniotwórcą niezależnie od statystyk wyświetleń"
+        }
+      },
+      "howItWorks": {
+        "title": "Jak to działa",
+        "description": "MNFST to pierwsza zbiorowa platforma promocji, która pozwala użytkownikom rozwijać ich cyfrowe aktywa, a także wspierać bliskie im inicjatywy i organizacje charytatywne",
+        "create": {
+          "title": "Stwórz",
+          "description": "Zrób zdjęcie lub film reprezentujące daną markę"
+        },
+        "post": {
+          "title": "Zamieść",
+          "description": "Udostępnij je znajomym w portalach społecznościowych"
+        },
+        "getPaid": {
+          "title": "Zarabiaj",
+          "description": "Otrzymaj zapłatę w ciągu 24 godzin"
+        }
+      },
+      "press": {
+        "title": "Media o nas"
+      },
+      "profileValue": {
+        "title": "Ile wart jest Twój profil?",
+        "descripion": "Dowiedz się, pobierając aplikację MNFST. Odkryj, ile możesz zarobić w mediach społecznościowych"
+      },
+      "qna": {
+        "title": "Pytania i odpowiedzi",
+        "items": [
+          {
+            "answer": [
+              "Stworzyliśmy MNFST, aby dać użytkownikom możliwość zarabiania na profilach społecznościowych, które są jednym z najcenniejszych aktywów osobistych w epoce cyfrowej.",
+              "Jeszcze do niedawna tylko celebryci i najwięksi blogerzy z ogromną rzeszą fanów mogli zarabiać na portalach społecznościowych. Do tej kategorii dołączyli później opiniotwórcy niższego szczebla (lokalni blogerzy i liderzy mniejszych społeczności), lecz i oni musieli posiadać dostatecznie dużą grupę widzów, aby móc konkurować z tradycyjnymi kanałami reklamowymi.",
+              "MNFST przedstawia nareszcie całkowicie otwartą, przejrzystą i uczciwą platformę, dającą absolutnie każdemu możliwość promowania i polecania rzeczy, które go interesują, otrzymując za to wynagrodzenie bezpośrednio od reklamodawców."
+            ],
+            "question": "Jaki jest główny cel MNFST?"
+          },
+          {
+            "answer": [
+              "MNFST to platforma promująca kreatywność i nagradzająca użytkowników tworzących interesujące treści. W celu określenia stawek dla poszczególnych użytkowników, opracowaliśmy system tzw. „punktów kapitału społecznego”. Jest to integralna metryka wagi Twojego profilu w mediach społecznościowych, obejmująca wiele czynników, w tym liczbę rzeczywistych fanów, poziom zaangażowania i jakość zamieszczanych treści. Propozycję stawki otrzymasz jeszcze przed zamieszczeniem wpisu, a wynagrodzenie jest później wypłacane w ciągu 24 godzin."
+            ],
+            "question": "Jak wyznaczacie moją stawkę za wpis?"
+          },
+          {
+            "answer": [
+              "Umożliwiamy wypłatę środków z naszej platformy przez PayPal i Revolut, gdyż metody te są łatwe w obsłudze i dostępne w większości krajów. Jesteśmy jednak otwarcie na uwzględnienie innych metod płatności w oparciu o potrzeby użytkowników."
+            ],
+            "question": "Jakie są obsługiwane metody płatności?"
+          },
+          {
+            "answer": [
+              "Twoi znajomi i fani cenią Twoją opinię, więc wybieraj marki i wydarzenia, które naprawdę do ciebie przemawiają i które poleciłbyś nawet bez zapłaty. To najlepszy sposób na zachowanie autentyczności i szczerości. Słuchaj swoich odbiorców i zwracaj uwagę na ich reakcje, aby upewnić się, że nie przesadzasz. Na MNFST znajdziesz też wiele kampanii typu non-profit, do których możesz dołączyć."
+            ],
+            "question": "Co jeśli moi znajomi uznają, że się „sprzedaję” na MNFST?"
+          }
+        ],
+        "links": {
+          "seeMore": "More on <a href=\"${url}\">faq.mnfst.com</a>"
+        }
+      },
+      "teaser": {
+        "title": "Twórz. Zarabiaj. Wyrównuj szanse.",
+        "description": "Naszym celem jest wspieranie użytkowników mediów społecznościowych w rozwijaniu i zarabianiu na ich profilach"
+      },
+      "mnfstApp": {
+        "app": {
+          "title": "Dołącz do naszej<br />społeczności"
+        },
+        "business": {
+          "title": "Chcesz przeprowadzić kampanię na MNFST?",
+          "businessLinkLabel": "Więcej informacji"
+        }
+      }
+    }
+  },
+  "socialNetworks": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "linkedIn": "Linked In",
+    "medium": "Medium",
+    "twitter": "Twitter"
+  },
+  "ui": {
+    "errors": {
+      "internalServerError": "Coś poszło nie tak. Spróbuj później",
+      "pageNotFound": "Nie odnaleziono strony"
+    },
+    "footer": {
+      "supportEmail": {
+        "label": "Jakieś pytania? Skontaktuj się z nami"
+      }
+    },
+    "mobileApps": {
+      "label": "Pobierz MNFST na"
+    }
+  }
+}

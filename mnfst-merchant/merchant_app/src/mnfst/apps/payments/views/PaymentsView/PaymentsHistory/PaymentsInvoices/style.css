@@ -1,0 +1,18 @@
+.transactionDateColumn {
+  width: 25%;
+  white-space: nowrap;
+}
+
+.transactionAmountColumn {
+  width: 25%;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.transactionLinkColumn {
+  width: 50%;
+}
+
+.paymentsInvoicesStubEntriesHeadCell {
+  width: 20%;
+}

@@ -1,0 +1,21 @@
+.dateRangeField {
+  position: relative;
+  width: 100%;
+}
+
+.control {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.input {
+  padding-right: 5rem;
+  color: var(--color-mnfst-text-grey);
+  cursor: pointer;
+}
+
+.icon > svg {
+  width: 3rem;
+  height: 3rem;
+}

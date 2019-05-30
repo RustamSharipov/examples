@@ -1,0 +1,11 @@
+.billingPayments {
+  padding: 5rem 4rem 2rem;
+}
+
+.paymentHeader {
+  height: 7rem;
+}
+
+.paymentSummary {
+  margin: 1rem 0;
+}

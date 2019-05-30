@@ -1,0 +1,24 @@
+.campaignMoneyRange {
+  position: relative;
+}
+
+.value {
+  white-space: nowrap;
+}
+
+.range {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0;
+  width: 100%;
+  height: 0.5rem;
+  border-radius: 4px;
+  background: var(--color-mnfst-line-grey-light);
+}
+
+.rangeValue {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--color-mnfst-violet);
+}

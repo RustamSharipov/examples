@@ -1,0 +1,8 @@
+{  
+  "data": {  
+    "asset": {  
+      "id": 763,
+      "url": "https://mnfst-video-creatives-staging.s3-eu-central-1.amazonaws.com/uploads/merchant_user_asset/file/763/manifest-yourself.mov?X-Amz-Expires=600\u0026X-Amz-Date=20190107T175020Z\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAJT6N5HA3TXWODNOQ/20190107/eu-central-1/s3/aws4_request\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=473a09f2ecfaca21ba1b77dd0a2649b2b6bc0bc24ae08055a4e1ef224ac13fd9"
+    }
+  }
+}

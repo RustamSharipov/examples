@@ -1,0 +1,21 @@
+.brandLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24rem;
+  height: 24rem;
+  background: var(--color-interface-lighter);
+  border-radius: inherit;
+  font-size: 0;
+}
+
+.image {
+  width: 10rem;
+  height: 10rem;
+}
+
+.imageStub {
+  width: 10rem;
+  height: 10rem;
+  fill: var(--color-mnfst-line-grey);
+}

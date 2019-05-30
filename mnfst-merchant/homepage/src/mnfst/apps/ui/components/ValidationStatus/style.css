@@ -1,0 +1,20 @@
+.validationStatus {
+  font-size: 1.5rem;
+  opacity: 0;
+  transition:
+    opacity var(--transition-dureation-short),
+    padding-bottom var(--transition-dureation-short)
+    padding-top var(--transition-dureation-short);
+}
+.validationStatus.isDisplay {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  opacity: 1;
+}
+
+.validationStatus.errorType {
+  color: var(--color-alert);
+}
+.validationStatus.successType {
+  color: var(--color-mnfst-violet);
+}

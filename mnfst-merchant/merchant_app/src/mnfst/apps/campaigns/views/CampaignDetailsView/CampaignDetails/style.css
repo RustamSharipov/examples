@@ -1,0 +1,71 @@
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brandLogo {
+  display: inline-flex;
+  width: 2.5rem;
+}
+
+.brandLogoImage {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+}
+
+.brandName {
+  margin: 0.5rem 0;
+  color: var(--color-mnfst-text-grey);
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.campaignName {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 3rem;
+}
+
+.campaignData {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.campaignDataItem {
+  line-height: 3rem;
+}
+.campaignDataItem:not(:first-child) {
+  margin-left: 1rem;
+}
+.campaignDataItem:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.dateTime {
+  margin: 0.5rem 0;
+  font-size: 1.75rem;
+  line-height: 1.5em;
+}
+
+.statistic {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.form {
+  padding: 7rem 0;
+}
+
+.formRow {
+  padding: 1rem 0;
+}
+
+.formRowTitle {
+  margin: 2rem 0;
+}
+
+.formControls {
+  padding: 2rem 0;
+}

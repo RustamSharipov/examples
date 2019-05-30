@@ -1,0 +1,29 @@
+.dateRangePicker {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 2rem;
+  user-select: none;
+}
+
+.control {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.range {
+  color: var(--color-mnfst-violet);
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  fill: var(--color-mnfst-violet);
+}
+
+.dropdownList {
+  top: -1rem;
+  left: calc(100% + 1rem);
+}

@@ -1,0 +1,38 @@
+.creativePreview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 14rem;
+  height: 14rem;
+  font-size: 0;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.image.isFace {
+  z-index: 1;
+}
+
+.image.isFront {
+  z-index: 2;
+}
+
+.stub {
+  display: inline-flex;
+  width: 14rem;
+  height: 14rem;
+}
+
+.stubImage {
+  width: inherit;
+  height: inherit;
+  fill: var(--color-mnfst-line-grey);
+}

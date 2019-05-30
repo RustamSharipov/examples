@@ -1,0 +1,12 @@
+.accordionItemTitle {
+  cursor: pointer;
+}
+
+.accordionItemContent {
+  overflow: hidden;
+  height: 0;
+}
+
+.accordionItem:not(.isExpanded) .accordionItemContent {
+  height: 0 !important;
+}

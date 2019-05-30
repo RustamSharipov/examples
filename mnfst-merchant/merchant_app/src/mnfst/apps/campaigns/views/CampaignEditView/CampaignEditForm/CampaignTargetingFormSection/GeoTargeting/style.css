@@ -1,0 +1,13 @@
+.geoTargetingLocations {
+  width: 52rem;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.suggestions {
+  padding: 1rem 0;
+}

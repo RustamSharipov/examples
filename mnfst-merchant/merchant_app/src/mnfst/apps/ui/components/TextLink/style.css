@@ -1,0 +1,54 @@
+.textLink {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color var(--transition-duration-short);
+}
+
+.hasUnderline {
+  text-decoration: underline;
+}
+
+.icon {
+  position: relative;
+  top: -0.125em;
+  width: 1.2em;
+  height: 1.2em;
+  fill: currentColor;
+}
+
+.iconBefore {
+  margin-right: 0.5em;
+}
+
+.iconAfter {
+  margin-left: 0.5em;
+}
+
+.greyTheme {
+  color: var(--color-mnfst-text-grey);
+}
+.greyTheme:hover {
+  color: var(--color-mnfst-dark);
+}
+
+.sandTheme {
+  color: var(--color-mnfst-gold);
+}
+.sandTheme:hover {
+  color: var(--color-mnfst-white);
+}
+
+.violetTheme {
+  color: var(--color-mnfst-violet);
+}
+.violetTheme:hover {
+  color: var(--color-mnfst-main-black);
+}
+
+.whiteTheme {
+  color: var(--color-mnfst-white);
+}
+.whiteTheme:hover {
+  color: var(--color-mnfst-violet);
+}

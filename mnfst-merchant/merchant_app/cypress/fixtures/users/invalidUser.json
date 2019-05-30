@@ -1,0 +1,6 @@
+{
+  "merchant_user": {
+    "email": "mail@mail.com",
+    "password": "incorrect_password"
+  }
+}

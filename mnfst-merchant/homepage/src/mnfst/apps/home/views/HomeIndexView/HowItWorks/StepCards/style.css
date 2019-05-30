@@ -1,0 +1,128 @@
+.stepCard {
+  position: relative;
+  left: -3rem;
+  width: 100%;
+  max-width: 40rem;
+  margin: 1.5rem 0;
+  padding: 3rem 2.5rem 4rem;
+  background: var(--color-mnfst-white);
+  border-radius: 2rem;
+  box-shadow: 0 40px 50px 0 rgba(53, 72, 160, 0.1);
+  opacity: 0;
+  transition:
+    left var(--transition-duration-medium),
+    box-shadow var(--transition-duration-medium),
+    opacity var(--transition-duration-medium);
+}
+@media (min-width: 768px) {
+  .stepCard {
+    width: calc(33% - 2.5rem);
+    height: 42.4rem;
+  }
+}
+.stepCard.isRevealed {
+  left: 0;
+  opacity: 1;
+}
+
+.stepCardPicture {
+  display: flex;
+  align-items: flex-start;
+  width: 24rem;
+  height: 24rem;
+  margin: 0 auto;
+}
+
+.stepCardImage {
+  width: 100%;
+  height: auto;
+}
+
+.stepCardTitle {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5em;
+}
+
+.stepCardDescription {
+  color: var(--color-step-card-description);
+  font-size: 2rem;
+  line-height: 1.5em;
+}
+
+.stepCardTitle + .stepCardDescription {
+  margin-top: 1rem;
+}
+
+.stepCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+@media (min-width: 768px) {
+  .stepCards {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.blueTheme {
+  --color-step-card-description: #bbc3cb;
+  box-shadow: 0 40px 50px 0 rgba(26, 98, 242, 0.1);
+}
+.blueTheme:hover {
+  animation: blueCardShadowMorphing 4s infinite ease-in-out;
+}
+
+.greenTheme {
+  --color-step-card-description: #aabea1;
+  box-shadow: 0 40px 50px 0 rgba(43, 180, 84, 0.1);
+}
+.greenTheme:hover {
+  animation: greenCardShadowMorphing 4s infinite ease-in-out;
+}
+
+.pinkTheme {
+  --color-step-card-description: #bca0a8;
+  box-shadow: 0 40px 50px 0 rgba(242, 78, 78, 0.1);
+}
+.pinkTheme:hover {
+  animation: pinkCardShadowMorphing 4s infinite ease-in-out;
+}
+
+@keyframes blueCardShadowMorphing {
+  0% {
+    box-shadow: 0 40px 50px 0 rgba(26, 98, 242, 0.1);
+  }
+  50% {
+    box-shadow: 0 60px 73px 24px rgba(26, 98, 242, 0.25);
+  }
+  100% {
+    box-shadow: 0 40px 50px 0 rgba(26, 98, 242, 0.1);
+  }
+}
+
+@keyframes greenCardShadowMorphing {
+  0% {
+    box-shadow: 0 40px 50px 0 rgba(43, 180, 84, 0.1);
+  }
+  50% {
+    box-shadow: 0 60px 73px 24px rgba(43, 180, 84, 0.25);
+  }
+  100% {
+    box-shadow: 0 40px 50px 0 rgba(43, 180, 84, 0.1);
+  }
+}
+
+@keyframes pinkCardShadowMorphing {
+  0% {
+    box-shadow: 0 40px 50px 0 rgba(242, 78, 78, 0.1);
+  }
+  50% {
+    box-shadow: 0 60px 73px 24px rgba(242, 78, 78, 0.25);
+  }
+  100% {
+    box-shadow: 0 40px 50px 0 rgba(242, 78, 78, 0.1);
+  }
+}

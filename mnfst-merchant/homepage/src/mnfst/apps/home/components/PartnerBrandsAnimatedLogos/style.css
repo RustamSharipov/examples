@@ -1,0 +1,16 @@
+.partnerBrandsAnimatedLogos {
+  display: flex;
+}
+
+.partnerBrandsAnimatedLogosInversed {
+  flex-direction: row-reverse;
+}
+
+.partnerBrandsAnimatedLogosWrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.partnerFirstElement {
+  margin: 0;
+}

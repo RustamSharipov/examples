@@ -1,0 +1,5 @@
+.topPanel {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 3rem 2rem;
+}

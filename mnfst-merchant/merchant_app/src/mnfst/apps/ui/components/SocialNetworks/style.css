@@ -1,0 +1,19 @@
+.socialNetworkIcon {
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  background: center center no-repeat;
+  background-size: cover;
+}
+
+.facebook {
+  background-image: url("./images/facebook.svg");
+}
+
+.instagram {
+  background-image: url("./images/instagram.svg");
+}
+
+.twitter {
+  background-image: url("./images/twitter.svg");
+}

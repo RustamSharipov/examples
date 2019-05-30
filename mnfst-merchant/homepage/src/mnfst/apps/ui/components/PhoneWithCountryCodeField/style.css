@@ -1,0 +1,65 @@
+.phoneCode {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.phoneCodeControl {
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem 0 1.5rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.controlIcon {
+  width: 2rem;
+}
+
+.controlIconImage {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--color-mnfst-text-grey);
+}
+
+.phoneNumber {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 100%;
+}
+
+.textControl {
+  order: initial;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 2rem;
+}
+
+.fieldLabel {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.countryName {
+  flex-grow: 1;
+}
+
+.countryCallingCode {
+  opacity: 0.5;
+}
+
+.phoneNumbersListItem.isSelected {
+  background-color: var(--color-mnfst-main-black);
+}
+
+.phoneNumbersListItem.isSelected .countryCallingCode {
+  opacity: 1;
+}

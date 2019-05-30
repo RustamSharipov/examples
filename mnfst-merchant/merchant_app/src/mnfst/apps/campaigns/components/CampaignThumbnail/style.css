@@ -1,0 +1,22 @@
+.campaignThumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0;
+}
+
+.image {
+  width: 3rem;
+  height: 3rem;
+}
+
+.stubImage {
+  background: var(--color-interface-lighter);
+  border-radius: 3rem;
+}
+
+.stubIcon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--color-mnfst-violet);
+}

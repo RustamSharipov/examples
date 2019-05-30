@@ -1,0 +1,42 @@
+.campaignIsFinished {
+  opacity: 0.5;
+}
+
+.campaignItem {
+  transition: background-color var(--transition-duration-short);
+}
+.campaignItem.isHover {
+  background-color: var(--color-mnfst-lightgrey);
+}
+
+.campaignItemCell {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.creativeFormat {
+  width: 2rem;
+  height: 2rem;
+  background: var(--color-mnfst-line-grey-light);
+  border-radius: 0.25rem;
+  transition: background-color var(--transition-duration-short);
+}
+.creativeFormat:not(:first-child) {
+  margin-left: 0.5rem;
+}
+.creativeFormat:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.creativeFormat.story {
+  height: 4rem;
+}
+
+.campaignItem.isHover .creativeFormat {
+  background-color: var(--color-mnfst-line-grey);
+}
+
+.creativeFormats {
+  display: flex;
+  align-items: flex-end;
+}

@@ -1,0 +1,65 @@
+.pageSection {
+  width: 100%;
+  margin: 0 auto;
+}
+.pageSection.isRevealable {
+  position: relative;
+  top: 10rem;
+  opacity: 0;
+  transition: top 0.5s, opacity 0.5s;
+}
+.pageSection.isRevealed {
+  top: 0;
+  opacity: 1;
+}
+
+.pageSectionTitle {
+  margin: 1rem auto;
+  font-size: 3.5rem;
+  line-height: 5rem;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  .pageSectionTitle {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 7rem;
+    line-height: 9rem;
+  }
+}
+
+.pageSectionDescription {
+  margin: 1rem auto;
+  color: var(--color-mnfst-text-grey);
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  .pageSectionDescription {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+
+.pageSectionContent {
+  max-width: var(--size-max-page-width);
+  margin: 0 auto;
+}
+
+.dockTop {
+  margin-top: 0;
+  padding-top: 0;
+}
+.dockBottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.dockTopBottom {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}

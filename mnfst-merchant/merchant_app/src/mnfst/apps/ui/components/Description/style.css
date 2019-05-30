@@ -1,0 +1,42 @@
+.description {
+  display: flex;
+  align-items: center;
+  color: var(--color-mnfst-text-grey);
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+.description.withMargins {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.description a {
+  color: var(--color-mnfst-violet);
+}
+
+.description ol,
+.description ul {
+  list-style: none;
+}
+
+.description li::before {
+  content: "•\00a0\00a0";
+}
+
+.iconBefore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1rem;
+}
+.iconBefore svg {
+  fill: var(--color-mnfst-violet);
+}
+
+.descriptionStub {
+  width: 75%;
+  min-height: 2.5rem;
+  background: var(--color-interface-lighter);
+}

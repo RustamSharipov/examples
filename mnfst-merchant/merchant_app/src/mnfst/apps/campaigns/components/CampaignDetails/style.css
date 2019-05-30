@@ -1,0 +1,23 @@
+.campaignDetailsBody {
+  display: flex;
+  align-items: stretch;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.campaignDetailsMain {
+  flex-grow: 1;
+  padding: 4rem;
+}
+
+.campaignDetailsAside {
+  width: 53rem;
+  padding: 3rem;
+  background: rgba(238, 239, 241, 0.3);
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.campaignDetailsHeader {
+  padding: 1rem 0;
+}

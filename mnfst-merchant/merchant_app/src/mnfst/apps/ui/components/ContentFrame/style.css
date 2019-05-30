@@ -1,0 +1,55 @@
+.contentFrame {
+  padding: 4rem;
+  border: 1px solid var(--color-mnfst-line-grey-light);
+  border-radius: 4px;
+}
+.contentFrame:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.contentFrame.noPaddings {
+  padding: 0;
+}
+.contentFrame.hasErrors {
+  border-color: var(--color-alert);
+}
+
+.contentFrame + .contentFrame {
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.contentFrameSet {
+  display: flex;
+  width: 100%;
+}
+
+.contentFrameCTA {
+  margin-top: 2rem;
+}
+
+.dockTop {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.dockBottom {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.dockRight {
+  border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.dockLeft {
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.dockLeftRight {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}

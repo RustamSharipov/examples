@@ -1,0 +1,115 @@
+.userJoinForm {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .userJoinForm {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+
+.userJoinFormRow {
+  width: 100%;
+  margin: 1rem 0;
+}
+.userJoinFormRow:not(:first-child) {
+  padding-left: 0.5rem;
+}
+.userJoinFormRow:not(:last-child) {
+  padding-right: 0.5rem;
+}
+
+.userJoinFormControls {
+  margin: 1rem 0;
+}
+.userJoinFormControls:not(:first-child) {
+  padding-left: 0.5rem;
+}
+.userJoinFormControls:not(:last-child) {
+  padding-right: 0.5rem;
+}
+
+.userJoinFormStatus {
+  height: 4rem;
+}
+
+.textField {
+  align-items: flex-start;
+}
+
+.textFieldInput {
+  flex-direction: row;
+  height: 7.5rem;
+  background-color: var(--color-mnfst-white);
+  border-color: var(--color-mnfst-white) !important;
+  border-radius: 4rem;
+}
+
+.textFieldLabel {
+  font-size: 2rem;
+  line-height: 7.5rem;
+}
+
+.button {
+  height: 7.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-color: var(--color-mnfst-main-black);
+  border-color: var(--color-mnfst-main-black);
+  border-radius: 4rem;
+  color: var(--color-mnfst-white);
+  font-size: 2rem;
+}
+.button:hover {
+  background-color: var(--color-mnfst-white);
+  color: var(--color-mnfst-main-black);
+}
+@media (min-width: 768px) {
+  .button {
+    width: auto;
+  }
+}
+
+.button.disabledButton {
+  background-color: var(--color-mnfst-main-black);
+  border-color: var(--color-mnfst-main-black);
+  color: var(rgba(255, 255, 255, 0.5));
+}
+
+.button .disabledButtonLabel {
+  color: var(--color-mnfst-white);
+  opacity: 0.5;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 2.5rem;
+}
+
+.resultTitle {
+  color: var(--color-mnfst-green);
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+
+.resultStatus {
+  height: 7.5rem;
+}
+
+.resultStatusIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 15.5rem;
+  height: 7.5rem;
+  background: var(--color-mnfst-green);
+  border-radius: 4rem;
+}
+.resultStatusIconImage {
+  fill: var(--color-mnfst-white);
+}

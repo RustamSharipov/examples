@@ -1,0 +1,13 @@
+.header {
+  position: relative;
+  z-index: 10;
+}
+
+.app {
+  background-color: var(--color-users-peach-orange);
+  color: var(--color-mnfst-main-black);
+}
+.app:hover {
+  background-color: var(--color-mnfst-main-black);
+  color: var(--color-mnfst-white);
+}

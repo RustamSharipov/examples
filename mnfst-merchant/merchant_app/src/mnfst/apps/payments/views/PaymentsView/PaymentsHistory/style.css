@@ -1,0 +1,36 @@
+.header {
+  padding: 2rem 4rem;
+}
+
+.content {
+  padding: 1rem 0;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.paymentsListTotal {
+  height: 8rem;
+}
+
+.paymentsListTotalRow {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  background: var(--color-passive-light);
+}
+.paymentsListTotalRow.isSticky {
+  position: fixed;
+  bottom: 0;
+}
+
+.paymentsListTotalColumn {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}

@@ -1,0 +1,23 @@
+{
+  "data": {
+    "merchant_user": {
+      "campaign_notifications": true,
+      "email": "boss@axe.com",
+      "name": "Robert Axelrod"
+    },
+    "merchant": {
+      "address_line_1": "45 East 45th Street & Madison Avenue",
+      "address_line_2": "New York 10017",
+      "city": "New York",
+      "company_number": "34342343423",
+      "contact_name": "Axe",
+      "country_code": "US",
+      "name": "Axe Capital",
+      "phone_number": "+443432221234",
+      "state": "New York",
+      "vat": "242343432324",
+      "zip_code": "10017"
+    }
+  },
+  "meta": {}
+}

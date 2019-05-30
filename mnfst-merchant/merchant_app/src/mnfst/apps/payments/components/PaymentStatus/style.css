@@ -1,0 +1,32 @@
+.paymentStatus {
+  display: inline-flex;
+  height: 2.5rem;
+  padding: 0 1rem;
+  background: var(--color-mnfst-line-grey-light);
+  border-radius: 2.5rem;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  white-space: nowrap;
+}
+
+.completed {
+  background-color: var(--color-mnfst-lightgreen);
+}
+
+.failed {
+  background-color: var(--color-mnfst-pink);
+}
+
+.pending {
+  background-color: var(--color-mnfst-orange);
+}
+
+.refunded {
+  background-color: var(--color-passive-light);
+  box-shadow: inset 0 0 1px 1px var(--color-mnfst-golden);
+}
+
+.paymentStatusStub {
+  width: 7rem;
+  background-color: var(--color-interface-lighter);
+}

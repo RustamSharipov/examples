@@ -1,0 +1,8 @@
+{
+  "errors": [
+    {
+      "source": "authenticate",
+      "detail": ["Invalid email or password."]
+    }
+  ]
+}

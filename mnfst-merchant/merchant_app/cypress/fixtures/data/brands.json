@@ -1,0 +1,223 @@
+{  
+  "data": {  
+    "brands": [  
+      {  
+        "id": 64,
+        "name": "Adidas",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/64/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 6,
+        "name": "Senegal",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/6/image.jpeg",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 75,
+        "name": "MakeMyTrip",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/75/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 24,
+        "name": "Manifestation12",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/24/image.jpg",
+        "color": "#ff242f"
+      },
+      {  
+        "id": 7,
+        "name": "1France",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/7/image.jpeg",
+        "color": "#fff3ff"
+      },
+      {  
+        "id": 121,
+        "name": "lolkek1",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/121/image.jpg",
+        "color": "#000032"
+      },
+      {  
+        "id": 65,
+        "name": "Adidas",
+        "image": null,
+        "color": "#000000"
+      },
+      {  
+        "id": 66,
+        "name": "Adidas",
+        "image": null,
+        "color": "#000000"
+      },
+      {  
+        "id": 67,
+        "name": "Adidas",
+        "image": null,
+        "color": "#000000"
+      },
+      {  
+        "id": 68,
+        "name": "Adidas",
+        "image": null,
+        "color": "#000000"
+      },
+      {  
+        "id": 8,
+        "name": "British Heart Foundation",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/8/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 9,
+        "name": "Argentina",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/9/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 10,
+        "name": "Sky School",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/10/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 11,
+        "name": "PD Test",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/11/image.png",
+        "color": "#ff40ff"
+      },
+      {  
+        "id": 12,
+        "name": "Birthday",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/12/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 13,
+        "name": "New Brand",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/13/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 14,
+        "name": "Gett",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/14/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 15,
+        "name": "Revolut",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/15/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 16,
+        "name": "Aspire",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/16/image.jpg",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 17,
+        "name": "MNFST",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/17/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 18,
+        "name": "Wheely",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/18/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 2,
+        "name": "Ruby User Group",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/2/image.jpg",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 3,
+        "name": "MNFST",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/3/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 4,
+        "name": "MNFST fsdfs",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/4/image.png",
+        "color": "#000000"
+      },
+      {  
+        "id": 5,
+        "name": "Senegal",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/5/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 19,
+        "name": "Marmite",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/19/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 20,
+        "name": "BHF",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/20/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 21,
+        "name": "Marathon",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/21/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 22,
+        "name": "Cakeface!",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/22/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 23,
+        "name": "Speaker",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/23/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 25,
+        "name": "Moto",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/25/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 26,
+        "name": "Ideal Flatmate",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/26/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 28,
+        "name": "Prince's Trust",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/28/image.png",
+        "color": "#ffffff"
+      },
+      {  
+        "id": 79,
+        "name": "Rogalik",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/79/image.jpg",
+        "color": "#00c3ca"
+      },
+      {  
+        "id": 80,
+        "name": "march.uk",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/80/image.png",
+        "color": "#f7ff00"
+      },
+      {  
+        "id": 1,
+        "name": "Adidasag",
+        "image": "https://s3.eu-central-1.amazonaws.com/mnfst-video-creatives-staging/brands/1/image.jpg",
+        "color": "#000000"
+      }
+    ]
+  },
+  "meta": {}
+}

@@ -1,0 +1,17 @@
+.radioSwitch {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.input {
+  position: absolute;
+  left: -999px;
+}
+
+.button {
+  flex-grow: 1;
+}

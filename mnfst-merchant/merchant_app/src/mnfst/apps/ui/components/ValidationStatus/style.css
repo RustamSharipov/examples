@@ -1,0 +1,10 @@
+.validationStatus {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+.validationStatus.errorType {
+  color: var(--color-alert);
+}
+.validationStatus.successType {
+  color: var(--color-mnfst-violet);
+}

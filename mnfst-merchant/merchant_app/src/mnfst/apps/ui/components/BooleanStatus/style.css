@@ -1,0 +1,7 @@
+.on {
+  color: var(--color-mnfst-green);
+}
+
+.off {
+  color: var(--color-mnfst-red);
+}

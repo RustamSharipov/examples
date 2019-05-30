@@ -1,0 +1,23 @@
+.links {
+  margin: 4rem;
+  padding: 1rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .links {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    font-size: 2.25rem;
+  }
+}
+
+.links a {
+  color: var(--color-mnfst-violet);
+  text-decoration: underline;
+  transition: var(--color-mnfst-main-black);
+}
+.links a:hover {
+  color: var(--color-mnfst-main-black);
+}

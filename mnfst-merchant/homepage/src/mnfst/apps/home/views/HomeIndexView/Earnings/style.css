@@ -1,0 +1,8 @@
+.description {
+  min-height: 10rem;
+}
+@media (min-width: 768px) {
+  .description {
+    color: var(--color-mnfst-main-black);
+  }
+}

@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7rem;
+  padding: 0 4rem;
+  background: var(--color-passive-dark);
+  color: var(--color-passive-light);
+}
+
+.brand {
+  max-width: 32rem;
+  margin: 0 2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.logo {
+  width: 8.5rem;
+  height: 2.5rem;
+}
+
+.navigation {
+  flex-grow: 1;
+  justify-content: center;
+}

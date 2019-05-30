@@ -1,0 +1,12 @@
+.campaignSelfiePreview {
+  width: 14rem;
+  height: 14rem;
+}
+
+.image {
+  display: block;
+  width: inherit;
+  height: inherit;
+  background: url("./images/sample.jpg");
+  background-size: cover;
+}

@@ -1,0 +1,28 @@
+.dropdownSuggestionsList {
+  height: 100%;
+}
+
+.control {
+  height: calc(6rem - 2px);
+}
+
+.input {
+  top: 0;
+  height: 0;
+}
+
+.selectedOptions {
+  padding: 1rem 0;
+}
+
+.selectedOption {
+  margin: 0.5rem;
+}
+
+.dropdownControl {
+  cursor: pointer;
+  pointer-events: initial;
+}
+.dropdownControl.isDisabled {
+  cursor: default;
+}

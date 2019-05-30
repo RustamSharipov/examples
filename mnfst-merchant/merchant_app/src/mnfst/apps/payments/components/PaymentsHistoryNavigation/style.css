@@ -1,0 +1,35 @@
+.paymentsHistoryNavigationItem {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: var(--color-mnfst-text-grey);
+  cursor: pointer;
+}
+.paymentsHistoryNavigationItem:not(:first-child) {
+  margin-left: 4rem;
+}
+.paymentsHistoryNavigationItem:not(:last-child) {
+  margin-right: 4rem;
+}
+.paymentsHistoryNavigationItem.isActive {
+  color: var(--color-mnfst-violet);
+  cursor: default;
+}
+
+.paymentsHistoryNavigationItemIcon {
+  display: flex;
+  align-items: center;
+  width: 3.75rem;
+}
+
+.paymentsHistoryNavigationItemIconImage {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: currentColor;
+}
+
+.paymentsHistoryNavigation {
+  display: flex;
+  align-items: center;
+}

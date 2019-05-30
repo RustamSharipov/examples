@@ -1,0 +1,16 @@
+{  
+  "data": {  
+    "credit": {  
+      "currency_code": "USD",
+      "value": 101200
+    },
+    "reserved": {  
+      "currency_code": "USD",
+      "value": 10697
+    },
+    "balance": {  
+      "currency_code": "USD",
+      "value": -61631
+    }
+  }
+}

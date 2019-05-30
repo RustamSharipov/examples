@@ -1,0 +1,23 @@
+.footer {
+  background: var(--color-users-sky-blue);
+  color: var(--color-mnfst-main-black);
+}
+
+.link {
+  color: var(--color-mnfst-main-black);
+}
+.link:hover {
+  text-decoration: none;
+}
+
+.app {
+  background-color: var(--color-mnfst-main-black);
+  color: var(--color-users-sky-blue);
+}
+
+.socialNetwork {
+  color: var(--color-mnfst-main-black);
+}
+.socialNetwork:hover {
+  color: var(--color-mnfst-main-black);
+}

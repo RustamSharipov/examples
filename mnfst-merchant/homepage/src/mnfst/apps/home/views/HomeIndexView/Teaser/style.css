@@ -1,0 +1,150 @@
+.teaser {
+  position: relative;
+  margin-bottom: 3rem;
+  background: var(--color-mnfst-white);
+  color: var(--color-mnfst-main-black);
+}
+@media (min-width: 768px) {
+  .teaser {
+    margin-bottom: 7rem;
+  }
+}
+
+.teaserInner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  max-width: var(--size-max-page-width);
+  margin: 0 auto;
+  padding: 0 0 4rem;
+}
+@media (min-width: 768px) {
+  .teaserInner {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+@media (min-width: 768px) {
+  .content {
+    align-items: flex-start;
+    width: 60%;
+    height: 88rem;
+  }
+}
+
+.title {
+  margin: 2rem 0;
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 6rem;
+    text-align: left;
+  }
+}
+@media (min-width: 860px) {
+  .title {
+    font-size: 7rem;
+  }
+}
+
+.description {
+  max-width: 48rem;
+  margin: 1rem 0;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .description {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.25rem;
+    text-align: left;
+  }
+}
+
+.apps {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: 2rem auto;
+}
+@media (min-width: 768px) {
+  .apps {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+.app {
+  min-width: 24rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--color-mnfst-main-black);
+  box-shadow: 0 40px 50px 0 rgba(255, 211, 178, 0.3);
+  color: var(--color-users-peach-orange);
+}
+@media (max-width: 767px) {
+  .app {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .app {
+    min-width: 25rem;
+  }
+}
+
+.appCaption {
+  flex-grow: 1;
+  padding: 0 1rem 0 0;
+  text-align: center;
+}
+
+.sample {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56rem;
+}
+@media (min-width: 768px) {
+  .sample {
+    flex-grow: 1;
+  }
+}
+
+.sampleCanvas {
+  position: relative;
+  width: 23rem;
+  height: 47.5rem;
+  padding: 1rem;
+  background: var(--color-users-peach-orange);
+  border-radius: 3rem;
+  box-shadow: 0 12px 48px -8px var(--color-users-peach-orange);
+}
+@media (min-width: 768px) {
+  .sampleCanvas {
+    top: 14rem;
+    width: 38rem;
+    height: 80rem;
+  }
+}
+
+.sampleContent {
+  width: 100%;
+  height: 100%;
+  border-radius: 2.5rem;
+}

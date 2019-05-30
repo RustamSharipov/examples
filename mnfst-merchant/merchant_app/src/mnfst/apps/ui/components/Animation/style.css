@@ -1,0 +1,35 @@
+.animation {
+  --duration: 0.35s;
+}
+
+.expandAnimation {
+  width: 100%;
+  overflow: hidden;
+  transition: height 0.35s;
+}
+.expandAnimation:not(.isActivated) {
+  height: 0 !important;
+}
+.expandAnimation.isAnimationComplete {
+  overflow: visible;
+}
+
+.showAnimation {
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.35s;
+}
+.showAnimation.isActivated {
+  opacity: 1;
+}
+
+.fadeAnimation {
+  position: relative;
+  top: -2rem;
+  opacity: 0;
+  transition: opacity var(--duration), top var(--duration);
+}
+.fadeAnimation.isActivated {
+  top: 0;
+  opacity: 1;
+}

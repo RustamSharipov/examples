@@ -1,0 +1,31 @@
+.pageNavigation {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  background: var(--color-mnfst-line-grey-light);
+  border-radius: 2rem;
+  color: var(--color-mnfst-violet);
+  cursor: pointer;
+}
+.button.isActive {
+  background-color: var(--color-mnfst-violet);
+  color: var(--color-passive-light);
+  cursor: default;
+}
+.button.isDisabled {
+  color: var(--color-interface-medium);
+}
+
+.items {
+  margin: 0 2rem;
+  background: var(--color-mnfst-line-grey-light);
+  border-radius: 2rem;
+}

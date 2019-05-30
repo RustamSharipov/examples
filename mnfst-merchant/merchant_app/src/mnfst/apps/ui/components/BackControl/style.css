@@ -1,0 +1,13 @@
+.backControl {
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem 0;
+  color: var(--color-mnfst-text-grey);
+  font-size: 1.75rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  fill: currentColor;
+}

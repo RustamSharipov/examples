@@ -1,0 +1,34 @@
+.socialNetworksGroups {
+  display: flex;
+  align-items: center;
+}
+
+.socialNetwork {
+  color: var(--color-mnfst-text-grey);
+  font-size: 0;
+  transition: color 0.25s;
+}
+.socialNetwork:not(:first-child) {
+  margin-left: 8px;
+}
+.socialNetwork:not(:last-child) {
+  margin-right: 8px;
+}
+.socialNetwork:hover {
+  color: var(--color-mnfst-main-black);
+}
+@media (min-width: 768px) {
+  .socialNetwork:hover {
+    color: var(--color-mnfst-white);
+  }
+}
+
+.socialNetworkIcon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.darkTheme:hover {
+  color: var(--color-mnfst-white);
+}

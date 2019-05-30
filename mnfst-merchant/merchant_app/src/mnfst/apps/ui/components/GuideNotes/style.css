@@ -1,0 +1,51 @@
+.guidesNotes {
+  margin: 1rem 0;
+}
+
+.content {
+  padding: 1rem 0;
+}
+
+.content a {
+  color: currentColor;
+  text-decoration: underline;
+}
+
+.guidesNotesItem {
+  display: flex;
+  padding: 2rem 3rem;
+  line-height: 3rem;
+}
+
+.guidesNotesCode b {
+  color: var(--color-mnfst-quote);
+  font-weight: 500;
+}
+
+.order {
+  margin-right: 2rem;
+}
+
+.guidesNotesCode {
+  margin: 1rem 0;
+}
+
+.guidesNotesCodeContent {
+  padding: 1rem 2rem;
+  background: var(--color-interface-lighter);
+  font: 1.5rem var(--font-family-monaco);
+  line-height: 3rem;
+  cursor: pointer;
+}
+
+.guidesNotesCode b {
+  color: var(--color-mnfst-quote);
+  font-weight: 500;
+}
+
+.caption {
+  padding: 1rem 3rem;
+  color: var(--color-mnfst-line-grey);
+  font-size: 1.5rem;
+  line-height: 3rem;
+}

@@ -1,0 +1,27 @@
+.bankTransferDialog {
+  max-width: 70rem;
+}
+
+.detailsTableValue {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.detailsTableValueDescriotion {
+  margin: 0.5rem 0;
+}
+
+.description {
+  max-width: 46rem;
+  margin: 2rem 0;
+  color: var(--color-mnfst-text-grey);
+  line-height: 3rem;
+}
+
+.description a {
+  color: var(--color-mnfst-violet);
+  transition: color var(--transition-duration-short);
+}
+.description a:hover {
+  color: var(--color-mnfst-main-black);
+}

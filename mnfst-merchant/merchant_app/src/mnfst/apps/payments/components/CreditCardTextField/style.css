@@ -1,0 +1,8 @@
+.input {
+  font-family: var(--font-family-monaco);
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+}

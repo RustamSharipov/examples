@@ -1,0 +1,44 @@
+.sideNavigation {
+  position: relative;
+  padding: 4rem;
+  user-select: none;
+}
+
+.sideNavigationItem {
+  margin: 2rem 0;
+  border-left: 1px solid transparent;
+  color: var(--color-mnfst-main-black);
+  line-height: 3rem;
+  cursor: pointer;
+}
+.sideNavigationItem:hover {
+  color: var(--color-mnfst-violet);
+}
+
+.sideNavigationItem.level2 {
+  padding-left: 2rem;
+  color: var(--color-mnfst-text-grey);
+}
+.sideNavigationItem.level2:not(:first-child) {
+  margin-top: 1rem;
+}
+.sideNavigationItem.level2:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.sideNavigationItem.isActive {
+  color: var(--color-mnfst-violet);
+}
+
+.sideNavigationItem.level1.isActive {
+  border-color: var(--color-mnfst-violet);
+}
+
+.control {
+  margin-left: 2rem;
+  font-size: 1.75rem;
+}
+
+.link {
+  color: inherit;
+}

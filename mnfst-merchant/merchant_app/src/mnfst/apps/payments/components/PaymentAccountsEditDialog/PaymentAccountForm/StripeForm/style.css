@@ -1,0 +1,22 @@
+.stripeElement {
+  display: block;
+  width: 100%;
+}
+
+.stripeElementContainer {
+  justify-content: flex-end;
+}
+
+.stripeElementControl {
+  width: 100%;
+  padding: 0.5rem 2rem;
+}
+
+.cardBrandIcon {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,71 @@
+.alertPopupBar {
+  position: relative;
+  height: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  background: var(--color-mnfst-white);
+  color: var(--color-mnfst-main-black);
+}
+.container.errorType {
+  background-color: var(--color-strong-alert);
+  color: var(--color-mnfst-white);
+}
+
+.content {
+  flex-grow: 1;
+  padding-right: 2rem;
+}
+
+.icon {
+  display: inline-block;
+  position: relative;
+  top: 0.75rem;
+  margin-right: 1rem;
+  font-size: 0;
+}
+
+.iconImage {
+  width: 3rem;
+  height: 3rem;
+  fill: currentColor;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  max-width: 148rem;
+  padding: 0 9rem;
+  line-height: 2.5rem;
+}
+
+.title {
+  display: inline;
+  margin-right: 0.45em;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.caption {
+  flex-grow: 1;
+  display: inline;
+}
+
+.action {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  top: 0.25rem;
+  width: auto;
+  height: 3rem;
+  padding: 0 1.5rem;
+  background: var(--color-mnfst-white);
+  border-radius: 0.5rem;
+  color: var(--color-mnfst-main-black);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}

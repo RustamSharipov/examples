@@ -1,0 +1,212 @@
+.button {
+  -webkit-appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 6rem;
+  padding: 0 2rem;
+  background: var(--color-mnfst-violet);
+  border: 1px solid var(--color-mnfst-violet);
+  border-radius: 6px;
+  color: var(--color-passive-light);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.75rem;
+  user-select: none;
+  white-space: nowrap;
+  transition:
+    background-color var(--transition-duration-short),
+    border-color var(--transition-duration-short),
+    border-radius var(--transition-duration-short),
+    color var(--transition-duration-short);
+}
+
+.icon {
+  top: -1px;
+  width: 6rem;
+  height: 6rem;
+}
+
+.button.withIconBefore {
+  justify-content: flex-start;
+  padding-left: 6rem;
+  text-align: left;
+}
+.button.withIconAfter {
+  padding-right: 6rem;
+}
+
+.label {
+  pointer-events: none;
+}
+
+.button.autoWidth {
+  width: auto;
+}
+
+.button.smallSize {
+  height: 4rem;
+  font-size: 1.75rem;
+}
+.button.smallSize.withIconBefore {
+  padding-left: 4rem;
+}
+.button.smallSize.withIconAfter {
+  padding-right: 4rem;
+}
+
+.button.smallSize .icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.button.largeSize {
+  height: 7rem;
+  font-size: 2.5rem;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* TODO: Fix text alignment in Safari */
+button.button {
+  display: inline-block;
+}
+
+/* TODO: Create icon component */
+.button svg {
+  position: relative;
+  fill: currentColor;
+}
+
+.button.greyTheme {
+  background-color: var(--color-interface-lighter);
+  border-color: var(--color-interface-lighter);
+  color: var(--color-mnfst-main-black);
+}
+.button.greyTheme:hover {
+  background-color: var(--color-mnfst-violet);
+  border-color: var(--color-mnfst-violet);
+  color: var(--color-passive-light);
+}
+
+.button.sandTheme {
+  background-color: var(--color-mnfst-gold);
+  border-color: var(--color-mnfst-gold);
+}
+.button.sandTheme:hover {
+  background-color: var(--color-mnfst-main-black);
+  border-color: var(--color-mnfst-main-black);
+  color: var(--color-passive-light);
+}
+
+.button.violetTransparentTheme {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-mnfst-violet);
+}
+.button.violetTransparentTheme:hover {
+  color: var(--color-mnfst-main-black);
+}
+.button.violetTransparentTheme.isDisabled[disabled] {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.button.greyTransparentTheme {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-mnfst-text-grey);
+}
+.button.greyTransparentTheme:hover {
+  color: var(--color-mnfst-violet);
+}
+.button.greyTransparentTheme.isDisabled[disabled] {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.button.violetTheme {
+  background-color: var(--color-mnfst-violet);
+  border-color: var(--color-mnfst-violet);
+  color: var(--color-passive-light);
+}
+.button.violetTheme:hover {
+  background-color: var(--color-mnfst-main-black);
+  border-color: var(--color-mnfst-main-black);
+  color: var(--color-passive-light);
+}
+
+.button.violetReadonlyTheme {
+  background-color: var(--color-mnfst-violet);
+  border-color: var(--color-mnfst-violet);
+  color: var(--color-passive-light);
+  cursor: default;
+}
+
+.button.violetBorderTheme {
+  background-color: transparent;
+  border-color: var(--color-mnfst-violet);
+  color: var(--color-mnfst-violet);
+}
+.button.violetBorderTheme:hover {
+  border-color: var(--color-mnfst-main-black);
+  color: var(--color-mnfst-main-black);
+}
+.button.violetBorderTheme.isDisabled[disabled] {
+  background-color: transparent;
+}
+
+.button.whiteTheme {
+  background-color: var(--color-passive-light);
+  border-color: var(--color-mnfst-line-grey);
+  color: var(--color-mnfst-main-black);
+}
+.button.whiteTheme svg {
+  fill: var(--color-mnfst-violet);
+}
+.button.whiteTheme:hover {
+  background-color: var(--color-interface-lighter);
+}
+
+.button.isDisabled {
+  background-color: var(--color-interface-lighter);
+  border-color: var(--color-interface-lighter);
+  color: var(--color-interface-medium);
+  cursor: default;
+}
+
+.dockTop {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.dockBottom {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.dockRight {
+  border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.dockLeft {
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.dockLeftRight {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.buttonStub {
+  background-color: var(--color-interface-lighter);
+  border-color: var(--color-interface-lighter);
+  cursor: default;
+}

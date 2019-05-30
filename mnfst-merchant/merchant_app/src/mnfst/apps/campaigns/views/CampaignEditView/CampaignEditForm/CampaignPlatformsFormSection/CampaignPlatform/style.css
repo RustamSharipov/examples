@@ -1,0 +1,31 @@
+.campaignPlatform:not(:first-child) {
+  margin-left: 2.5rem;
+}
+.campaignPlatform:not(:last-child) {
+  margin-right: 2.5rem;
+}
+
+.formField {
+  position: relative;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-duration-short);
+}
+.formField.isExpanded {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.formFields {
+  position: relative;
+  height: 8rem;
+  padding: 3rem 4rem;
+}
+
+.inputRoot {
+  width: 15rem;
+}
+
+.currency {
+  font-size: 1rem;
+}

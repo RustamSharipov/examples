@@ -1,0 +1,61 @@
+.paymentAccount {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 14rem;
+  padding: 0 3rem;
+  background: var(--color-interface-lighter);
+  border-radius: 0.5rem;
+}
+.paymentAccount:not(:first-child) {
+  margin-top: 2rem;
+}
+.paymentAccount:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.iconsSet {
+  position: relative;
+  width: 6rem;
+}
+
+.icon {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.info {
+  flex-grow: 1;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  line-height: 5rem;
+}
+
+.caption {
+  color: var(--color-mnfst-text-grey);
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.actions {
+  position: relative;
+}
+
+.status {
+  color: var(--color-mnfst-text-grey);
+}
+
+.paymentAccounts {
+  margin: 1rem 0 4rem;
+}
+
+.paymentAccountStub {
+  cursor: pointer;
+}
+
+.stubIcon {
+  fill: var(--color-mnfst-line-grey);
+}

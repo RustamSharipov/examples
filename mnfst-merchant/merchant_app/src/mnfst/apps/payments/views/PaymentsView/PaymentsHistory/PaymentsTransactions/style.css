@@ -1,0 +1,27 @@
+.transactionDateColumn {
+  width: 20rem;
+  white-space: nowrap;
+}
+
+.transactionIdColumn {
+  flex-grow: 1;
+}
+
+.transactionAmountColumn {
+  width: 25rem;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.transactionPaymentMethodColumn {
+  width: 24rem;
+  white-space: nowrap;
+}
+
+.transactionStatusColumn {
+  width: 20rem;
+}
+
+.paymentsTransactionsStubEntriesHeadCell {
+  width: 20%;
+}

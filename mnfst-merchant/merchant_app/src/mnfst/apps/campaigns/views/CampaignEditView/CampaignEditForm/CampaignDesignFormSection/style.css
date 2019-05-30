@@ -1,0 +1,24 @@
+
+.creativeType {
+  min-height: 11rem;
+  padding: 2rem 0 3rem;
+}
+
+.creativeTemplates {
+  min-width: 69rem;
+  align-items: stretch;
+}
+
+.creativesPosts {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.examples {
+  width: calc(100% - 71rem);
+  align-items: stretch;
+}
+
+.example:last-child {
+  flex-grow: 1;
+}

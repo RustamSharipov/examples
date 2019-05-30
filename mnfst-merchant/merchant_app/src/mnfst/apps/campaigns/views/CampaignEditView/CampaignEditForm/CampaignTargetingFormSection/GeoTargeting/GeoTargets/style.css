@@ -1,0 +1,60 @@
+.geoTargetItem {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.geoTargetItem:hover {
+  background-color: var(--color-interface-lighter);
+}
+
+.location {
+  flex-grow: 1;
+}
+
+.locationIcon {
+  width: 2.5rem;
+  height: 3rem;
+  margin-right: 1.5rem;
+}
+
+.locationName {
+  white-space: nowrap;
+  line-height: 1.5rem;
+}
+
+.locationNameText {
+  display: inline-block;
+  width: 8rem;
+  padding: 0 0.5rem;
+  color: var(--color-mnfst-text-grey);
+  transition: var(--transition-duration-short);
+}
+
+.locationCountry {
+  color: var(--color-mnfst-text-grey);
+  font-size: 1.3rem;
+}
+
+.locationRadius {
+  width: 14rem;
+  padding: 0 2rem;
+  transition: var(--transition-duration-short);
+}
+
+.removeIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--color-mnfst-text-grey);
+}
+
+.geoTargets {
+  flex-grow: 1;
+  height: 35rem;
+  overflow-y: auto;
+}
+
+.geoTargets::scrollbar {
+  appearance: none;
+}

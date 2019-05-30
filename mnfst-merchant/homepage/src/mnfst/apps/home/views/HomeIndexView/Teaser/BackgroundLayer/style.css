@@ -1,0 +1,52 @@
+.backgroundLayer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.waveContainer { 
+  height: 5%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #FFD3B2;
+}
+
+.wave {
+  /* there is an issue for android chrome with svg for that case, that is the reason here is a png */
+  background: url(./images/wave.png) repeat-x; 
+  position: absolute;
+  top: -198px;
+  min-width: 6400px;
+  width: calc(100vw + 1600px);
+  height: 198px;
+  animation: wave 20s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 20s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -1.5s infinite, swell 15s ease -1.25s infinite;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: -1600px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}

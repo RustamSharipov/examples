@@ -1,0 +1,29 @@
+@import "style/settings.css";
+
+.userName {
+  color: var(--color-passive-light);
+  cursor: default;
+  font-size: 2rem;
+}
+.userName:not(:first-child) {
+  margin-left: 1.5rem;
+}
+.userName:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.userCTA {
+  color: var(--color-interface-medium);
+  cursor: pointer;
+  font-size: 2rem;
+  transition: color var(--transition-duration-short);
+}
+.userCTA:hover {
+  color: var(--color-passive-light);
+}
+.userCTA:not(:first-child) {
+  margin-left: 1.5rem;
+}
+.userCTA:not(:last-child) {
+  margin-right: 1.5rem;
+}

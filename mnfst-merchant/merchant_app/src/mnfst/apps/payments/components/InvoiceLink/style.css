@@ -1,0 +1,15 @@
+.invoiceLink {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1.25rem;
+  fill: currentColor;
+}
+
+.caption {
+  font-size: 0.85em;
+}

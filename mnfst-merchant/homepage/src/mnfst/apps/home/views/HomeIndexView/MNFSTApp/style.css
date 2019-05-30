@@ -1,0 +1,107 @@
+.mnfstApp {
+  position: relative;
+  padding: 4rem 0;
+  background: var(--color-users-sky-blue);
+  color: var(--color-mnfst-main-black);
+}
+
+.mnfstAppInner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: var(--size-max-page-width);
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .mnfstAppInner {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .section {
+    width: calc(50% - 4rem);
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.title {
+  margin: 5rem 0 3rem;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 4rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .appSection {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .appSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(56% - 4rem);
+  }
+}
+
+@media (min-width: 768px) {
+  .businessSection {
+    padding-bottom: 4rem;
+    width: calc(44% - 4rem);
+  }
+}
+
+.links {
+  width: 100%;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+@media (min-width: 768px) {
+  .links {
+    max-width: 28rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .button {
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.1);
+    color: var(--color-users-sky-blue);
+  }
+}
+
+.userJoinForm {
+  max-width: 56rem;
+  margin: 1rem 0;
+}
+
+.userJoinFormButton {
+  box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.userJoinFormTextInputContainer {
+  box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,6 @@
+.campaignNameCharCount {
+  position: relative;
+  left: -1rem;
+  opacity: 0.5;
+  white-space: nowrap;
+}

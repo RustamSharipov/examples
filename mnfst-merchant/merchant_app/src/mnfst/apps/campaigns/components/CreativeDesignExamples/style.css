@@ -1,0 +1,66 @@
+.creativeDesignExample {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 1.5rem 0;
+  line-height: 2rem;
+}
+
+.creativeDesignExampleText {
+  position: relative;
+  color: var(--color-mnfst-main-black);
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  transition:
+    border-color color var(--transition-duration-short),
+    color var(--transition-duration-short);
+}
+.creativeDesignExampleText:not(.notAvailable)::before {
+  content: "";
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  width: calc(100% + 2rem);
+  height: calc(100% + 2rem);
+  background: var(--color-mnfst-violet);
+  border-radius: 0.5rem;
+  transform: rotateX(90deg);
+  transition: transform var(--transition-duration-short);
+}
+.creativeDesignExampleText:not(.notAvailable):hover {
+  border-color: transparent;
+  color: var(--color-mnfst-white);
+}
+.creativeDesignExampleText:not(.notAvailable):hover::before {
+  transform: rotateX(0deg);
+}
+
+.creativeDesignExampleTextInner {
+  position: relative;
+  border-bottom: 1px dotted var(--color-interface-medium);
+}
+
+.creativeDesignExampleText.notAvailable {
+  color: var(--color-mnfst-text-grey);
+  cursor: default;
+}
+
+.creativeDesignExampleText.notAvailable .creativeDesignExampleTextInner {
+  opacity: 0.5;
+  border-bottom: 0;
+}
+
+.creativeDesignExampleTextNotAvailableLabel {
+  margin: 0 1.5rem;
+  color: var(--color-mnfst-violet);
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+
+.creativeDesignExamples {
+  display: flex;
+  flex-direction: column;
+}

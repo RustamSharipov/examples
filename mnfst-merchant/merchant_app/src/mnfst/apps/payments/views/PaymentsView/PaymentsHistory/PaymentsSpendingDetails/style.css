@@ -1,0 +1,46 @@
+.spendingDetailsDateColumn {
+  width: 20%;
+  white-space: nowrap;
+}
+
+.spendingDetailsIdColumn {
+  flex-grow: 1;
+}
+
+.spendingDetailsAmountColumn {
+  width: 25rem;
+  padding-left: 0;
+  text-align: right;
+}
+
+.spendingDetailsAmountHeadColumn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.spendingDetailsAmountTooltip {
+  position: relative;
+  right: -2rem;
+  width: 0;
+}
+
+.spendingDetailsImpressionsColumn {
+  width: 28rem;
+  padding-left: 0;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.spendingDetailsPaymentMethodColumn {
+  width: 24rem;
+  white-space: nowrap;
+}
+
+.spendingDetailsStatusColumn {
+  width: 20rem;
+}
+
+.paymentsSpendingDetailsStubEntriesHeadCell {
+  width: 20%;
+}

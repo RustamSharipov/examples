@@ -1,0 +1,98 @@
+.formRow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+@media (min-width: 768px) {
+  .formRow {
+    flex-wrap: nowrap;
+  }
+}
+.formRow.emptyType {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.formRow.controlType {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.formRowSection {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  min-width: 100%;
+  min-height: 6rem;
+}
+.formRowSection:not(:last-child) {
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .formRowSection {
+    min-width: initial;
+  }
+  .formRowSection:not(:first-child) {
+    margin-left: 1rem;
+  }
+  .formRowSection:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+}
+
+.formRowSection.flexStartAlignment {
+  align-items: flex-start;
+}
+.formRowSection.centerAlignment {
+  align-items: center;
+}
+.formRowSection.flexEndAlignment {
+  align-items: flex-end;
+}
+.formRowSection.stretchAlignment {
+  align-items: stretch;
+}
+
+.formRowSectionPart {
+  flex-grow: initial;
+}
+.formRowSectionPart:not(:first-child) {
+  margin-left: 1rem;
+}
+.formRowSectionPart:not(:last-child) {
+  margin-right: 1rem;
+}
+.formRowSectionPart.oneFourth {
+  width: calc(25% - 1rem);
+}
+.formRowSectionPart.oneThird {
+  width: calc(33% - 1.5rem);
+}
+.formRowSectionPart.half {
+  width: calc(50% - 1rem);
+}
+.formRowSectionPart.twoThirds {
+  width: calc(66% - 1rem);
+}
+.formRowSectionPart.threeFourth {
+  width: calc(75% - 1rem);
+}
+
+.formRowsGroup {
+  padding: 1rem 0 0;
+}
+
+.formRowsGroupCaption {
+  padding: 2rem 0 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.formControls {
+  display: flex;
+  padding: 2rem 0;
+}
+.formControls:last-child {
+  padding-bottom: 0;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+  <g id="Merchant-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="matrix(1.5, 0, 0, 1.5, 7.5, 6)">
+    <g id="Campaigns" transform="translate(-621.000000, -1142.000000)">
+      <g id="Pagination" transform="translate(608.000000, 1130.000000)">
+        <g id="Group-9">
+          <g id="Previous">
+            <g id="Icons-48-/-Arrow-L" transform="translate(8.000000, 8.000000)">
+              <mask id="mask-2" fill="white">
+                <path d="M 10.315 7.783 C 10.372 8.007 10.31 8.255 10.132 8.427 L 6.796 11.653 C 6.532 11.909 6.11 11.902 5.854 11.637 C 5.854 11.637 5.854 11.637 5.854 11.637 C 5.598 11.372 5.605 10.95 5.87 10.694 L 8.721 7.937 L 5.919 5.138 C 5.659 4.878 5.659 4.456 5.919 4.196 C 5.919 4.195 5.919 4.195 5.919 4.195 C 6.179 3.935 6.601 3.935 6.862 4.195 L 10.138 7.469 C 10.228 7.559 10.287 7.668 10.315 7.783 Z"/>
+              </mask>
+              <g id="Combined-Shape" transform="translate(8.001078, 7.920131) scale(-1, 1) translate(-8.001078, -7.920131) "/>
+              <g id="Colors-/-Black" mask="url(#mask-2)" fill="#a1a1a1" fill-rule="evenodd">
+                <rect id="Rectangle-4" x="0" y="0" width="16" height="16"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

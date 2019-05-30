@@ -1,0 +1,15 @@
+.fileTypeIcon {
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  background: center center no-repeat;
+  background-size: cover;
+}
+
+.psd {
+  background-image: url("./images/psd.svg");
+}
+
+.sketch {
+  background-image: url("./images/sketch.svg");
+}

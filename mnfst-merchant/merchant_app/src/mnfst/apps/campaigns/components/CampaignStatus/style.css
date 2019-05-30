@@ -1,0 +1,51 @@
+.campaignStatus {
+  display: inline-flex;
+  padding: 0 1rem;
+  background: #d9dce1;
+  border-radius: 2.5rem;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  white-space: nowrap;
+}
+
+.accepted {
+  background-color: #c1f5a9;
+}
+
+.active {
+  background-color: #d7c9ff;
+}
+
+.declined {
+  background-color: #fcb8cd;
+}
+
+.created {
+  background-color: #b5dcff;
+}
+
+.deleted {
+  background-color: #fcb8cd;
+}
+
+.draft {
+  background-color: #b5dcff;
+}
+
+.finished {
+  background-color: #d9dce1;
+}
+
+.submitted {
+  background-color: #ffc69c;
+}
+
+.suspended {
+  background-color: #ffe691;
+}
+
+.campaignStatusStub {
+  width: 8rem;
+  height: 1.75rem;
+  background-color: var(--color-interface-lighter);
+}

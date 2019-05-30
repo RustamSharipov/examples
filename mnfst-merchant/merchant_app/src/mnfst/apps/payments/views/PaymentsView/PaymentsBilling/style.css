@@ -1,0 +1,49 @@
+.billingPayments {
+  padding: 5rem 4rem 2rem;
+}
+
+.paymentHeader {
+  height: 7rem;
+}
+
+.paymentSummary {
+  flex-grow: 1;
+}
+
+.paymentSummaryTitle {
+  color: var(--color-mnfst-text-grey);
+  font-size: 1.75rem;
+  line-height: 3rem;
+}
+
+.billingInfo {
+  margin: 2rem 0;
+}
+
+.billingInfoTitle {
+  color: var(--color-mnfst-text-grey);
+  font-size: 1.75rem;
+  line-height: 3rem;
+}
+
+.billingInfoItems {
+  margin: 1.5rem 0;
+}
+
+.billingInfoItem {
+  margin: 1rem 0;
+}
+
+.billingInfoControls {
+  margin: 2rem 0 1rem;
+}
+
+.billingPaymentsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.paymentAccounts {
+  flex-grow: 1;
+}

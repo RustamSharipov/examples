@@ -1,0 +1,44 @@
+.paymentMethodButton {
+  height: 14rem;
+  margin: 0 0 4rem;
+}
+
+.paymentMethod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paymentMethodLabel {
+  line-height: 1;
+}
+
+.paymentMethodIcon {
+  height: 3rem;
+  margin-left: 1rem;
+  background: center center no-repeat;
+  background-size: auto 100%;
+}
+
+.paymentMethodControls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+}
+
+.paymentMethodBillingAddress {
+  padding-bottom: 4rem;
+}
+
+.stripe {
+  width: 7.5rem;
+  background-image: url("./images/stripeLogo.svg");
+}
+
+.wirecard {
+  position: relative;
+  top: -0.5rem;
+  width: 15rem;
+  background-image: url("./images/wirecardLogo.svg");
+}

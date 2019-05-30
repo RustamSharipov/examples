@@ -1,0 +1,10 @@
+.wirecardDialog {
+  width: calc(100vw - 16rem);
+  max-width: 96rem;
+  height: 44rem;
+}
+
+.wirecardDialogIFrame {
+  background: transparent;
+  border: 0;
+}

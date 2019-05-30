@@ -1,0 +1,38 @@
+.popupControl {
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 4rem;
+  transition: color var(--transition-duration-short);
+}
+.popupControl:hover .title {
+  color: var(--color-mnfst-violet);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.expandControl {
+  width: 2rem;
+  height: 2rem;
+  background: center center no-repeat url("./images/expandIcon.svg");
+  background-size: cover;
+  opacity: 0.5;
+  transition: opacity var(--transition-duration-short);
+}
+
+.popupControl:hover .expandControl {
+  opacity: 1;
+}
+
+.imagePopup {
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+}

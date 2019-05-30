@@ -1,0 +1,20 @@
+.error {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 4rem;
+}
+
+.code {
+  font-size: 24rem;
+  font-weight: 900;
+}
+
+.description {
+  color: var(--color-mnfst-violet);
+  font-size: 3rem;
+  line-height: 6rem;
+}

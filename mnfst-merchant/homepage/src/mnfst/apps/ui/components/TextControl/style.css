@@ -1,0 +1,48 @@
+.textControl {
+  order: 2;
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem;
+  background: transparent;
+  font-family: inherit;
+  font-size: 1.75rem;
+  transition: all var(--transition-duration-short);
+}
+
+.withTooltip {
+  padding-right: 4rem;
+}
+
+.isDisabled {
+  color: var(--color-mnfst-text-grey);
+  -webkit-text-fill-color: var(--color-mnfst-text-grey);
+  cursor: default;
+}
+
+.static {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.static.notEmptyValue {
+  line-height: 8rem;
+}
+
+.input.notEmptyValue {
+  padding-top: 2rem;
+}
+
+.withIconBefore {
+  padding-left: 6rem;
+}
+
+.withIconAfter {
+  padding-right: 6rem;
+}
+
+.textControlStub {
+  width: 100%;
+  height: 6rem;
+  background: var(--color-interface-lighter);
+  border-radius: 0.5rem;
+}

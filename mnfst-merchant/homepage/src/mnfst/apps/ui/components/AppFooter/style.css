@@ -1,0 +1,81 @@
+.appFooter {
+  position: relative;
+  width: 100%;
+  max-width: var(--size-max-page-width);
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  padding: 1rem 0;
+}
+@media (max-width: 767px) {
+  .logo {
+    display: none;
+  }
+}
+
+.logoImage {
+  width: 9.5rem;
+  height: 2rem;
+  margin-left: -5px; /* TODO: Fix MNFST logo svg */
+  fill: currentColor;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.45rem;
+  line-height: 2rem;
+}
+@media (min-width: 840px) {
+  .links {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.socialNetwork {
+  transition: opacity var(--transition-duration-short);
+}
+.socialNetwork:hover {
+  opacity: 0.5;
+}
+
+.support {
+  text-align: center;
+}
+@media (min-width: 840px) {
+  .support {
+    text-align: left;
+  }
+}
+
+.copyright {
+  width: 100%;
+  padding: 3rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 1.45rem;
+  line-height: 2rem;
+}
+
+.socialNetworksGroups {
+  flex-grow: 1;
+}
+@media (min-width: 768px) {
+  .socialNetworksGroups {
+    padding: 0 3rem;
+  } 
+}

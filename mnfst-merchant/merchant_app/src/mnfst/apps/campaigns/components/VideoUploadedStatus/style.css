@@ -1,0 +1,21 @@
+.videoUploadedStatus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 14rem;
+  height: 14rem;
+  padding: 2rem;
+  background: var(--color-mnfst-green);
+  color: var(--color-mnfst-white);
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  fill: currentColor;
+}
+
+.content {
+  font-size: 1.45rem;
+  line-height: 2rem;
+}

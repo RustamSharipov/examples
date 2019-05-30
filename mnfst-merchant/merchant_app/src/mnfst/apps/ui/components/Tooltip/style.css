@@ -1,0 +1,74 @@
+.tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  cursor: help;
+  white-space: normal;
+}
+.tooltip:not(:first-child) {
+  margin-left: 1rem;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  color: var(--color-mnfst-text-grey);
+}
+
+.iconImage {
+  fill: currentColor;
+}
+
+.content {
+  position: absolute;
+  top: -1.5rem;
+  left: 0;
+  right: 0;
+  width: 22rem;
+  padding: 1.5rem 2rem;
+  background: var(--color-passive-dark);
+  color: var(--color-passive-light);
+  border: 3px;
+  border-radius: 4px;
+  cursor: default;
+  font-size: 1.45rem;
+  line-height: 2rem;
+  opacity: 0;
+  pointer-events: none;
+  text-align: left;
+  transition:
+    left var(--transition-duration-short),
+    right var(--transition-duration-short),
+    opacity var(--transition-duration-short);
+}
+.content.afterPosition {
+  right: auto;
+}
+.content.beforePosition {
+  left: auto;
+}
+
+.tooltip:hover .content {
+  opacity: 1;
+  pointer-events: all;
+}
+.tooltip:hover .content.afterPosition {
+  left: 3rem;
+}
+.tooltip:hover .content.beforePosition {
+  right: 2rem;
+}
+
+.greyTheme .icon {
+  color: var(--color-mnfst-text-grey);
+}
+
+.violetTheme .icon {
+  color: var(--color-mnfst-violet);
+}

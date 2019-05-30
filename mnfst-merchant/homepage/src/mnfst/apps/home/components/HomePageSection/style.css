@@ -1,0 +1,54 @@
+.homepageSectionTitle {
+  padding: 3rem 2.5rem 1rem;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+@media (min-width: 768px) {
+  .homepageSectionTitle {
+    margin: 0 auto;
+    font-size: 7rem;
+  }
+}
+
+.homepageSectionTitle b {
+  color: var(--color-mnfst-violet);
+  font-weight: inherit;
+  white-space: nowrap;
+}
+
+.homepageSectionDescription {
+  padding: 2rem 2.5rem;
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  .homepageSectionDescription {
+    max-width: var(--size-max-page-width);
+    margin: 0 auto;
+    font-size: 2.5rem;
+  }
+}
+
+.homepageSectionContent {
+  padding: 2rem 2.5rem;
+}
+
+.homepageSection {
+  position: relative;
+  top: -4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  opacity: 0;
+  transition:
+    top var(--transition-duration-medium),
+    opacity var(--transition-duration-medium);
+}
+@media (min-width: 768px) {
+  .homepageSection {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+.homepageSection.isRevealed {
+  top: 0;
+  opacity: 1;
+}

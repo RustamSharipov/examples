@@ -1,0 +1,172 @@
+.appHeader {
+  position: relative;
+  height: 8rem;
+  background: var(--color-mnfst-white);
+  color: var(--color-mnfst-main-black);
+}
+@media (min-width: 768px) {
+  .appHeader {
+    height: 10rem;
+  }
+}
+
+.appHeaderInner {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: inherit;
+  background-color: inherit;
+}
+
+.appHeaderSections {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  max-width: var(--size-max-page-width);
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  transform: translateX(-50%);
+}
+@media (min-width: 768px) {
+  .appHeaderSections {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .logo {
+    opacity: 1;
+  }
+}
+
+.mnfstLogo {
+  width: 8.5rem;
+  height: 2.5rem;
+  fill: currentColor;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .appHeader:not(.isExpanded) .navigation {
+    display: none;
+  }
+}
+
+.navigationControl {
+  color: currentColor;
+}
+@media (min-width: 768px) {
+  .navigationControl {
+    display: none;
+  }
+}
+
+@media (min-width: 1220px) {
+  .externalNavigation {
+    flex-grow: 1
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1219px) {
+  .internalNavigation {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .internalNavigationInner {
+    justify-content: flex-end;
+  }
+}
+
+.apps {
+  display: none;
+}
+@media (min-width: 768px) {
+  .apps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32rem;
+    padding: 0 8rem 0 0;
+  }
+}
+@media (min-width: 1220px) {
+  .apps {
+    width: auto;
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .socialNetworksGroups {
+    display: none;
+  }
+}
+
+.languageSwitcher {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media (min-width: 768px) {
+  .languageSwitcher {
+    bottom: auto;
+    right: calc((100vw - 100%) / -2 + 8rem);
+  }
+}
+
+@media (max-width: 767px) {
+  .appHeader.isExpanded .appHeaderSections {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    background-color: var(--color-mnfst-white);
+  }
+
+  .appHeader.isExpanded .mnfstLogo {
+    fill: var(--color-mnfst-main-black);
+  }
+
+  .appHeader.isExpanded .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .appHeader.isExpanded .navigationInner {
+    color: var(--color-mnfst-main-black);
+  }
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-duration-short);
+}
+@media (max-width: 767px) {
+  .appHeader.isExpanded .backdrop {
+    opacity: 1;
+    pointer-events: all;
+  }
+}

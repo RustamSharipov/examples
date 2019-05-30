@@ -1,0 +1,42 @@
+:root {
+  --color-mnfst-line-grey: #d0d2d6;
+  --color-mnfst-text-grey: #a1a1a1;
+  --color-mnfst-green: #2ebd59;
+  --color-mnfst-red: #f62459;
+  --color-mnfst-violet: #674ff1;
+  --color-mnfst-line-grey-light: #eeeff1;
+  --color-mnfst-main-black: #000000;
+  --color-mnfst-orange: #ffc69c;
+  --color-mnfst-blue: #b5dcff;
+  --color-mnfst-pink: #fcb8cd;
+  --color-mnfst-lightgreen: #c1f5a9;
+  --color-mnfst-purple: #d7c9ff;
+  --color-mnfst-golden: #ffe691;
+  --color-mnfst-lightgrey: #edeef0;
+  --color-mnfst-quote: #cb4651;
+  --color-mnfst-gold: #d4b97f;
+  --color-mnfst-white: #ffffff;
+  --color-mnfst-yellow: #eeda4b;
+
+  --color-passive-dark: #222222;
+  --color-passive-light: #ffffff;
+  --color-interface-light: #d0d2D6;
+  --color-interface-lighter: #f2f2f2;
+  --color-interface-lightest: #f9f9f9;
+  --color-interface-medium: #808080;
+  --color-brand-light: #a1a1a1;
+  --color-alert: #f62459;
+  --color-strong-alert: #dc4343;
+
+  --color-facebook: #3a5997;
+  --color-instagram: #d93174;
+  --color-twitter: #3cabff;
+
+  --font-family-monaco: Monaco;
+  --font-family-museo: Museo;
+
+  --size-max-page-width: 134rem;
+
+  --transition-duration-short: 0.25s;
+  --transition-duration-medium: 0.5s;
+}

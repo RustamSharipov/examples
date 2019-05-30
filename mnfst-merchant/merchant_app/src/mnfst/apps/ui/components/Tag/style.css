@@ -1,0 +1,38 @@
+.tag {
+  display: inline-flex;
+  align-items: center;
+  height: 4rem;
+  padding: 0 1rem 0 2rem;
+  background: var(--color-mnfst-violet);
+  border-radius: 2rem;
+  color: var(--color-passive-light);
+}
+.tag.isDisabled {
+  background-color: var(--color-interface-lighter);
+  color: var(--color-interface-medium);
+  cursor: default;
+}
+
+.caption {
+  max-width: 24rem;
+  font-size: 1.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.caption:last-child {
+  margin-right: 1rem;
+}
+
+.removeButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+  line-height: 0;
+}

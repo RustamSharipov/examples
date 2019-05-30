@@ -1,0 +1,32 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-airbnb"],
+  "rules": {
+    "brace-style": [2, "stroustrup", { "allowSingleLine": true }],
+    "import-name": false,
+    "jsx-alignment": false,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "max-line-length": [true, 120],
+    "no-bitwise": false,
+    "no-console": false,
+    "no-consecutive-blank-lines": [true, 2],
+    "no-shadowed-variable": false,
+    "no-unused-expression": false,
+    "object-literal-key-quotes": [true, "as-needed"],
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "one-line": [false],
+    "prefer-template": false,
+    "variable-name": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js",
+      "server/**/*.js",
+      "cypress/**/*.js",
+      "src/mnfst/apps/ui/localization/*.json"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+.controlIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  pointer-events: none;
+}
+.controlIcon.hasPointerEvents {
+  pointer-events: all;
+}
+
+/* TODO: Create icon component */
+.controlIcon > svg {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--color-mnfst-text-grey);
+}
+
+.appendBefore {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.appendAfter {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
