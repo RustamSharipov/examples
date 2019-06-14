@@ -1,0 +1,22 @@
+.createIssueDialog {
+  width: 64rem;
+}
+
+.createIssueDialogFormRow {
+  padding: 2rem 0;
+}
+
+.createIssueDialogControl {
+  width: auto;
+}
+.createIssueDialogControl:not(:first-child) {
+  margin-left: 1rem;
+}
+.createIssueDialogControl:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.createIssueDialogControls {
+  display: flex;
+  justify-content: flex-end;
+}

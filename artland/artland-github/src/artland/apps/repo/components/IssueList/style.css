@@ -1,0 +1,41 @@
+.issueListItem {
+  padding: 2rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  color: #000000;
+}
+
+.issueListItemInfo {
+  line-height: 1.5em;
+}
+
+.issueListItemName {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+.issueListHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.issueListHeaderTitle {
+  font-size: 3rem;
+}
+
+.issueListHeaderTools {
+  width: 25%;
+}
+
+.issueList {
+  position: relative;
+}
+
+.issueListItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

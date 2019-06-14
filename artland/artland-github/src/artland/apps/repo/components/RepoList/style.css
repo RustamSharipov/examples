@@ -1,0 +1,45 @@
+.repoListItem {
+  user-select: none;
+}
+
+.repoListItemLink {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 1rem;
+  color: #000000;
+  text-decoration: none;
+  transition: background-color 0.25s;
+}
+
+.repoListItem:hover {
+  background-color: #f5f5f5;
+}
+
+.repoListItemInfo {
+  display: flex;
+  align-items: center;
+  color: #acacac;
+}
+
+.repoListItemInfoSection:not(:last-child)::after {
+  content: "•";
+  margin: 0 0.25em;
+}
+
+.repoListItemName {
+  font-size: 3rem;
+  line-height: 1.5em;
+}
+
+.repoList {
+  position: relative;
+}
+
+.repoListItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

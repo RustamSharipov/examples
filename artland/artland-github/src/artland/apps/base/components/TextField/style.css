@@ -1,0 +1,47 @@
+.textField {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 6rem;
+  border: 1px solid darkgrey;
+  user-select: none;
+}
+.textField.hasFocus {
+  border-color: #3d8ae5;
+}
+
+.textarea {
+  height: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.input {
+  order: 2;
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem;
+  background: transparent;
+  font-family: inherit;
+  font-size: 2rem;
+}
+
+.dockTop {
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.dockBottom {
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.dockRight {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.dockLeft {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

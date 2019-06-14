@@ -1,0 +1,17 @@
+.repoDetailHeader {
+  justify-content: space-between;
+}
+
+.repoDetailHeaderTitle {
+  font-size: 5rem;
+}
+
+.repoDetailHeaderInfo {
+  display: flex;
+  align-items: center;
+}
+
+.repoDetailHeaderInfoSection:not(:last-child)::after {
+  content: "•";
+  margin: 0 0.25em;
+}
