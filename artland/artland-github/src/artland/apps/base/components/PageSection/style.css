@@ -1,6 +1,9 @@
 .pageSection {
   padding: 2rem 0;
 }
+.pageSection:not(:first-child) {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
 
 .pageSectionTitle {
   display: flex;

@@ -54,7 +54,7 @@ export default class TextField extends React.Component<ITextFieldProps, ITextFie
     } = this.props;
     const dockVariantClassName = dockTo && dockVariantsClassNames[dockTo];
     const { hasFocus } = this.state;
-    const componentProps = {
+    const inputProps = {
       autoFocus,
       disabled,
       name,
@@ -82,12 +82,12 @@ export default class TextField extends React.Component<ITextFieldProps, ITextFie
         {isTextArea
           ? (
             <textarea
-              {...componentProps}
+              {...inputProps}
               rows={rows} />
           )
           : (
             <input
-              {...componentProps}
+              {...inputProps}
               type={type} />
           )
         }

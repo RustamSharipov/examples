@@ -2,6 +2,7 @@ export const isActive: string;
 export const userListItem: string;
 export const userListItems: string;
 export const userList: string;
+export const userListItemControl: string;
 export const userListItemCover: string;
 export const userListItemCoverImage: string;
 export const userListItemInfo: string;

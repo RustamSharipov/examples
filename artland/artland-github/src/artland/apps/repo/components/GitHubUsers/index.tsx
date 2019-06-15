@@ -21,7 +21,7 @@ export default (props: IGitHubUsersProps) => {
         if (loading) {
           return (
             <PageSectionContent>
-              Fetching...
+              Fetching users...
             </PageSectionContent>
           );
         }
@@ -29,7 +29,7 @@ export default (props: IGitHubUsersProps) => {
         if (error) {
           return (
             <PageSectionContent>
-              Error
+              Something went wrong! Please try later
             </PageSectionContent>
           );
         }
@@ -52,9 +52,9 @@ export default (props: IGitHubUsersProps) => {
         }
 
         return (
-          <div>
-            Query is empty
-          </div>
+          <PageSectionContent>
+            Sorry! We couldn't find any matches
+          </PageSectionContent>
         );
       }}
     </Query>

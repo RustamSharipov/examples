@@ -4,9 +4,9 @@ import { pluralize } from 'apps/base/utils/text';
 import styles from './style.css';
 
 interface IRepoDetailHeaderProps {
-  name: string;
-  starsCount: number;
-  watchCount: number;
+  name?: string;
+  starsCount?: number;
+  watchCount?: number;
 }
 
 export default (props: IRepoDetailHeaderProps) => {
@@ -14,16 +14,22 @@ export default (props: IRepoDetailHeaderProps) => {
 
   return (
     <PageSectionTitle className={styles.repoDetailHeader}>
-      <div className={styles.repoDetailHeaderTitle}>
-        {name}
-      </div>
+      {name && (
+        <div className={styles.repoDetailHeaderTitle}>
+          {name}
+        </div>
+      )}
       <div className={styles.repoDetailHeaderInfo}>
-        <div className={styles.repoDetailHeaderInfoSection}>
-          {`${starsCount} ${pluralize(['Star', 'Stars'], starsCount)}`}
-        </div>
-        <div className={styles.repoDetailHeaderInfoSection}>
-          {watchCount} Watching
-        </div>
+        {starsCount && (
+          <div className={styles.repoDetailHeaderInfoSection}>
+            {`${starsCount} ${pluralize(['Star', 'Stars'], starsCount)}`}
+          </div>
+        )}
+        {watchCount && (
+          <div className={styles.repoDetailHeaderInfoSection}>
+            {watchCount} Watching
+          </div>
+        )}
       </div>
     </PageSectionTitle>
   );

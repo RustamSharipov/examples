@@ -19,13 +19,17 @@ export default (props: IGitHubUserReposProps) => {
         {({ loading, error, data }) => {
           if (loading) {
             return (
-              <p>Fetching...</p>
+              <div>
+                Fetching {userLogin} repositories...
+              </div>
             );
           }
 
           if (error) {
             return (
-              <p>Error</p>
+              <div>
+                Something went wrong! Please try later
+              </div>
             );
           }
 

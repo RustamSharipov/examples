@@ -28,6 +28,7 @@ export default class SearchForm extends React.Component<ISearchFormProps, ISearc
     return (
       <div className={styles.searchForm}>
         <TextField
+          autoFocus={true}
           dockTo="right"
           name="search"
           onChange={this.handleFormFieldChange}

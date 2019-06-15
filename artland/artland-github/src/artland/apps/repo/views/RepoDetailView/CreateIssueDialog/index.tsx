@@ -48,6 +48,7 @@ export default class CreateIssueDialog extends React.Component<ICreateIssueDialo
         <DialogContent>
           <div className={styles.createIssueDialogFormRow}>
             <TextField
+              autoFocus={true}
               onChange={this.handleFormFieldChange}
               onKeyPress={this.handleEnterPress}
               name={form.title.name}

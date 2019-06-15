@@ -20,33 +20,36 @@ export const UserListItem: React.FC<IUserListItemProps> = (props) => {
   const { avatarUrl, isActive, onClick, reposCount, starsCount, userName } = props;
 
   return (
-    <li
-      className={classNames(
-        styles.userListItem,
-        { [styles.isActive]: isActive },
-      )}
-      onClick={onClick && onClick}>
-      <div className={styles.userListItemCover}>
-        <img
-          className={styles.userListItemCoverImage}
-          src={avatarUrl}
-          width="256"
-          height="256"
-          alt={userName} />
-      </div>
-      <div className={styles.userListItemInfo}>
-        <div className={styles.userListItemUserName}>
-          {userName}
+    <li className={classNames(
+      styles.userListItem,
+      { [styles.isActive]: isActive },
+    )}>
+      <button
+        className={styles.userListItemControl}
+        onClick={onClick && onClick}
+        type="button">
+        <div className={styles.userListItemCover}>
+          <img
+            className={styles.userListItemCoverImage}
+            src={avatarUrl}
+            width="256"
+            height="256"
+            alt={userName} />
         </div>
-        <div className={styles.userListItemUserStatistic}>
-          <div className={styles.userListItemUserStatisticSection}>
-            {`${reposCount} ${pluralize(['Repository', 'Repositories'], reposCount)}`}
+        <div className={styles.userListItemInfo}>
+          <div className={styles.userListItemUserName}>
+            {userName}
           </div>
-          <div className={styles.userListItemUserStatisticSection}>
-            {`${starsCount} ${pluralize(['Star', 'Stars'], starsCount)}`}
+          <div className={styles.userListItemUserStatistic}>
+            <div className={styles.userListItemUserStatisticSection}>
+              {`${reposCount} ${pluralize(['Repository', 'Repositories'], reposCount)}`}
+            </div>
+            <div className={styles.userListItemUserStatisticSection}>
+              {`${starsCount} ${pluralize(['Star', 'Stars'], starsCount)}`}
+            </div>
           </div>
         </div>
-      </div>
+      </button>
     </li>
   );
 };

@@ -13,6 +13,9 @@
   text-decoration: none;
   transition: background-color 0.25s;
 }
+.repoListItemLink:focus {
+  outline: 1px dashed #000000;
+}
 
 .repoListItem:hover {
   background-color: #f5f5f5;
