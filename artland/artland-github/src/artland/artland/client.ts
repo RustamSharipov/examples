@@ -4,8 +4,9 @@ import { setContext } from 'apollo-link-context';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { APOLLO_CLIENT_URI } from 'apps/base/constants';
 
+
 const authLink = setContext((_, { headers }) => {
-  const token = localStorage.getItem('bearer_token');
+  const token = process.env.REACT_APP_AUTH_TOKEN;
 
   return {
     headers: {
