@@ -10,3 +10,22 @@ export function uuid(): string {
     return v.toString(16);
   });
 }
+
+export function numberWithFlexia(number: number): string {
+  const digits = String(number).split('').map(item => +item);
+  const lastDigit = digits[digits.length - 1];
+
+  if (lastDigit === 1 && number !== 11) {
+    return `${number}st`;
+  }
+
+  if (lastDigit === 2 && number !== 12) {
+    return `${number}nd`;
+  }
+
+  if (lastDigit === 3 && number !== 11) {
+    return `${number}rd`;
+  }
+
+  return `${number}th`;
+}

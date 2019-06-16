@@ -5,3 +5,5 @@ export const repoListItemInfo: string;
 export const repoListItemInfoSection: string;
 export const repoListItemName: string;
 export const repoListItemLink: string;
+export const pagination: string;
+export const paginationButton: string;

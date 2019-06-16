@@ -46,3 +46,14 @@
   padding: 0;
   list-style: none;
 }
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.paginationButton {
+  width: auto;
+}

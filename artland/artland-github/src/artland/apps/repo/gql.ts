@@ -21,15 +21,16 @@ export const QUERY_SEARCH_USERS = gql`
       pageInfo {
         hasNextPage
         endCursor
+      }
     }
-  }
   }
 `;
 
 export const QUERY_GET_USER_REPOSITORIES = gql`
-  query GetUserRepositories($userLogin: String!) {
+  query GetUserRepositories($userLogin: String!, $cursor: String, $perPage: Int) {
     user(login: $userLogin) {
-      repositories(first: 50, isFork: false) {
+      repositories(first: $perPage, after: $cursor, isFork: false) {
+        totalCount
         nodes {
           id
           name
@@ -40,10 +41,14 @@ export const QUERY_GET_USER_REPOSITORIES = gql`
             totalCount
           }
         }
+        pageInfo {
+          hasNextPage
+          endCursor
+        }
       }
     }
   }
-`
+`;
 
 export const QUERY_GET_REPOSITORY = gql`
   query GetUserRepositoryDetail($userLogin: String!, $repoName: String!) {
