@@ -6,6 +6,7 @@ import RepoDetailHeader from './RepoDetailHeader';
 import ModalPopup from 'apps/base/components/ModalPopup';
 import CreateIssueDialog from './CreateIssueDialog';
 import client from 'artland/client';
+import { uuid } from 'apps/base/utils/text';
 
 interface IGitHubIssue {
   id: string;
@@ -155,7 +156,7 @@ export default class RepoDetailView extends React.PureComponent<IRepoDetailViewP
       issues: [
         {
           title,
-          id: `f${(+new Date()).toString(16)}`,
+          id: uuid(),
           author: 'John Doe',
           number: nextIssueNumber,
           publishedAt: new Date().toString(),

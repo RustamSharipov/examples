@@ -1,0 +1,41 @@
+.spinner {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 8rem;
+  height: 8rem;
+  margin: 2rem;
+  color: silver;
+}
+
+.spinner::before,
+.spinner::after {
+  content: "";
+  position: absolute;
+  animation: ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  background: currentColor;
+  border: 0.5rem solid #fff;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.spinner::after {
+  animation-delay: -0.5s;
+}
+
+@keyframes ripple {
+  0% {
+    top: 3.5rem;
+    left: 3.5rem;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -0.125rem;
+    left: -0.125rem;
+    width: 7.25rem;
+    height: 7.25rem;
+    opacity: 0;
+  }
+}

@@ -1,10 +1,11 @@
 import React from 'react';
 import classNames from 'classnames';
-import styles from './style.css';
 import { pluralize } from 'apps/base/utils/text';
+import styles from './style.css';
 
 interface IUserListProps {
   children: React.ReactNode;
+  onScroll?: ({ position, width }) => void;
 }
 
 interface IUserListItemProps {
@@ -54,14 +55,47 @@ export const UserListItem: React.FC<IUserListItemProps> = (props) => {
   );
 };
 
-export const UserList: React.FC<IUserListProps> = (props) => {
-  const { children } = props;
+export class UserList extends React.PureComponent<IUserListProps> {
+  public userListItemsNode: HTMLElement | null = null;
 
-  return (
-    <div className={styles.userList}>
-      <ul className={styles.userListItems}>
-        {children}
-      </ul>
-    </div>
-  );
+  public componentDidMount() {
+    if (this.userListItemsNode) {
+      this.userListItemsNode.addEventListener('scroll', this.handleUserListScroll);
+    }
+  }
+
+  public componentWillUnmount() {
+    if (this.userListItemsNode) {
+      this.userListItemsNode.removeEventListener('scroll', this.handleUserListScroll);
+    }
+  }
+
+  public render() {
+    const { children } = this.props;
+
+    return (
+      <div className={styles.userList}>
+        <ul
+          ref={this.handleListItemsNodeRef}
+          className={styles.userListItems}>
+          {children}
+        </ul>
+      </div>
+    );
+  }
+
+  private handleListItemsNodeRef = (node) => {
+    this.userListItemsNode = node;
+  }
+
+  private handleUserListScroll = (event) => {
+    const { onScroll } = this.props;
+
+    if (onScroll) {
+      onScroll({
+        position: event.target.scrollLeft,
+        width: event.target.scrollWidth - event.target.getBoundingClientRect().width,
+      });
+    }
+  }
 };

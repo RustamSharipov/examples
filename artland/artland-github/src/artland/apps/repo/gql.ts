@@ -1,12 +1,11 @@
 import gql from 'graphql-tag';
 
 export const QUERY_SEARCH_USERS = gql`
-  query SearchUsers($queryString: String!) {
-    search(query: $queryString, type: USER, first: 100) {
+  query SearchUsers($queryString: String!, $cursor: String) {
+    search(query: $queryString, type: USER, first: 10, after: $cursor) {
       edges {
         node {
           ... on User {
-            id
             avatarUrl
             login
             name
@@ -19,7 +18,11 @@ export const QUERY_SEARCH_USERS = gql`
           }
         }
       }
+      pageInfo {
+        hasNextPage
+        endCursor
     }
+  }
   }
 `;
 
