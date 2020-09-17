@@ -1,0 +1,5 @@
+export { default as BeachIcon } from './BeachIcon'
+export { default as HotelIcon } from './HotelIcon'
+export { default as RestaurantIcon } from './RestaurantIcon'
+export { default as Wrapper } from './Wrapper'
+export { default } from './PlaceMarker'

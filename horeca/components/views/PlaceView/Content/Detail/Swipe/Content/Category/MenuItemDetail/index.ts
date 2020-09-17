@@ -1,0 +1,5 @@
+export { default as DetailedInfo } from './DetailedInfo'
+export { default as Info } from './Info'
+export { default as Main } from './Main'
+export { default as Wrapper } from './Wrapper'
+export { default } from './MenuItemDetail'

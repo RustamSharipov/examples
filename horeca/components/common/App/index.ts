@@ -1,0 +1,5 @@
+export { default as GlobalStyle } from './GlobalStyle'
+export { default as MenusData } from './MenusData'
+export { default as PlacesData } from './PlacesData'
+export { default as Preloader } from './Preloader'
+export { default } from './App'
